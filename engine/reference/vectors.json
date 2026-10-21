@@ -1,0 +1,11485 @@
+{
+"note": "Computed by engine/reference/gw_codes.py on engine/data/register.json; every port must match.",
+"nameKeys": [
+[
+"Sintchã Dulo",
+"sinxadulu"
+],
+[
+"Sinchã Duló",
+"sinxadulu"
+],
+[
+"Sincha Dulu",
+"sinxadulu"
+],
+[
+"Plack II",
+"plak#ii"
+],
+[
+"Plaque 2",
+"plak#ii"
+],
+[
+"Plaque",
+"plak"
+],
+[
+"Áfià",
+"afia"
+],
+[
+"Hafia",
+"afia"
+],
+[
+"Bairro de Ajuda",
+"ajuda"
+],
+[
+"Santa-Luzia",
+"santalusia"
+],
+[
+"Sto António",
+"santuantuniu"
+],
+[
+"Santo António",
+"santuantuniu"
+],
+[
+"S. Miguel",
+"saumigil"
+],
+[
+"São Miguel",
+"saumigil"
+],
+[
+"N. Sra da Luz",
+"nusasinuralus"
+],
+[
+"Nossa Senhora da Luz",
+"nusasinuralus"
+],
+[
+"Bissorã",
+"bisura"
+],
+[
+"Quinhamel",
+"kinamil"
+],
+[
+"Kinhamel",
+"kinamil"
+],
+[
+"Morança Atufa",
+"atufa"
+],
+[
+"Tabanca de Bandim",
+"bandim"
+],
+[
+"Pitche",
+"pixi"
+],
+[
+"Pitchi",
+"pixi"
+],
+[
+"Bissoro",
+"bisuru"
+],
+[
+"Çafal",
+"safal"
+],
+[
+"Cansunco",
+"kansunku"
+],
+[
+"Mamaconom",
+"mamakunum"
+],
+[
+"Sumbundo",
+"sumbundu"
+],
+[
+"Buache",
+"buaxi"
+],
+[
+"Sinchã Mólô",
+"sinxamulu"
+],
+[
+"Patacã",
+"pataka"
+],
+[
+"Singue",
+"singi"
+],
+[
+"Benobe",
+"binubi"
+],
+[
+"Ganafá",
+"ganafa"
+],
+[
+"Inhafe",
+"inafi"
+],
+[
+"Chofar",
+"xufar"
+],
+[
+"Tambicó",
+"tambiku"
+],
+[
+"Máliguê",
+"maligi"
+],
+[
+"Umholi",
+"umuli"
+],
+[
+"Sare Amadi",
+"sariamadi"
+],
+[
+"Farandito",
+"faranditu"
+],
+[
+"Barraca Lugar",
+"barakalugar"
+],
+[
+"Luís Cabral",
+"luiskabral"
+],
+[
+"Demba Sajo",
+"dimbasaju"
+],
+[
+"Mansacunda Sinchã",
+"mansakundasinxa"
+],
+[
+"Concontò",
+"kunkuntu"
+],
+[
+"Tabalò",
+"tabalu"
+],
+[
+"Bijope",
+"bijupi"
+],
+[
+"Uenquem",
+"uinkim"
+],
+[
+"Durubali",
+"durubali"
+],
+[
+"Cabolol",
+"kabulul"
+],
+[
+"Anchurupe",
+"anxurupi"
+],
+[
+"Cate",
+"kati"
+],
+[
+"Canfate",
+"kanfati"
+],
+[
+"Binhalom",
+"binalum"
+],
+[
+"Bichalà",
+"bixala"
+],
+[
+"Ponta Luís Gomes",
+"puntaluisgumis"
+],
+[
+"Penhasse",
+"pinasi"
+],
+[
+"Bissaque",
+"bisak"
+],
+[
+"Quessaque",
+"kisak"
+],
+[
+"Sancorlá",
+"sankurla"
+],
+[
+"Ponta Adelino",
+"puntaadilinu"
+],
+[
+"Ponta Luís Dias",
+"puntaluisdias"
+],
+[
+"Hadi",
+"adi"
+],
+[
+"Anha Futa-Fula",
+"anafutafula"
+],
+[
+"Tecach Caoinana",
+"tikaxkauinana"
+],
+[
+"Camaiupa",
+"kamaiupa"
+],
+[
+"Sinchã Bucari",
+"sinxabukari"
+],
+[
+"Cassama",
+"kasama"
+],
+[
+"Canjai Fula",
+"kanjaifula"
+],
+[
+"Quenhequenheto",
+"kinikinitu"
+],
+[
+"Samba Gana",
+"sambagana"
+],
+[
+"Sagoiá",
+"saguia"
+],
+[
+"Jabadá",
+"jabada"
+],
+[
+"Sedifo",
+"sidifu"
+],
+[
+"Sinchã Domã",
+"sinxaduma"
+],
+[
+"Bijine",
+"bijini"
+],
+[
+"Blansar",
+"blansar"
+],
+[
+"Jai Juli",
+"jaijuli"
+],
+[
+"Nhantandim",
+"nantandim"
+],
+[
+"Bravracunda",
+"bravrakunda"
+],
+[
+"Ancodaque",
+"ankudak"
+],
+[
+"Bucucul",
+"bukukul"
+],
+[
+"Morés",
+"muris"
+],
+[
+"Ponta Boa Esperança",
+"puntabuaispiransa"
+],
+[
+"Mantampa",
+"mantampa"
+],
+[
+"Umaro Jai",
+"umarujai"
+],
+[
+"Gã Moriá",
+"gamuria"
+],
+[
+"Butafete",
+"butafiti"
+],
+[
+"Bulbuiel",
+"bulbuil"
+],
+[
+"Calema Nalu",
+"kalimanalu"
+],
+[
+"Namedão",
+"namidau"
+],
+[
+"Salabà",
+"salaba"
+],
+[
+"Binan Sambael",
+"binansambail"
+],
+[
+"Samba Tubaco",
+"sambatubaku"
+],
+[
+"Canjara",
+"kanjara"
+],
+[
+"Urumaia",
+"urumaia"
+],
+[
+"Batiu",
+"batiu"
+],
+[
+"Fontainha",
+"funtaina"
+],
+[
+"Lubacunda",
+"lubakunda"
+],
+[
+"Dodoco",
+"duduku"
+],
+[
+"Sinchã Barbosa",
+"sinxabarbusa"
+],
+[
+"Uanquili",
+"uankili"
+],
+[
+"Canau",
+"kanau"
+],
+[
+"Caquinte",
+"kakinti"
+],
+[
+"São Jorge",
+"saujurgi"
+],
+[
+"Sare Ganà",
+"sarigana"
+],
+[
+"Canturè",
+"kanturi"
+],
+[
+"Ualada",
+"ualada"
+],
+[
+"Sinchã Senco",
+"sinxasinku"
+],
+[
+"Samba Candè",
+"sambakandi"
+],
+[
+"Bantanquilim",
+"bantankilim"
+],
+[
+"Inhangabute",
+"inangabuti"
+],
+[
+"Morança Atufa",
+"atufa"
+],
+[
+"Cuntim",
+"kuntim"
+],
+[
+"Camancôtô",
+"kamankutu"
+],
+[
+"Granja",
+"granja"
+],
+[
+"Cabo Verde",
+"kabuvirdi"
+],
+[
+"Feribrique",
+"firibrik"
+],
+[
+"Flaque Intudé",
+"flakintudi"
+],
+[
+"Ponta do Inglês",
+"puntainglis"
+],
+[
+"Andebe",
+"andibi"
+],
+[
+"Cajé",
+"kaji"
+],
+[
+"Barraca Batata",
+"barakabatata"
+],
+[
+"Campo Antigo",
+"kampuantigu"
+],
+[
+"Paiai Lêmenei",
+"paiailimini"
+],
+[
+"Pefiné",
+"pifini"
+],
+[
+"São José",
+"saujusi"
+],
+[
+"Cabedu Nalu",
+"kabidunalu"
+],
+[
+"Carura Samba",
+"karurasamba"
+],
+[
+"Sinchã Umaru",
+"sinxaumaru"
+],
+[
+"Sinchã Braíma",
+"sinxabraima"
+],
+[
+"Samba Sajo",
+"sambasaju"
+],
+[
+"Bantã Foru",
+"bantafuru"
+],
+[
+"Sintchã Demba",
+"sinxadimba"
+],
+[
+"Cansamba Jau",
+"kansambajau"
+],
+[
+"Pacua",
+"pakua"
+],
+[
+"Gamariquê",
+"gamarik"
+],
+[
+"Pieme",
+"pimi"
+],
+[
+"Demba Jicoi",
+"dimbajikui"
+],
+[
+"Marcel",
+"marsil"
+],
+[
+"Tubo",
+"tubu"
+],
+[
+"Som",
+"sum"
+],
+[
+"Sinchã Délè",
+"sinxadili"
+],
+[
+"Sumo",
+"sumu"
+],
+[
+"Brambanda",
+"brambanda"
+],
+[
+"São Miguel Balanta",
+"saumigilbalanta"
+],
+[
+"Quélefà",
+"kilifa"
+],
+[
+"Sinchã Ninha",
+"sinxanina"
+],
+[
+"Madina de Cima Beafada",
+"madinasimabiafada"
+],
+[
+"Nònódala",
+"nunudala"
+],
+[
+"Nuncute",
+"nunkuti"
+],
+[
+"Chíngate",
+"xingati"
+],
+[
+"Sori Jomel",
+"surijumil"
+],
+[
+"Coitoto",
+"kuitutu"
+],
+[
+"Farancunda",
+"farankunda"
+],
+[
+"Trangal",
+"trangal"
+],
+[
+"Përula",
+"pirula"
+],
+[
+"Camalija Sori",
+"kamalijasuri"
+],
+[
+"Boja",
+"buja"
+],
+[
+"Sinre",
+"sinri"
+],
+[
+"Barame",
+"barami"
+],
+[
+"Edana",
+"idana"
+],
+[
+"Sinjanhe",
+"sinjani"
+],
+[
+"Sare Quetuca",
+"sarikituka"
+],
+[
+"Caussara",
+"kausara"
+],
+[
+"Quejau",
+"kijau"
+],
+[
+"Mansajã",
+"mansaja"
+],
+[
+"Sinchã Demba Ialare",
+"sinxadimbaialari"
+],
+[
+"Anamina",
+"anamina"
+],
+[
+"Ondongol",
+"undungul"
+],
+[
+"Jete",
+"jiti"
+],
+[
+"Gã Júlio",
+"gajuliu"
+],
+[
+"Nhacobà",
+"nakuba"
+],
+[
+"Iracunda",
+"irakunda"
+],
+[
+"Velíngarà",
+"vilingara"
+],
+[
+"Cucuto",
+"kukutu"
+],
+[
+"Nhantanã Fula",
+"nantanafula"
+],
+[
+"Manpata",
+"manpata"
+],
+[
+"Ponta de Pedra",
+"puntapidra"
+],
+[
+"Salancaur Jate",
+"salankaurjati"
+],
+[
+"Chumpia",
+"xumpia"
+],
+[
+"Cassalol",
+"kasalul"
+],
+[
+"Guebárel",
+"gibaril"
+],
+[
+"Ganjola Nalu",
+"ganjulanalu"
+],
+[
+"Farancunda Balanta",
+"farankundabalanta"
+],
+[
+"Sinchã Ali",
+"sinxaali"
+],
+[
+"Sinchã Indè",
+"sinxaindi"
+],
+[
+"Porcos",
+"purkus"
+],
+[
+"Chancol",
+"xankul"
+],
+[
+"Mato Grande",
+"matugrandi"
+],
+[
+"Camussali",
+"kamusali"
+],
+[
+"Quebacó",
+"kibaku"
+],
+[
+"Pericuto",
+"pirikutu"
+],
+[
+"Cunchumpa",
+"kunxumpa"
+],
+[
+"Sinchã Suncarò",
+"sinxasunkaru"
+],
+[
+"Gadabajá",
+"gadabaja"
+],
+[
+"Batucar",
+"batukar"
+],
+[
+"Forol",
+"furul"
+],
+[
+"Cumbule",
+"kumbuli"
+],
+[
+"Farim Velho",
+"farimvilu"
+],
+[
+"Sanecunda",
+"sanikunda"
+],
+[
+"Dabatiar",
+"dabatiar"
+],
+[
+"Velíngarà Dulò",
+"vilingaradulu"
+],
+[
+"Barraca Mampatás",
+"barakamampatas"
+],
+[
+"Perule",
+"piruli"
+],
+[
+"Chulame",
+"xulami"
+],
+[
+"Cantaelcunda",
+"kantailkunda"
+],
+[
+"Sinchã Bambé",
+"sinxabambi"
+],
+[
+"Sinchã Pátè",
+"sinxapati"
+],
+[
+"Betejo",
+"bitiju"
+],
+[
+"Encome",
+"inkumi"
+],
+[
+"Sinchã Ierobá",
+"sinxairuba"
+],
+[
+"Uaqueri",
+"uakiri"
+],
+[
+"Cassante",
+"kasanti"
+],
+[
+"Sinchã Lale",
+"sinxalali"
+],
+[
+"Katon",
+"katun"
+],
+[
+"Sinchã Jai",
+"sinxajai"
+],
+[
+"Nam",
+"nam"
+],
+[
+"Sejo",
+"siju"
+],
+[
+"Bissancage",
+"bisankagi"
+],
+[
+"Fanhe",
+"fani"
+],
+[
+"Sincha Mamadu",
+"sinxamamadu"
+],
+[
+"Belibar",
+"bilibar"
+],
+[
+"Tantã Cossé Samba",
+"tantakusisamba"
+],
+[
+"Sinchã Farã",
+"sinxafara"
+],
+[
+"Ponta Isidoro",
+"puntaisiduru"
+],
+[
+"Catáchate",
+"kataxati"
+],
+[
+"Mansancrim",
+"mansankrim"
+],
+[
+"Sambalicunda",
+"sambalikunda"
+],
+[
+"Atufa",
+"atufa"
+],
+[
+"Banbanda",
+"banbanda"
+],
+[
+"Inquir",
+"inkir"
+],
+[
+"Mansabaco",
+"mansabaku"
+],
+[
+"Ieroiel",
+"iruil"
+],
+[
+"Máximo",
+"maximu"
+],
+[
+"Dandum",
+"dandum"
+],
+[
+"Badica",
+"badika"
+],
+[
+"KATIJ",
+"katij"
+],
+[
+"Lamine",
+"lamini"
+],
+[
+"Camara",
+"kamara"
+],
+[
+"Sinchã Purom",
+"sinxapurum"
+],
+[
+"Sinchã Ualom",
+"sinxaualum"
+],
+[
+"Bieio",
+"biu"
+],
+[
+"Torcino",
+"tursinu"
+],
+[
+"Caluque",
+"kaluk"
+],
+[
+"Cantora",
+"kantura"
+],
+[
+"Solucocum",
+"sulukukum"
+],
+[
+"Gancherno",
+"ganxirnu"
+],
+[
+"Bissajar",
+"bisajar"
+],
+[
+"Orè Maundè",
+"urimaundi"
+],
+[
+"Ilhéu de Pedonto",
+"iliupiduntu"
+],
+[
+"Singa",
+"singa"
+],
+[
+"Sare Iunca",
+"sariiunka"
+],
+[
+"Bugafale",
+"bugafali"
+],
+[
+"Mussà",
+"musa"
+],
+[
+"Fajonquito",
+"fajunkitu"
+],
+[
+"Injante",
+"injanti"
+],
+[
+"Gã Nafa",
+"ganafa"
+],
+[
+"Catomboi",
+"katumbui"
+],
+[
+"Balimbom",
+"balimbum"
+],
+[
+"Ianganã",
+"iangana"
+],
+[
+"Sinchã Imabè",
+"sinxaimabi"
+],
+[
+"Jarga Vida",
+"jargavida"
+],
+[
+"Nôni",
+"nuni"
+],
+[
+"Madina Samba",
+"madinasamba"
+],
+[
+"Popójè",
+"pupuji"
+],
+[
+"Cubajal",
+"kubajal"
+],
+[
+"Sinchã Dêdê",
+"sinxadidi"
+],
+[
+"Madina Quélefà",
+"madinakilifa"
+],
+[
+"Cumbera",
+"kumbira"
+],
+[
+"Dembuel",
+"dimbuil"
+],
+[
+"Luís Dias",
+"luisdias"
+],
+[
+"Ilhéu de São Francisco",
+"iliusaufransisku"
+],
+[
+"Conselho",
+"kunsilu"
+],
+[
+"Grancutá",
+"grankuta"
+],
+[
+"Cufar Nalu",
+"kufarnalu"
+],
+[
+"Bilonco",
+"bilunku"
+],
+[
+"Quibil",
+"kibil"
+],
+[
+"Cassícal",
+"kasikal"
+],
+[
+"Naga",
+"naga"
+],
+[
+"Sare Chumbo",
+"sarixumbu"
+],
+[
+"Ilhéu dos Pássaros",
+"iliupasarus"
+],
+[
+"Sinchã Demba Uri",
+"sinxadimbauri"
+],
+[
+"Lenqueel",
+"linkil"
+],
+[
+"Fagi",
+"fagi"
+],
+[
+"Lopes",
+"lupis"
+],
+[
+"Bucunal Manjaco",
+"bukunalmanjaku"
+],
+[
+"Jalamã",
+"jalama"
+],
+[
+"Candembuia",
+"kandimbuia"
+],
+[
+"São Paulo",
+"saupaulu"
+],
+[
+"Madina Cabonepo",
+"madinakabunipu"
+],
+[
+"Buborim",
+"buburim"
+],
+[
+"Pinhossenol",
+"pinusinul"
+],
+[
+"Cassatiá",
+"kasatia"
+],
+[
+"N'Tchangue",
+"nxangi"
+],
+[
+"Têliel",
+"tilil"
+],
+[
+"Sinchã Bota",
+"sinxabuta"
+],
+[
+"Sinquirim",
+"sinkirim"
+],
+[
+"Iero Nai",
+"irunai"
+],
+[
+"Ilhéu do Mancebo",
+"iliumansibu"
+],
+[
+"Sinchã Jádi",
+"sinxajadi"
+],
+[
+"Sare Jaiba",
+"sarijaiba"
+],
+[
+"Râba",
+"raba"
+],
+[
+"Mansodé",
+"mansudi"
+],
+[
+"Mariano",
+"marianu"
+],
+[
+"Aliu Jai",
+"aliujai"
+],
+[
+"Sinchã Dúlò",
+"sinxadulu"
+],
+[
+"Ponhé Ierobà",
+"puniiruba"
+],
+[
+"Querunguel Mancanha",
+"kirungilmankana"
+],
+[
+"Poindom",
+"puindum"
+],
+[
+"Campata",
+"kampata"
+],
+[
+"Bafatá",
+"bafata"
+],
+[
+"Lala Balanta",
+"lalabalanta"
+],
+[
+"Sinchã Farim",
+"sinxafarim"
+],
+[
+"Cacete",
+"kasiti"
+],
+[
+"Clonque",
+"klunk"
+],
+[
+"Tambambófa",
+"tambambufa"
+],
+[
+"Tanene",
+"tanini"
+],
+[
+"Foncho",
+"funxu"
+],
+[
+"Sana Jau",
+"sanajau"
+],
+[
+"Sinchã Bójò",
+"sinxabuju"
+],
+[
+"Bácar Dado",
+"bakardadu"
+],
+[
+"Sinchã Gêba",
+"sinxagiba"
+],
+[
+"Canchingolo",
+"kanxingulu"
+],
+[
+"Ganguiro",
+"gangiru"
+],
+[
+"Ganjetra",
+"ganjitra"
+],
+[
+"Ierobá",
+"iruba"
+],
+[
+"Budom",
+"budum"
+],
+[
+"Ponta João Monteiro",
+"puntajuaumuntiru"
+],
+[
+"Bame",
+"bami"
+],
+[
+"Ponta Manuel",
+"puntamanuil"
+],
+[
+"Munhini",
+"munini"
+],
+[
+"Sinchã Samba Jã Jã",
+"sinxasambajaja"
+],
+[
+"Nhanjô",
+"nanju"
+],
+[
+"Cafachè Balanta",
+"kafaxibalanta"
+],
+[
+"Sare Lu",
+"sarilu"
+],
+[
+"Iama",
+"iama"
+],
+[
+"Dutajara",
+"dutajara"
+],
+[
+"Bangazinho",
+"bangasinu"
+],
+[
+"Bambadinca",
+"bambadinka"
+],
+[
+"Balem",
+"balim"
+],
+[
+"Patè Gidè",
+"patigidi"
+],
+[
+"Cansissé",
+"kansisi"
+],
+[
+"Satècuta",
+"satikuta"
+],
+[
+"Mussà Iero",
+"musairu"
+],
+[
+"Bantael Sila",
+"bantailsila"
+],
+[
+"São Nicolau",
+"saunikulau"
+],
+[
+"Ponta Teixeira",
+"puntatixira"
+],
+[
+"Uchà",
+"uxa"
+],
+[
+"Ierobula",
+"irubula"
+],
+[
+"Pedra",
+"pidra"
+],
+[
+"Sinchã Corubal",
+"sinxakurubal"
+],
+[
+"Aliu Sene",
+"aliusini"
+],
+[
+"Essukujak",
+"isukujak"
+],
+[
+"Sinchã Duntum",
+"sinxaduntum"
+],
+[
+"KADJINJASSA",
+"kadjinjasa"
+],
+[
+"Ponta do Cão",
+"puntakau"
+],
+[
+"Fenjanja",
+"finjanja"
+],
+[
+"Sare Queda",
+"sarikida"
+],
+[
+"Sare Meta",
+"sarimita"
+],
+[
+"Ilha de Maio",
+"ilamaiu"
+],
+[
+"Canjomba",
+"kanjumba"
+],
+[
+"Boa Esperança",
+"buaispiransa"
+],
+[
+"Quinsé",
+"kinsi"
+],
+[
+"Bucunal",
+"bukunal"
+],
+[
+"Cameconde",
+"kamikundi"
+],
+[
+"Jã Jã",
+"jaja"
+],
+[
+"Gendem",
+"gindim"
+],
+[
+"Pechima de Tame",
+"piximatami"
+],
+[
+"Cabiana",
+"kabiana"
+],
+[
+"Kalam",
+"kalam"
+],
+[
+"Sanguê Bololi",
+"sangibululi"
+],
+[
+"Chumbume",
+"xumbumi"
+],
+[
+"Mamadu",
+"mamadu"
+],
+[
+"Bunglar",
+"bunglar"
+],
+[
+"Bissajarindim",
+"bisajarindim"
+],
+[
+"Soncò",
+"sunku"
+],
+[
+"Ponta Sueste",
+"puntasuisti"
+],
+[
+"Sintchã Demba Jamiel",
+"sinxadimbajamil"
+],
+[
+"Unfarim",
+"unfarim"
+],
+[
+"Impatemane",
+"impatimani"
+],
+[
+"Ponta Campito",
+"puntakampitu"
+],
+[
+"Sare Jancó",
+"sarijanku"
+],
+[
+"Cancale",
+"kankali"
+],
+[
+"Bruce",
+"brusi"
+],
+[
+"Dàmàli",
+"damali"
+],
+[
+"Uncómenè",
+"unkumini"
+],
+[
+"Buruntoni",
+"buruntuni"
+],
+[
+"Miuità",
+"miuita"
+],
+[
+"Suã",
+"sua"
+],
+[
+"Cholufe",
+"xulufi"
+],
+[
+"Maherjò",
+"mairju"
+],
+[
+"Gondozinho",
+"gundusinu"
+],
+[
+"Tarije",
+"tariji"
+],
+[
+"Bissum",
+"bisum"
+],
+[
+"Gã José",
+"gajusi"
+],
+[
+"Oco",
+"uku"
+],
+[
+"Jabicó",
+"jabiku"
+],
+[
+"Equinar",
+"ikinar"
+],
+[
+"Pecau",
+"pikau"
+],
+[
+"Cafachè",
+"kafaxi"
+],
+[
+"Page",
+"pagi"
+],
+[
+"Sanumâ",
+"sanuma"
+],
+[
+"Areia",
+"aria"
+],
+[
+"Tabanca Velha",
+"vila"
+],
+[
+"Purenha",
+"purina"
+],
+[
+"Uiule",
+"uiuli"
+],
+[
+"Biógate",
+"biugati"
+],
+[
+"Sansabato",
+"sansabatu"
+],
+[
+"Cuntima",
+"kuntima"
+],
+[
+"Gundagà",
+"gndaga"
+],
+[
+"Canducure",
+"kandukuri"
+],
+[
+"Sinchá",
+"sinxa"
+],
+[
+"Séè",
+"si"
+],
+[
+"Áfià do Governador",
+"afiaguvirnadur"
+],
+[
+"Sangarè",
+"sangari"
+],
+[
+"Ilhéu de Catame",
+"iliukatami"
+],
+[
+"Amupa",
+"amupa"
+],
+[
+"Canjaja",
+"kanjaja"
+],
+[
+"Tomaz Vaz",
+"tumasvas"
+],
+[
+"Chombé",
+"xumbi"
+],
+[
+"Cudum Nhinha",
+"kudumnina"
+],
+[
+"Badjame",
+"badjami"
+],
+[
+"Arame",
+"arami"
+]
+],
+"forms": [
+{
+"sector": 64,
+"index": 70,
+"number": 31,
+"check": 5,
+"remembered": "Sagoiá 31",
+"written": "Sagoiá 31-5",
+"machine": "64-070-00031-5"
+},
+{
+"sector": 52,
+"index": 56,
+"number": 442,
+"check": 0,
+"remembered": "Dingal 442",
+"written": "Dingal 442-0",
+"machine": "52-056-00442-0"
+},
+{
+"sector": 22,
+"index": 112,
+"number": 20,
+"check": 2,
+"remembered": "Quebá Jilã 20",
+"written": "Quebá Jilã 20-2",
+"machine": "22-112-00020-2"
+},
+{
+"sector": 23,
+"index": 166,
+"number": 341,
+"check": 3,
+"remembered": "Sinchã Fugà 341",
+"written": "Sinchã Fugà 341-3",
+"machine": "23-166-00341-3"
+},
+{
+"sector": 84,
+"index": 47,
+"number": 63,
+"check": 3,
+"remembered": "Yussi 63",
+"written": "Yussi 63-3",
+"machine": "84-047-00063-3"
+},
+{
+"sector": 21,
+"index": 42,
+"number": 3658,
+"check": 4,
+"remembered": "Comuda 3658",
+"written": "Comuda 3658-4",
+"machine": "21-042-03658-4"
+},
+{
+"sector": 31,
+"index": 11,
+"number": 6,
+"check": 2,
+"remembered": "Ganfodebá 6",
+"written": "Ganfodebá 6-2",
+"machine": "31-011-00006-2"
+},
+{
+"sector": 23,
+"index": 47,
+"number": 8,
+"check": 4,
+"remembered": "Guro 8",
+"written": "Guro 8-4",
+"machine": "23-047-00008-4"
+},
+{
+"sector": 23,
+"index": 28,
+"number": 960,
+"check": 1,
+"remembered": "Fajonquito 960",
+"written": "Fajonquito 960-1",
+"machine": "23-028-00960-1"
+},
+{
+"sector": 61,
+"index": 2,
+"number": 9,
+"check": 0,
+"remembered": "Boussoura 9",
+"written": "Boussoura 9-0",
+"machine": "61-002-00009-0"
+},
+{
+"sector": 31,
+"index": 85,
+"number": 156,
+"check": 1,
+"remembered": "Buncoi 156",
+"written": "Buncoi 156-1",
+"machine": "31-085-00156-1"
+},
+{
+"sector": 82,
+"index": 12,
+"number": 6013,
+"check": 8,
+"remembered": "Mansabá 6013",
+"written": "Mansabá 6013-8",
+"machine": "82-012-06013-8"
+},
+{
+"sector": 26,
+"index": 93,
+"number": 394,
+"check": 2,
+"remembered": "Duntum 394",
+"written": "Duntum 394-2",
+"machine": "26-093-00394-2"
+},
+{
+"sector": 54,
+"index": 14,
+"number": 164,
+"check": 8,
+"remembered": "Petasse 164",
+"written": "Petasse 164-8",
+"machine": "54-014-00164-8"
+},
+{
+"sector": 82,
+"index": 51,
+"number": 134,
+"check": 3,
+"remembered": "Canchumà 134",
+"written": "Canchumà 134-3",
+"machine": "82-051-00134-3"
+},
+{
+"sector": 53,
+"index": 43,
+"number": 48,
+"check": 7,
+"remembered": "Umual 48",
+"written": "Umual 48-7",
+"machine": "53-043-00048-7"
+},
+{
+"sector": 42,
+"index": 43,
+"number": 211,
+"check": 6,
+"remembered": "Jogró 211",
+"written": "Jogró 211-6",
+"machine": "42-043-00211-6"
+},
+{
+"sector": 62,
+"index": 156,
+"number": 417,
+"check": 2,
+"remembered": "Macájè 417",
+"written": "Macájè 417-2",
+"machine": "62-156-00417-2"
+},
+{
+"sector": 53,
+"index": 106,
+"number": 170,
+"check": 0,
+"remembered": "Bijope 170",
+"written": "Bijope 170-0",
+"machine": "53-106-00170-0"
+},
+{
+"sector": 83,
+"index": 57,
+"number": 17,
+"check": 2,
+"remembered": "Mancagna 17",
+"written": "Mancagna 17-2",
+"machine": "83-057-00017-2"
+},
+{
+"sector": 64,
+"index": 79,
+"number": 178,
+"check": 9,
+"remembered": "Copiro 178",
+"written": "Copiro 178-9",
+"machine": "64-079-00178-9"
+},
+{
+"sector": 93,
+"index": 30,
+"number": 184,
+"check": 8,
+"remembered": "Camaiupa 184",
+"written": "Camaiupa 184-8",
+"machine": "93-030-00184-8"
+},
+{
+"sector": 51,
+"index": 41,
+"number": 77,
+"check": 8,
+"remembered": "Maca 77",
+"written": "Maca 77-8",
+"machine": "51-041-00077-8"
+},
+{
+"sector": 83,
+"index": 29,
+"number": 6,
+"check": 0,
+"remembered": "Binhalom 6",
+"written": "Binhalom 6-0",
+"machine": "83-029-00006-0"
+},
+{
+"sector": 10,
+"index": 33,
+"number": 416,
+"check": 8,
+"remembered": "Bissau Velho 416",
+"written": "Bissau Velho 416-8",
+"machine": "10-033-00416-8"
+},
+{
+"sector": 63,
+"index": 99,
+"number": 2,
+"check": 1,
+"remembered": "Daifa 2",
+"written": "Daifa 2-1",
+"machine": "63-099-00002-1"
+},
+{
+"sector": 63,
+"index": 49,
+"number": 993,
+"check": 7,
+"remembered": "Concomelo 993",
+"written": "Concomelo 993-7",
+"machine": "63-049-00993-7"
+},
+{
+"sector": 25,
+"index": 159,
+"number": 572,
+"check": 1,
+"remembered": "Sare Chumbo 572",
+"written": "Sare Chumbo 572-1",
+"machine": "25-159-00572-1"
+},
+{
+"sector": 72,
+"index": 65,
+"number": 16,
+"check": 6,
+"remembered": "Genicó 16",
+"written": "Genicó 16-6",
+"machine": "72-065-00016-6"
+},
+{
+"sector": 64,
+"index": 123,
+"number": 5036,
+"check": 2,
+"remembered": "Canquelifá 5036",
+"written": "Canquelifá 5036-2",
+"machine": "64-123-05036-2"
+},
+{
+"sector": 95,
+"index": 13,
+"number": 7,
+"check": 1,
+"remembered": "Ieroiel 7",
+"written": "Ieroiel 7-1",
+"machine": "95-013-00007-1"
+},
+{
+"sector": 62,
+"index": 123,
+"number": 177,
+"check": 9,
+"remembered": "Queuel 177",
+"written": "Queuel 177-9",
+"machine": "62-123-00177-9"
+},
+{
+"sector": 64,
+"index": 104,
+"number": 156,
+"check": 7,
+"remembered": "Demba 156",
+"written": "Demba 156-7",
+"machine": "64-104-00156-7"
+},
+{
+"sector": 62,
+"index": 37,
+"number": 146,
+"check": 0,
+"remembered": "Cumbajuba 146",
+"written": "Cumbajuba 146-0",
+"machine": "62-037-00146-0"
+},
+{
+"sector": 92,
+"index": 81,
+"number": 8,
+"check": 7,
+"remembered": "Catunai 8",
+"written": "Catunai 8-7",
+"machine": "92-081-00008-7"
+},
+{
+"sector": 81,
+"index": 5,
+"number": 72,
+"check": 0,
+"remembered": "Cancasso 72",
+"written": "Cancasso 72-0",
+"machine": "81-005-00072-0"
+},
+{
+"sector": 56,
+"index": 72,
+"number": 100,
+"check": 0,
+"remembered": "Barraca Lugar 100",
+"written": "Barraca Lugar 100-0",
+"machine": "56-072-00100-0"
+},
+{
+"sector": 52,
+"index": 2,
+"number": 39,
+"check": 0,
+"remembered": "Cantora 39",
+"written": "Cantora 39-0",
+"machine": "52-002-00039-0"
+},
+{
+"sector": 53,
+"index": 48,
+"number": 43,
+"check": 5,
+"remembered": "Përula 43",
+"written": "Përula 43-5",
+"machine": "53-048-00043-5"
+},
+{
+"sector": 81,
+"index": 0,
+"number": 10222,
+"check": 5,
+"remembered": "Buba 10222",
+"written": "Buba 10222-5",
+"machine": "81-000-10222-5"
+},
+{
+"sector": 65,
+"index": 60,
+"number": 1183,
+"check": 2,
+"remembered": "Braíma 1183",
+"written": "Braíma 1183-2",
+"machine": "65-060-01183-2"
+},
+{
+"sector": 26,
+"index": 78,
+"number": 202,
+"check": 5,
+"remembered": "Fula Mori 202",
+"written": "Fula Mori 202-5",
+"machine": "26-078-00202-5"
+},
+{
+"sector": 64,
+"index": 103,
+"number": 5060,
+"check": 6,
+"remembered": "Fulamansa 5060",
+"written": "Fulamansa 5060-6",
+"machine": "64-103-05060-6"
+},
+{
+"sector": 52,
+"index": 111,
+"number": 35,
+"check": 3,
+"remembered": "Fenjanja 35",
+"written": "Fenjanja 35-3",
+"machine": "52-111-00035-3"
+},
+{
+"sector": 51,
+"index": 18,
+"number": 359,
+"check": 2,
+"remembered": "Fangasse 359",
+"written": "Fangasse 359-2",
+"machine": "51-018-00359-2"
+},
+{
+"sector": 75,
+"index": 11,
+"number": 251,
+"check": 8,
+"remembered": "Cuntanga 251",
+"written": "Cuntanga 251-8",
+"machine": "75-011-00251-8"
+},
+{
+"sector": 61,
+"index": 43,
+"number": 6,
+"check": 8,
+"remembered": "Luguré 6",
+"written": "Luguré 6-8",
+"machine": "61-043-00006-8"
+},
+{
+"sector": 56,
+"index": 12,
+"number": 104,
+"check": 5,
+"remembered": "Ejatem 104",
+"written": "Ejatem 104-5",
+"machine": "56-012-00104-5"
+},
+{
+"sector": 92,
+"index": 41,
+"number": 50,
+"check": 6,
+"remembered": "Cambom 50",
+"written": "Cambom 50-6",
+"machine": "92-041-00050-6"
+},
+{
+"sector": 53,
+"index": 63,
+"number": 151,
+"check": 5,
+"remembered": "Cuncum 151",
+"written": "Cuncum 151-5",
+"machine": "53-063-00151-5"
+},
+{
+"sector": 56,
+"index": 56,
+"number": 2,
+"check": 7,
+"remembered": "Kolajer 2",
+"written": "Kolajer 2-7",
+"machine": "56-056-00002-7"
+},
+{
+"sector": 31,
+"index": 65,
+"number": 1001,
+"check": 0,
+"remembered": "Queruane 1001",
+"written": "Queruane 1001-0",
+"machine": "31-065-01001-0"
+},
+{
+"sector": 62,
+"index": 58,
+"number": 418,
+"check": 7,
+"remembered": "Catábà Fali 418",
+"written": "Catábà Fali 418-7",
+"machine": "62-058-00418-7"
+},
+{
+"sector": 55,
+"index": 76,
+"number": 161,
+"check": 9,
+"remembered": "Quebacar 161",
+"written": "Quebacar 161-9",
+"machine": "55-076-00161-9"
+},
+{
+"sector": 24,
+"index": 65,
+"number": 46,
+"check": 4,
+"remembered": "Jaubècuta 46",
+"written": "Jaubècuta 46-4",
+"machine": "24-065-00046-4"
+},
+{
+"sector": 33,
+"index": 66,
+"number": 188,
+"check": 6,
+"remembered": "Eticunda 188",
+"written": "Eticunda 188-6",
+"machine": "33-066-00188-6"
+},
+{
+"sector": 64,
+"index": 114,
+"number": 30,
+"check": 5,
+"remembered": "Banjulo 30",
+"written": "Banjulo 30-5",
+"machine": "64-114-00030-5"
+},
+{
+"sector": 55,
+"index": 90,
+"number": 551,
+"check": 7,
+"remembered": "Ucugne 551",
+"written": "Ucugne 551-7",
+"machine": "55-090-00551-7"
+},
+{
+"sector": 72,
+"index": 27,
+"number": 145,
+"check": 0,
+"remembered": "Badancar 145",
+"written": "Badancar 145-0",
+"machine": "72-027-00145-0"
+},
+{
+"sector": 71,
+"index": 110,
+"number": 68,
+"check": 8,
+"remembered": "Manaca 68",
+"written": "Manaca 68-8",
+"machine": "71-110-00068-8"
+},
+{
+"sector": 84,
+"index": 28,
+"number": 606,
+"check": 9,
+"remembered": "Belel 606",
+"written": "Belel 606-9",
+"machine": "84-028-00606-9"
+},
+{
+"sector": 84,
+"index": 57,
+"number": 14,
+"check": 9,
+"remembered": "Mantampa 14",
+"written": "Mantampa 14-9",
+"machine": "84-057-00014-9"
+},
+{
+"sector": 32,
+"index": 12,
+"number": 1545,
+"check": 9,
+"remembered": "Ancanho 1545",
+"written": "Ancanho 1545-9",
+"machine": "32-012-01545-9"
+},
+{
+"sector": 95,
+"index": 15,
+"number": 4,
+"check": 7,
+"remembered": "Guiro Jau 4",
+"written": "Guiro Jau 4-7",
+"machine": "95-015-00004-7"
+},
+{
+"sector": 62,
+"index": 111,
+"number": 42,
+"check": 0,
+"remembered": "Caduncó 42",
+"written": "Caduncó 42-0",
+"machine": "62-111-00042-0"
+},
+{
+"sector": 64,
+"index": 173,
+"number": 8,
+"check": 2,
+"remembered": "Sinchã Mariu 8",
+"written": "Sinchã Mariu 8-2",
+"machine": "64-173-00008-2"
+},
+{
+"sector": 65,
+"index": 21,
+"number": 191,
+"check": 1,
+"remembered": "Dembel Uri 191",
+"written": "Dembel Uri 191-1",
+"machine": "65-021-00191-1"
+},
+{
+"sector": 25,
+"index": 162,
+"number": 536,
+"check": 0,
+"remembered": "Sare Patè 536",
+"written": "Sare Patè 536-0",
+"machine": "25-162-00536-0"
+},
+{
+"sector": 71,
+"index": 26,
+"number": 25,
+"check": 9,
+"remembered": "Quijim 25",
+"written": "Quijim 25-9",
+"machine": "71-026-00025-9"
+},
+{
+"sector": 43,
+"index": 31,
+"number": 922,
+"check": 4,
+"remembered": "Cumano 922",
+"written": "Cumano 922-4",
+"machine": "43-031-00922-4"
+},
+{
+"sector": 53,
+"index": 97,
+"number": 59,
+"check": 5,
+"remembered": "Pinjanguru 59",
+"written": "Pinjanguru 59-5",
+"machine": "53-097-00059-5"
+},
+{
+"sector": 95,
+"index": 8,
+"number": 467,
+"check": 4,
+"remembered": "Cumbijã 467",
+"written": "Cumbijã 467-4",
+"machine": "95-008-00467-4"
+},
+{
+"sector": 53,
+"index": 68,
+"number": 482,
+"check": 5,
+"remembered": "Uncal 482",
+"written": "Uncal 482-5",
+"machine": "53-068-00482-5"
+},
+{
+"sector": 72,
+"index": 159,
+"number": 9,
+"check": 7,
+"remembered": "Bajanacunda 9",
+"written": "Bajanacunda 9-7",
+"machine": "72-159-00009-7"
+},
+{
+"sector": 65,
+"index": 0,
+"number": 1091,
+"check": 7,
+"remembered": "Sonaco 1091",
+"written": "Sonaco 1091-7",
+"machine": "65-000-01091-7"
+},
+{
+"sector": 43,
+"index": 34,
+"number": 2334,
+"check": 3,
+"remembered": "Blom 2334",
+"written": "Blom 2334-3",
+"machine": "43-034-02334-3"
+},
+{
+"sector": 72,
+"index": 8,
+"number": 145,
+"check": 3,
+"remembered": "Santancoto 145",
+"written": "Santancoto 145-3",
+"machine": "72-008-00145-3"
+},
+{
+"sector": 64,
+"index": 83,
+"number": 85,
+"check": 4,
+"remembered": "Sagar 85",
+"written": "Sagar 85-4",
+"machine": "64-083-00085-4"
+},
+{
+"sector": 26,
+"index": 28,
+"number": 6,
+"check": 3,
+"remembered": "Pampe 6",
+"written": "Pampe 6-3",
+"machine": "26-028-00006-3"
+},
+{
+"sector": 55,
+"index": 60,
+"number": 55,
+"check": 9,
+"remembered": "Pentia 55",
+"written": "Pentia 55-9",
+"machine": "55-060-00055-9"
+},
+{
+"sector": 62,
+"index": 36,
+"number": 1126,
+"check": 0,
+"remembered": "Oco Maunde 1126",
+"written": "Oco Maunde 1126-0",
+"machine": "62-036-01126-0"
+},
+{
+"sector": 74,
+"index": 86,
+"number": 92,
+"check": 9,
+"remembered": "Damé 92",
+"written": "Damé 92-9",
+"machine": "74-086-00092-9"
+},
+{
+"sector": 83,
+"index": 64,
+"number": 115,
+"check": 0,
+"remembered": "Dua 115",
+"written": "Dua 115-0",
+"machine": "83-064-00115-0"
+},
+{
+"sector": 61,
+"index": 18,
+"number": 1219,
+"check": 3,
+"remembered": "Ussumane 1219",
+"written": "Ussumane 1219-3",
+"machine": "61-018-01219-3"
+},
+{
+"sector": 22,
+"index": 2,
+"number": 1104,
+"check": 2,
+"remembered": "Queroane 1104",
+"written": "Queroane 1104-2",
+"machine": "22-002-01104-2"
+},
+{
+"sector": 73,
+"index": 47,
+"number": 72,
+"check": 8,
+"remembered": "Cai 72",
+"written": "Cai 72-8",
+"machine": "73-047-00072-8"
+},
+{
+"sector": 83,
+"index": 70,
+"number": 14083,
+"check": 8,
+"remembered": "Bambadinca 14083",
+"written": "Bambadinca 14083-8",
+"machine": "83-070-14083-8"
+},
+{
+"sector": 71,
+"index": 43,
+"number": 628,
+"check": 6,
+"remembered": "Nhaé 628",
+"written": "Nhaé 628-6",
+"machine": "71-043-00628-6"
+},
+{
+"sector": 83,
+"index": 65,
+"number": 90,
+"check": 3,
+"remembered": "Gã Chiquinho 90",
+"written": "Gã Chiquinho 90-3",
+"machine": "83-065-00090-3"
+},
+{
+"sector": 24,
+"index": 45,
+"number": 117,
+"check": 9,
+"remembered": "Sinchã Iobà 117",
+"written": "Sinchã Iobà 117-9",
+"machine": "24-045-00117-9"
+},
+{
+"sector": 53,
+"index": 127,
+"number": 17,
+"check": 8,
+"remembered": "Bamal 17",
+"written": "Bamal 17-8",
+"machine": "53-127-00017-8"
+},
+{
+"sector": 73,
+"index": 125,
+"number": 56,
+"check": 3,
+"remembered": "Tancroal 56",
+"written": "Tancroal 56-3",
+"machine": "73-125-00056-3"
+},
+{
+"sector": 72,
+"index": 199,
+"number": 61,
+"check": 5,
+"remembered": "Sare Guigui 61",
+"written": "Sare Guigui 61-5",
+"machine": "72-199-00061-5"
+},
+{
+"sector": 81,
+"index": 16,
+"number": 288,
+"check": 0,
+"remembered": "Damadunguê 288",
+"written": "Damadunguê 288-0",
+"machine": "81-016-00288-0"
+},
+{
+"sector": 55,
+"index": 78,
+"number": 185,
+"check": 8,
+"remembered": "Punconche 185",
+"written": "Punconche 185-8",
+"machine": "55-078-00185-8"
+},
+{
+"sector": 62,
+"index": 89,
+"number": 53,
+"check": 8,
+"remembered": "Síbitò 53",
+"written": "Síbitò 53-8",
+"machine": "62-089-00053-8"
+},
+{
+"sector": 64,
+"index": 134,
+"number": 376,
+"check": 0,
+"remembered": "Camabé 376",
+"written": "Camabé 376-0",
+"machine": "64-134-00376-0"
+},
+{
+"sector": 31,
+"index": 49,
+"number": 95,
+"check": 4,
+"remembered": "Gã Beafada 95",
+"written": "Gã Beafada 95-4",
+"machine": "31-049-00095-4"
+},
+{
+"sector": 63,
+"index": 19,
+"number": 190,
+"check": 8,
+"remembered": "Cópà 190",
+"written": "Cópà 190-8",
+"machine": "63-019-00190-8"
+},
+{
+"sector": 52,
+"index": 22,
+"number": 11,
+"check": 4,
+"remembered": "Passabe 11",
+"written": "Passabe 11-4",
+"machine": "52-022-00011-4"
+},
+{
+"sector": 52,
+"index": 103,
+"number": 21,
+"check": 8,
+"remembered": "Bissussum 21",
+"written": "Bissussum 21-8",
+"machine": "52-103-00021-8"
+},
+{
+"sector": 65,
+"index": 33,
+"number": 109,
+"check": 2,
+"remembered": "Sinchã Demba 109",
+"written": "Sinchã Demba 109-2",
+"machine": "65-033-00109-2"
+},
+{
+"sector": 93,
+"index": 68,
+"number": 307,
+"check": 1,
+"remembered": "Timbó 307",
+"written": "Timbó 307-1",
+"machine": "93-068-00307-1"
+},
+{
+"sector": 26,
+"index": 103,
+"number": 168,
+"check": 4,
+"remembered": "Samaro 168",
+"written": "Samaro 168-4",
+"machine": "26-103-00168-4"
+},
+{
+"sector": 10,
+"index": 65,
+"number": 2630,
+"check": 1,
+"remembered": "São Paulo 2630",
+"written": "São Paulo 2630-1",
+"machine": "10-065-02630-1"
+},
+{
+"sector": 71,
+"index": 51,
+"number": 514,
+"check": 9,
+"remembered": "Mansabandim 514",
+"written": "Mansabandim 514-9",
+"machine": "71-051-00514-9"
+},
+{
+"sector": 91,
+"index": 33,
+"number": 11022,
+"check": 7,
+"remembered": "Quebo 11022",
+"written": "Quebo 11022-7",
+"machine": "91-033-11022-7"
+},
+{
+"sector": 65,
+"index": 74,
+"number": 169,
+"check": 9,
+"remembered": "Cudum Nhinha 169",
+"written": "Cudum Nhinha 169-9",
+"machine": "65-074-00169-9"
+},
+{
+"sector": 63,
+"index": 64,
+"number": 901,
+"check": 4,
+"remembered": "Dembel 901",
+"written": "Dembel 901-4",
+"machine": "63-064-00901-4"
+},
+{
+"sector": 23,
+"index": 42,
+"number": 2134,
+"check": 8,
+"remembered": "Dando 2134",
+"written": "Dando 2134-8",
+"machine": "23-042-02134-8"
+},
+{
+"sector": 83,
+"index": 36,
+"number": 21,
+"check": 1,
+"remembered": "Budampiol 21",
+"written": "Budampiol 21-1",
+"machine": "83-036-00021-1"
+},
+{
+"sector": 23,
+"index": 101,
+"number": 1206,
+"check": 4,
+"remembered": "Cambaju 1206",
+"written": "Cambaju 1206-4",
+"machine": "23-101-01206-4"
+},
+{
+"sector": 73,
+"index": 38,
+"number": 42,
+"check": 6,
+"remembered": "Coli Sare 42",
+"written": "Coli Sare 42-6",
+"machine": "73-038-00042-6"
+},
+{
+"sector": 34,
+"index": 42,
+"number": 278,
+"check": 4,
+"remembered": "Bruce 278",
+"written": "Bruce 278-4",
+"machine": "34-042-00278-4"
+},
+{
+"sector": 32,
+"index": 38,
+"number": 70,
+"check": 9,
+"remembered": "Ancateb 70",
+"written": "Ancateb 70-9",
+"machine": "32-038-00070-9"
+},
+{
+"sector": 74,
+"index": 55,
+"number": 43,
+"check": 1,
+"remembered": "Bessunha 43",
+"written": "Bessunha 43-1",
+"machine": "74-055-00043-1"
+},
+{
+"sector": 84,
+"index": 25,
+"number": 34,
+"check": 7,
+"remembered": "Gã Juliana 34",
+"written": "Gã Juliana 34-7",
+"machine": "84-025-00034-7"
+},
+{
+"sector": 84,
+"index": 63,
+"number": 961,
+"check": 7,
+"remembered": "Ponta Nova 961",
+"written": "Ponta Nova 961-7",
+"machine": "84-063-00961-7"
+},
+{
+"sector": 51,
+"index": 102,
+"number": 147,
+"check": 6,
+"remembered": "Faraba 147",
+"written": "Faraba 147-6",
+"machine": "51-102-00147-6"
+},
+{
+"sector": 83,
+"index": 52,
+"number": 58,
+"check": 3,
+"remembered": "Gam Mamadu 58",
+"written": "Gam Mamadu 58-3",
+"machine": "83-052-00058-3"
+},
+{
+"sector": 24,
+"index": 100,
+"number": 214,
+"check": 8,
+"remembered": "Tabandinto 214",
+"written": "Tabandinto 214-8",
+"machine": "24-100-00214-8"
+},
+{
+"sector": 92,
+"index": 94,
+"number": 10,
+"check": 9,
+"remembered": "Pampaire 10",
+"written": "Pampaire 10-9",
+"machine": "92-094-00010-9"
+},
+{
+"sector": 52,
+"index": 0,
+"number": 5014,
+"check": 3,
+"remembered": "Bula 5014",
+"written": "Bula 5014-3",
+"machine": "52-000-05014-3"
+},
+{
+"sector": 91,
+"index": 54,
+"number": 692,
+"check": 6,
+"remembered": "Uangane 692",
+"written": "Uangane 692-6",
+"machine": "91-054-00692-6"
+},
+{
+"sector": 56,
+"index": 58,
+"number": 283,
+"check": 0,
+"remembered": "Bunak 283",
+"written": "Bunak 283-0",
+"machine": "56-058-00283-0"
+},
+{
+"sector": 72,
+"index": 15,
+"number": 27,
+"check": 2,
+"remembered": "Ujeque 27",
+"written": "Ujeque 27-2",
+"machine": "72-015-00027-2"
+},
+{
+"sector": 64,
+"index": 95,
+"number": 737,
+"check": 3,
+"remembered": "Cumporumã 737",
+"written": "Cumporumã 737-3",
+"machine": "64-095-00737-3"
+},
+{
+"sector": 75,
+"index": 34,
+"number": 92,
+"check": 6,
+"remembered": "Cã Grande 92",
+"written": "Cã Grande 92-6",
+"machine": "75-034-00092-6"
+},
+{
+"sector": 33,
+"index": 67,
+"number": 225,
+"check": 6,
+"remembered": "Bitelhe 225",
+"written": "Bitelhe 225-6",
+"machine": "33-067-00225-6"
+},
+{
+"sector": 74,
+"index": 88,
+"number": 314,
+"check": 1,
+"remembered": "Inquida 314",
+"written": "Inquida 314-1",
+"machine": "74-088-00314-1"
+},
+{
+"sector": 55,
+"index": 149,
+"number": 147,
+"check": 3,
+"remembered": "Okakadje 147",
+"written": "Okakadje 147-3",
+"machine": "55-149-00147-3"
+},
+{
+"sector": 24,
+"index": 149,
+"number": 22,
+"check": 6,
+"remembered": "Mamudo 22",
+"written": "Mamudo 22-6",
+"machine": "24-149-00022-6"
+},
+{
+"sector": 95,
+"index": 28,
+"number": 12883,
+"check": 8,
+"remembered": "Áfià 12883",
+"written": "Áfià 12883-8",
+"machine": "95-028-12883-8"
+},
+{
+"sector": 26,
+"index": 11,
+"number": 4,
+"check": 0,
+"remembered": "Balinjã 4",
+"written": "Balinjã 4-0",
+"machine": "26-011-00004-0"
+},
+{
+"sector": 83,
+"index": 30,
+"number": 2,
+"check": 3,
+"remembered": "Uaná 2",
+"written": "Uaná 2-3",
+"machine": "83-030-00002-3"
+},
+{
+"sector": 64,
+"index": 44,
+"number": 538,
+"check": 8,
+"remembered": "Velingará 538",
+"written": "Velingará 538-8",
+"machine": "64-044-00538-8"
+},
+{
+"sector": 22,
+"index": 0,
+"number": 5232,
+"check": 0,
+"remembered": "Bambadinca 5232",
+"written": "Bambadinca 5232-0",
+"machine": "22-000-05232-0"
+},
+{
+"sector": 61,
+"index": 71,
+"number": 97,
+"check": 0,
+"remembered": "Colebe 97",
+"written": "Colebe 97-0",
+"machine": "61-071-00097-0"
+},
+{
+"sector": 64,
+"index": 18,
+"number": 188,
+"check": 7,
+"remembered": "Sinchã Alfá 188",
+"written": "Sinchã Alfá 188-7",
+"machine": "64-018-00188-7"
+},
+{
+"sector": 21,
+"index": 30,
+"number": 48,
+"check": 0,
+"remembered": "Adulai 48",
+"written": "Adulai 48-0",
+"machine": "21-030-00048-0"
+},
+{
+"sector": 56,
+"index": 70,
+"number": 3934,
+"check": 7,
+"remembered": "Madina 3934",
+"written": "Madina 3934-7",
+"machine": "56-070-03934-7"
+},
+{
+"sector": 32,
+"index": 53,
+"number": 42,
+"check": 9,
+"remembered": "Anbuba 42",
+"written": "Anbuba 42-9",
+"machine": "32-053-00042-9"
+},
+{
+"sector": 55,
+"index": 81,
+"number": 196,
+"check": 5,
+"remembered": "Umbuganhete 196",
+"written": "Umbuganhete 196-5",
+"machine": "55-081-00196-5"
+},
+{
+"sector": 21,
+"index": 28,
+"number": 8,
+"check": 4,
+"remembered": "Bunancar 8",
+"written": "Bunancar 8-4",
+"machine": "21-028-00008-4"
+},
+{
+"sector": 53,
+"index": 81,
+"number": 456,
+"check": 9,
+"remembered": "Balomb 456",
+"written": "Balomb 456-9",
+"machine": "53-081-00456-9"
+},
+{
+"sector": 42,
+"index": 23,
+"number": 127,
+"check": 6,
+"remembered": "Corrente 127",
+"written": "Corrente 127-6",
+"machine": "42-023-00127-6"
+},
+{
+"sector": 72,
+"index": 30,
+"number": 83,
+"check": 0,
+"remembered": "Dungal 83",
+"written": "Dungal 83-0",
+"machine": "72-030-00083-0"
+},
+{
+"sector": 81,
+"index": 10,
+"number": 100,
+"check": 3,
+"remembered": "Nhanguê 100",
+"written": "Nhanguê 100-3",
+"machine": "81-010-00100-3"
+},
+{
+"sector": 55,
+"index": 5,
+"number": 340,
+"check": 6,
+"remembered": "Bugulha 340",
+"written": "Bugulha 340-6",
+"machine": "55-005-00340-6"
+},
+{
+"sector": 32,
+"index": 5,
+"number": 212,
+"check": 0,
+"remembered": "Wite 212",
+"written": "Wite 212-0",
+"machine": "32-005-00212-0"
+},
+{
+"sector": 65,
+"index": 135,
+"number": 592,
+"check": 4,
+"remembered": "Paiama 592",
+"written": "Paiama 592-4",
+"machine": "65-135-00592-4"
+},
+{
+"sector": 52,
+"index": 28,
+"number": 900,
+"check": 7,
+"remembered": "Ponta Nova 900",
+"written": "Ponta Nova 900-7",
+"machine": "52-028-00900-7"
+},
+{
+"sector": 51,
+"index": 99,
+"number": 37,
+"check": 1,
+"remembered": "Jamba 37",
+"written": "Jamba 37-1",
+"machine": "51-099-00037-1"
+},
+{
+"sector": 72,
+"index": 232,
+"number": 13,
+"check": 2,
+"remembered": "Sototô 13",
+"written": "Sototô 13-2",
+"machine": "72-232-00013-2"
+},
+{
+"sector": 75,
+"index": 23,
+"number": 569,
+"check": 6,
+"remembered": "Rucuto 569",
+"written": "Rucuto 569-6",
+"machine": "75-023-00569-6"
+},
+{
+"sector": 75,
+"index": 30,
+"number": 384,
+"check": 7,
+"remembered": "N'Tchangue 384",
+"written": "N'Tchangue 384-7",
+"machine": "75-030-00384-7"
+},
+{
+"sector": 23,
+"index": 132,
+"number": 192,
+"check": 0,
+"remembered": "Sare Bacar 192",
+"written": "Sare Bacar 192-0",
+"machine": "23-132-00192-0"
+},
+{
+"sector": 65,
+"index": 53,
+"number": 700,
+"check": 6,
+"remembered": "Bacari 700",
+"written": "Bacari 700-6",
+"machine": "65-053-00700-6"
+},
+{
+"sector": 22,
+"index": 12,
+"number": 97,
+"check": 4,
+"remembered": "Colhida 97",
+"written": "Colhida 97-4",
+"machine": "22-012-00097-4"
+},
+{
+"sector": 34,
+"index": 68,
+"number": 87,
+"check": 3,
+"remembered": "Ancobarra 87",
+"written": "Ancobarra 87-3",
+"machine": "34-068-00087-3"
+},
+{
+"sector": 32,
+"index": 30,
+"number": 107,
+"check": 8,
+"remembered": "Ancanam 107",
+"written": "Ancanam 107-8",
+"machine": "32-030-00107-8"
+},
+{
+"sector": 75,
+"index": 77,
+"number": 168,
+"check": 0,
+"remembered": "Quitamo 168",
+"written": "Quitamo 168-0",
+"machine": "75-077-00168-0"
+},
+{
+"sector": 43,
+"index": 8,
+"number": 165,
+"check": 0,
+"remembered": "Canom 165",
+"written": "Canom 165-0",
+"machine": "43-008-00165-0"
+},
+{
+"sector": 23,
+"index": 81,
+"number": 57,
+"check": 6,
+"remembered": "Sinchã Umaro 57",
+"written": "Sinchã Umaro 57-6",
+"machine": "23-081-00057-6"
+},
+{
+"sector": 74,
+"index": 78,
+"number": 8,
+"check": 8,
+"remembered": "Gã Farã 8",
+"written": "Gã Farã 8-8",
+"machine": "74-078-00008-8"
+},
+{
+"sector": 71,
+"index": 30,
+"number": 1389,
+"check": 4,
+"remembered": "Contuba 1389",
+"written": "Contuba 1389-4",
+"machine": "71-030-01389-4"
+},
+{
+"sector": 55,
+"index": 99,
+"number": 345,
+"check": 5,
+"remembered": "Djita 345",
+"written": "Djita 345-5",
+"machine": "55-099-00345-5"
+},
+{
+"sector": 74,
+"index": 14,
+"number": 44,
+"check": 3,
+"remembered": "Braia 44",
+"written": "Braia 44-3",
+"machine": "74-014-00044-3"
+},
+{
+"sector": 91,
+"index": 2,
+"number": 300,
+"check": 1,
+"remembered": "Cundire 300",
+"written": "Cundire 300-1",
+"machine": "91-002-00300-1"
+},
+{
+"sector": 22,
+"index": 15,
+"number": 87,
+"check": 7,
+"remembered": "Chacali 87",
+"written": "Chacali 87-7",
+"machine": "22-015-00087-7"
+},
+{
+"sector": 84,
+"index": 62,
+"number": 649,
+"check": 0,
+"remembered": "Jabadá 649",
+"written": "Jabadá 649-0",
+"machine": "84-062-00649-0"
+},
+{
+"sector": 83,
+"index": 12,
+"number": 48,
+"check": 8,
+"remembered": "Banjuno 48",
+"written": "Banjuno 48-8",
+"machine": "83-012-00048-8"
+},
+{
+"sector": 64,
+"index": 98,
+"number": 428,
+"check": 8,
+"remembered": "Sajã 428",
+"written": "Sajã 428-8",
+"machine": "64-098-00428-8"
+},
+{
+"sector": 72,
+"index": 174,
+"number": 16,
+"check": 6,
+"remembered": "Demba Taquel 16",
+"written": "Demba Taquel 16-6",
+"machine": "72-174-00016-6"
+},
+{
+"sector": 51,
+"index": 42,
+"number": 34,
+"check": 0,
+"remembered": "Canja 34",
+"written": "Canja 34-0",
+"machine": "51-042-00034-0"
+},
+{
+"sector": 61,
+"index": 41,
+"number": 18,
+"check": 9,
+"remembered": "Mangatamba 18",
+"written": "Mangatamba 18-9",
+"machine": "61-041-00018-9"
+},
+{
+"sector": 33,
+"index": 30,
+"number": 121,
+"check": 9,
+"remembered": "Anquedjo 121",
+"written": "Anquedjo 121-9",
+"machine": "33-030-00121-9"
+},
+{
+"sector": 75,
+"index": 95,
+"number": 590,
+"check": 3,
+"remembered": "Iusse 590",
+"written": "Iusse 590-3",
+"machine": "75-095-00590-3"
+},
+{
+"sector": 92,
+"index": 61,
+"number": 92,
+"check": 6,
+"remembered": "Cassèfunda 92",
+"written": "Cassèfunda 92-6",
+"machine": "92-061-00092-6"
+},
+{
+"sector": 22,
+"index": 21,
+"number": 82,
+"check": 0,
+"remembered": "Tenhegi 82",
+"written": "Tenhegi 82-0",
+"machine": "22-021-00082-0"
+},
+{
+"sector": 95,
+"index": 21,
+"number": 51,
+"check": 4,
+"remembered": "Torcino 51",
+"written": "Torcino 51-4",
+"machine": "95-021-00051-4"
+},
+{
+"sector": 24,
+"index": 60,
+"number": 107,
+"check": 9,
+"remembered": "Madinael 107",
+"written": "Madinael 107-9",
+"machine": "24-060-00107-9"
+},
+{
+"sector": 54,
+"index": 55,
+"number": 66,
+"check": 5,
+"remembered": "Bieu 66",
+"written": "Bieu 66-5",
+"machine": "54-055-00066-5"
+},
+{
+"sector": 21,
+"index": 86,
+"number": 867,
+"check": 1,
+"remembered": "Tanta Cossè 867",
+"written": "Tanta Cossè 867-1",
+"machine": "21-086-00867-1"
+},
+{
+"sector": 53,
+"index": 19,
+"number": 376,
+"check": 9,
+"remembered": "Batau 376",
+"written": "Batau 376-9",
+"machine": "53-019-00376-9"
+},
+{
+"sector": 55,
+"index": 53,
+"number": 102,
+"check": 0,
+"remembered": "Benobe 102",
+"written": "Benobe 102-0",
+"machine": "55-053-00102-0"
+},
+{
+"sector": 73,
+"index": 111,
+"number": 24,
+"check": 2,
+"remembered": "Berecobato 24",
+"written": "Berecobato 24-2",
+"machine": "73-111-00024-2"
+},
+{
+"sector": 64,
+"index": 165,
+"number": 8,
+"check": 5,
+"remembered": "Sare Jaubè 8",
+"written": "Sare Jaubè 8-5",
+"machine": "64-165-00008-5"
+},
+{
+"sector": 71,
+"index": 2,
+"number": 119,
+"check": 1,
+"remembered": "Ianganã 119",
+"written": "Ianganã 119-1",
+"machine": "71-002-00119-1"
+},
+{
+"sector": 62,
+"index": 98,
+"number": 5,
+"check": 6,
+"remembered": "Sinchã Jai 5",
+"written": "Sinchã Jai 5-6",
+"machine": "62-098-00005-6"
+},
+{
+"sector": 25,
+"index": 146,
+"number": 4927,
+"check": 9,
+"remembered": "Amedalai 4927",
+"written": "Amedalai 4927-9",
+"machine": "25-146-04927-9"
+},
+{
+"sector": 71,
+"index": 12,
+"number": 8,
+"check": 8,
+"remembered": "Cunhoncome 8",
+"written": "Cunhoncome 8-8",
+"machine": "71-012-00008-8"
+},
+{
+"sector": 72,
+"index": 139,
+"number": 8,
+"check": 4,
+"remembered": "Sare Bori 8",
+"written": "Sare Bori 8-4",
+"machine": "72-139-00008-4"
+},
+{
+"sector": 31,
+"index": 76,
+"number": 180,
+"check": 0,
+"remembered": "Colonia 180",
+"written": "Colonia 180-0",
+"machine": "31-076-00180-0"
+},
+{
+"sector": 52,
+"index": 120,
+"number": 22,
+"check": 1,
+"remembered": "Unfotote 22",
+"written": "Unfotote 22-1",
+"machine": "52-120-00022-1"
+},
+{
+"sector": 61,
+"index": 59,
+"number": 42,
+"check": 5,
+"remembered": "Dalabá 42",
+"written": "Dalabá 42-5",
+"machine": "61-059-00042-5"
+},
+{
+"sector": 64,
+"index": 144,
+"number": 67,
+"check": 3,
+"remembered": "Sinchã Corca 67",
+"written": "Sinchã Corca 67-3",
+"machine": "64-144-00067-3"
+},
+{
+"sector": 10,
+"index": 16,
+"number": 261,
+"check": 0,
+"remembered": "Ilha do Rei 261",
+"written": "Ilha do Rei 261-0",
+"machine": "10-016-00261-0"
+},
+{
+"sector": 25,
+"index": 167,
+"number": 229,
+"check": 0,
+"remembered": "Cancubanhe 229",
+"written": "Cancubanhe 229-0",
+"machine": "25-167-00229-0"
+},
+{
+"sector": 73,
+"index": 43,
+"number": 143,
+"check": 7,
+"remembered": "Iracunda 143",
+"written": "Iracunda 143-7",
+"machine": "73-043-00143-7"
+},
+{
+"sector": 56,
+"index": 47,
+"number": 198,
+"check": 4,
+"remembered": "Cacheuzinho 198",
+"written": "Cacheuzinho 198-4",
+"machine": "56-047-00198-4"
+},
+{
+"sector": 62,
+"index": 131,
+"number": 498,
+"check": 7,
+"remembered": "Madina Boé 498",
+"written": "Madina Boé 498-7",
+"machine": "62-131-00498-7"
+},
+{
+"sector": 22,
+"index": 3,
+"number": 8,
+"check": 2,
+"remembered": "Mangai 8",
+"written": "Mangai 8-2",
+"machine": "22-003-00008-2"
+},
+{
+"sector": 64,
+"index": 132,
+"number": 9,
+"check": 7,
+"remembered": "Dulò Bana 9",
+"written": "Dulò Bana 9-7",
+"machine": "64-132-00009-7"
+},
+{
+"sector": 23,
+"index": 118,
+"number": 107,
+"check": 3,
+"remembered": "Tendinto 107",
+"written": "Tendinto 107-3",
+"machine": "23-118-00107-3"
+},
+{
+"sector": 24,
+"index": 19,
+"number": 144,
+"check": 9,
+"remembered": "Bôjo Fulbè 144",
+"written": "Bôjo Fulbè 144-9",
+"machine": "24-019-00144-9"
+},
+{
+"sector": 74,
+"index": 54,
+"number": 172,
+"check": 0,
+"remembered": "Baradoulo 172",
+"written": "Baradoulo 172-0",
+"machine": "74-054-00172-0"
+},
+{
+"sector": 53,
+"index": 116,
+"number": 1,
+"check": 8,
+"remembered": "Badjame 1",
+"written": "Badjame 1-8",
+"machine": "53-116-00001-8"
+},
+{
+"sector": 75,
+"index": 54,
+"number": 66,
+"check": 1,
+"remembered": "Imboé 66",
+"written": "Imboé 66-1",
+"machine": "75-054-00066-1"
+},
+{
+"sector": 23,
+"index": 77,
+"number": 412,
+"check": 6,
+"remembered": "Nhantandim 412",
+"written": "Nhantandim 412-6",
+"machine": "23-077-00412-6"
+},
+{
+"sector": 26,
+"index": 39,
+"number": 889,
+"check": 4,
+"remembered": "Tendinto 889",
+"written": "Tendinto 889-4",
+"machine": "26-039-00889-4"
+},
+{
+"sector": 71,
+"index": 53,
+"number": 285,
+"check": 7,
+"remembered": "Bairro Balanta 285",
+"written": "Bairro Balanta 285-7",
+"machine": "71-053-00285-7"
+},
+{
+"sector": 21,
+"index": 8,
+"number": 1193,
+"check": 5,
+"remembered": "Nema 1193",
+"written": "Nema 1193-5",
+"machine": "21-008-01193-5"
+},
+{
+"sector": 82,
+"index": 13,
+"number": 2052,
+"check": 1,
+"remembered": "Fulacunda 2052",
+"written": "Fulacunda 2052-1",
+"machine": "82-013-02052-1"
+},
+{
+"sector": 63,
+"index": 108,
+"number": 455,
+"check": 7,
+"remembered": "Soncocunda 455",
+"written": "Soncocunda 455-7",
+"machine": "63-108-00455-7"
+},
+{
+"sector": 92,
+"index": 47,
+"number": 13,
+"check": 2,
+"remembered": "Ponta Cajete 13",
+"written": "Ponta Cajete 13-2",
+"machine": "92-047-00013-2"
+},
+{
+"sector": 53,
+"index": 8,
+"number": 512,
+"check": 0,
+"remembered": "Bianga 512",
+"written": "Bianga 512-0",
+"machine": "53-008-00512-0"
+},
+{
+"sector": 42,
+"index": 5,
+"number": 190,
+"check": 3,
+"remembered": "Sija 190",
+"written": "Sija 190-3",
+"machine": "42-005-00190-3"
+},
+{
+"sector": 93,
+"index": 25,
+"number": 502,
+"check": 9,
+"remembered": "Cufar 502",
+"written": "Cufar 502-9",
+"machine": "93-025-00502-9"
+},
+{
+"sector": 91,
+"index": 46,
+"number": 824,
+"check": 5,
+"remembered": "Incalá 824",
+"written": "Incalá 824-5",
+"machine": "91-046-00824-5"
+},
+{
+"sector": 23,
+"index": 75,
+"number": 16,
+"check": 1,
+"remembered": "Bundojidè 16",
+"written": "Bundojidè 16-1",
+"machine": "23-075-00016-1"
+},
+{
+"sector": 51,
+"index": 64,
+"number": 160,
+"check": 4,
+"remembered": "Bissabur 160",
+"written": "Bissabur 160-4",
+"machine": "51-064-00160-4"
+},
+{
+"sector": 51,
+"index": 94,
+"number": 312,
+"check": 4,
+"remembered": "São João 312",
+"written": "São João 312-4",
+"machine": "51-094-00312-4"
+},
+{
+"sector": 53,
+"index": 74,
+"number": 5,
+"check": 2,
+"remembered": "Guebogue 5",
+"written": "Guebogue 5-2",
+"machine": "53-074-00005-2"
+},
+{
+"sector": 61,
+"index": 54,
+"number": 22,
+"check": 7,
+"remembered": "Vendu Chamo 22",
+"written": "Vendu Chamo 22-7",
+"machine": "61-054-00022-7"
+},
+{
+"sector": 24,
+"index": 154,
+"number": 39,
+"check": 4,
+"remembered": "Alimo 39",
+"written": "Alimo 39-4",
+"machine": "24-154-00039-4"
+},
+{
+"sector": 24,
+"index": 68,
+"number": 172,
+"check": 9,
+"remembered": "Pate Bana 172",
+"written": "Pate Bana 172-9",
+"machine": "24-068-00172-9"
+},
+{
+"sector": 75,
+"index": 18,
+"number": 86,
+"check": 0,
+"remembered": "Caramacó 86",
+"written": "Caramacó 86-0",
+"machine": "75-018-00086-0"
+},
+{
+"sector": 10,
+"index": 15,
+"number": 4190,
+"check": 2,
+"remembered": "Zona Sete 4190",
+"written": "Zona Sete 4190-2",
+"machine": "10-015-04190-2"
+},
+{
+"sector": 33,
+"index": 18,
+"number": 60,
+"check": 5,
+"remembered": "Ambeduco 60",
+"written": "Ambeduco 60-5",
+"machine": "33-018-00060-5"
+},
+{
+"sector": 62,
+"index": 114,
+"number": 67,
+"check": 4,
+"remembered": "Demba Ialare 67",
+"written": "Demba Ialare 67-4",
+"machine": "62-114-00067-4"
+},
+{
+"sector": 83,
+"index": 73,
+"number": 30,
+"check": 6,
+"remembered": "Roncò 30",
+"written": "Roncò 30-6",
+"machine": "83-073-00030-6"
+},
+{
+"sector": 94,
+"index": 24,
+"number": 289,
+"check": 7,
+"remembered": "Caiar 289",
+"written": "Caiar 289-7",
+"machine": "94-024-00289-7"
+},
+{
+"sector": 82,
+"index": 56,
+"number": 511,
+"check": 8,
+"remembered": "Cancumba 511",
+"written": "Cancumba 511-8",
+"machine": "82-056-00511-8"
+},
+{
+"sector": 71,
+"index": 34,
+"number": 70,
+"check": 3,
+"remembered": "Insumeté 70",
+"written": "Insumeté 70-3",
+"machine": "71-034-00070-3"
+},
+{
+"sector": 81,
+"index": 34,
+"number": 238,
+"check": 1,
+"remembered": "Bojol 238",
+"written": "Bojol 238-1",
+"machine": "81-034-00238-1"
+},
+{
+"sector": 95,
+"index": 27,
+"number": 265,
+"check": 2,
+"remembered": "Chamarra 265",
+"written": "Chamarra 265-2",
+"machine": "95-027-00265-2"
+},
+{
+"sector": 52,
+"index": 66,
+"number": 62,
+"check": 9,
+"remembered": "Hopfer 62",
+"written": "Hopfer 62-9",
+"machine": "52-066-00062-9"
+},
+{
+"sector": 64,
+"index": 108,
+"number": 458,
+"check": 4,
+"remembered": "Demba Jamiel 458",
+"written": "Demba Jamiel 458-4",
+"machine": "64-108-00458-4"
+},
+{
+"sector": 21,
+"index": 83,
+"number": 7,
+"check": 1,
+"remembered": "Maonga 7",
+"written": "Maonga 7-1",
+"machine": "21-083-00007-1"
+},
+{
+"sector": 55,
+"index": 116,
+"number": 66,
+"check": 9,
+"remembered": "Cachabate 66",
+"written": "Cachabate 66-9",
+"machine": "55-116-00066-9"
+},
+{
+"sector": 61,
+"index": 44,
+"number": 87,
+"check": 2,
+"remembered": "Ca Quidima 87",
+"written": "Ca Quidima 87-2",
+"machine": "61-044-00087-2"
+},
+{
+"sector": 83,
+"index": 20,
+"number": 186,
+"check": 0,
+"remembered": "Gancherno 186",
+"written": "Gancherno 186-0",
+"machine": "83-020-00186-0"
+},
+{
+"sector": 55,
+"index": 151,
+"number": 43,
+"check": 7,
+"remembered": "Catora 43",
+"written": "Catora 43-7",
+"machine": "55-151-00043-7"
+},
+{
+"sector": 34,
+"index": 56,
+"number": 3,
+"check": 3,
+"remembered": "Bidjembe 3",
+"written": "Bidjembe 3-3",
+"machine": "34-056-00003-3"
+},
+{
+"sector": 73,
+"index": 128,
+"number": 1001,
+"check": 2,
+"remembered": "Cambaju 1001",
+"written": "Cambaju 1001-2",
+"machine": "73-128-01001-2"
+},
+{
+"sector": 63,
+"index": 94,
+"number": 22,
+"check": 2,
+"remembered": "Iufaná 22",
+"written": "Iufaná 22-2",
+"machine": "63-094-00022-2"
+},
+{
+"sector": 23,
+"index": 83,
+"number": 90,
+"check": 0,
+"remembered": "Tabaúma 90",
+"written": "Tabaúma 90-0",
+"machine": "23-083-00090-0"
+},
+{
+"sector": 63,
+"index": 73,
+"number": 190,
+"check": 3,
+"remembered": "Dinga Ioba 190",
+"written": "Dinga Ioba 190-3",
+"machine": "63-073-00190-3"
+},
+{
+"sector": 72,
+"index": 64,
+"number": 281,
+"check": 7,
+"remembered": "Temanto 281",
+"written": "Temanto 281-7",
+"machine": "72-064-00281-7"
+},
+{
+"sector": 51,
+"index": 73,
+"number": 178,
+"check": 4,
+"remembered": "Binham 178",
+"written": "Binham 178-4",
+"machine": "51-073-00178-4"
+},
+{
+"sector": 26,
+"index": 109,
+"number": 2,
+"check": 4,
+"remembered": "Jombocari 2",
+"written": "Jombocari 2-4",
+"machine": "26-109-00002-4"
+},
+{
+"sector": 94,
+"index": 3,
+"number": 11,
+"check": 3,
+"remembered": "Cauane 11",
+"written": "Cauane 11-3",
+"machine": "94-003-00011-3"
+},
+{
+"sector": 53,
+"index": 102,
+"number": 326,
+"check": 0,
+"remembered": "Cacheu 326",
+"written": "Cacheu 326-0",
+"machine": "53-102-00326-0"
+},
+{
+"sector": 55,
+"index": 47,
+"number": 115,
+"check": 8,
+"remembered": "Uatchitcha 115",
+"written": "Uatchitcha 115-8",
+"machine": "55-047-00115-8"
+},
+{
+"sector": 81,
+"index": 31,
+"number": 4158,
+"check": 4,
+"remembered": "Madina 4158",
+"written": "Madina 4158-4",
+"machine": "81-031-04158-4"
+},
+{
+"sector": 52,
+"index": 74,
+"number": 2,
+"check": 4,
+"remembered": "Utanque 2",
+"written": "Utanque 2-4",
+"machine": "52-074-00002-4"
+},
+{
+"sector": 23,
+"index": 65,
+"number": 351,
+"check": 0,
+"remembered": "Iero Nai 351",
+"written": "Iero Nai 351-0",
+"machine": "23-065-00351-0"
+},
+{
+"sector": 74,
+"index": 20,
+"number": 307,
+"check": 1,
+"remembered": "Uaque 307",
+"written": "Uaque 307-1",
+"machine": "74-020-00307-1"
+},
+{
+"sector": 25,
+"index": 128,
+"number": 1039,
+"check": 2,
+"remembered": "Sare Chumbo 1039",
+"written": "Sare Chumbo 1039-2",
+"machine": "25-128-01039-2"
+},
+{
+"sector": 23,
+"index": 33,
+"number": 24,
+"check": 3,
+"remembered": "Sinchã Umaro 24",
+"written": "Sinchã Umaro 24-3",
+"machine": "23-033-00024-3"
+},
+{
+"sector": 95,
+"index": 54,
+"number": 91,
+"check": 0,
+"remembered": "Sare Donhà 91",
+"written": "Sare Donhà 91-0",
+"machine": "95-054-00091-0"
+},
+{
+"sector": 56,
+"index": 97,
+"number": 13,
+"check": 9,
+"remembered": "Nhataba 13",
+"written": "Nhataba 13-9",
+"machine": "56-097-00013-9"
+},
+{
+"sector": 31,
+"index": 30,
+"number": 31,
+"check": 5,
+"remembered": "Salanca 31",
+"written": "Salanca 31-5",
+"machine": "31-030-00031-5"
+},
+{
+"sector": 62,
+"index": 3,
+"number": 29,
+"check": 7,
+"remembered": "Dembalô 29",
+"written": "Dembalô 29-7",
+"machine": "62-003-00029-7"
+},
+{
+"sector": 73,
+"index": 132,
+"number": 8,
+"check": 8,
+"remembered": "Nhangasia 8",
+"written": "Nhangasia 8-8",
+"machine": "73-132-00008-8"
+},
+{
+"sector": 75,
+"index": 29,
+"number": 19,
+"check": 9,
+"remembered": "Subal 19",
+"written": "Subal 19-9",
+"machine": "75-029-00019-9"
+},
+{
+"sector": 92,
+"index": 20,
+"number": 484,
+"check": 6,
+"remembered": "Calaque 484",
+"written": "Calaque 484-6",
+"machine": "92-020-00484-6"
+},
+{
+"sector": 65,
+"index": 13,
+"number": 123,
+"check": 1,
+"remembered": "Nhapo 123",
+"written": "Nhapo 123-1",
+"machine": "65-013-00123-1"
+},
+{
+"sector": 83,
+"index": 5,
+"number": 92,
+"check": 6,
+"remembered": "Gancali 92",
+"written": "Gancali 92-6",
+"machine": "83-005-00092-6"
+},
+{
+"sector": 91,
+"index": 76,
+"number": 216,
+"check": 9,
+"remembered": "Cafal 216",
+"written": "Cafal 216-9",
+"machine": "91-076-00216-9"
+},
+{
+"sector": 75,
+"index": 21,
+"number": 24,
+"check": 7,
+"remembered": "Oco Grande 24",
+"written": "Oco Grande 24-7",
+"machine": "75-021-00024-7"
+},
+{
+"sector": 82,
+"index": 45,
+"number": 67,
+"check": 3,
+"remembered": "Binhal 67",
+"written": "Binhal 67-3",
+"machine": "82-045-00067-3"
+},
+{
+"sector": 74,
+"index": 80,
+"number": 99,
+"check": 4,
+"remembered": "Querene 99",
+"written": "Querene 99-4",
+"machine": "74-080-00099-4"
+},
+{
+"sector": 32,
+"index": 27,
+"number": 1429,
+"check": 8,
+"remembered": "Posto 1429",
+"written": "Posto 1429-8",
+"machine": "32-027-01429-8"
+},
+{
+"sector": 26,
+"index": 63,
+"number": 86,
+"check": 6,
+"remembered": "Chumael 86",
+"written": "Chumael 86-6",
+"machine": "26-063-00086-6"
+},
+{
+"sector": 22,
+"index": 96,
+"number": 134,
+"check": 1,
+"remembered": "Gambicilai 134",
+"written": "Gambicilai 134-1",
+"machine": "22-096-00134-1"
+},
+{
+"sector": 64,
+"index": 9,
+"number": 38,
+"check": 3,
+"remembered": "Sinchã Coi 38",
+"written": "Sinchã Coi 38-3",
+"machine": "64-009-00038-3"
+},
+{
+"sector": 51,
+"index": 85,
+"number": 47,
+"check": 4,
+"remembered": "Jambacunda 47",
+"written": "Jambacunda 47-4",
+"machine": "51-085-00047-4"
+},
+{
+"sector": 25,
+"index": 26,
+"number": 151,
+"check": 8,
+"remembered": "Cheuel 151",
+"written": "Cheuel 151-8",
+"machine": "25-026-00151-8"
+},
+{
+"sector": 75,
+"index": 97,
+"number": 252,
+"check": 4,
+"remembered": "Chumbume 252",
+"written": "Chumbume 252-4",
+"machine": "75-097-00252-4"
+},
+{
+"sector": 72,
+"index": 233,
+"number": 19,
+"check": 6,
+"remembered": "Sare Nhaco 19",
+"written": "Sare Nhaco 19-6",
+"machine": "72-233-00019-6"
+},
+{
+"sector": 62,
+"index": 95,
+"number": 745,
+"check": 2,
+"remembered": "Farina 745",
+"written": "Farina 745-2",
+"machine": "62-095-00745-2"
+},
+{
+"sector": 64,
+"index": 12,
+"number": 55,
+"check": 9,
+"remembered": "Daro 55",
+"written": "Daro 55-9",
+"machine": "64-012-00055-9"
+},
+{
+"sector": 21,
+"index": 112,
+"number": 70,
+"check": 1,
+"remembered": "Madina Iobà 70",
+"written": "Madina Iobà 70-1",
+"machine": "21-112-00070-1"
+},
+{
+"sector": 74,
+"index": 15,
+"number": 247,
+"check": 0,
+"remembered": "Claque 247",
+"written": "Claque 247-0",
+"machine": "74-015-00247-0"
+},
+{
+"sector": 32,
+"index": 14,
+"number": 88,
+"check": 4,
+"remembered": "Ambeno 88",
+"written": "Ambeno 88-4",
+"machine": "32-014-00088-4"
+},
+{
+"sector": 53,
+"index": 40,
+"number": 40,
+"check": 0,
+"remembered": "Utama 40",
+"written": "Utama 40-0",
+"machine": "53-040-00040-0"
+},
+{
+"sector": 24,
+"index": 24,
+"number": 423,
+"check": 1,
+"remembered": "Sinchã Delo 423",
+"written": "Sinchã Delo 423-1",
+"machine": "24-024-00423-1"
+},
+{
+"sector": 71,
+"index": 107,
+"number": 203,
+"check": 7,
+"remembered": "Encheia 203",
+"written": "Encheia 203-7",
+"machine": "71-107-00203-7"
+},
+{
+"sector": 55,
+"index": 45,
+"number": 137,
+"check": 3,
+"remembered": "Ganjanbali 137",
+"written": "Ganjanbali 137-3",
+"machine": "55-045-00137-3"
+},
+{
+"sector": 34,
+"index": 27,
+"number": 7,
+"check": 9,
+"remembered": "Gossica 7",
+"written": "Gossica 7-9",
+"machine": "34-027-00007-9"
+},
+{
+"sector": 72,
+"index": 94,
+"number": 6975,
+"check": 6,
+"remembered": "Missirá 6975",
+"written": "Missirá 6975-6",
+"machine": "72-094-06975-6"
+},
+{
+"sector": 55,
+"index": 126,
+"number": 45,
+"check": 1,
+"remembered": "Peutab 45",
+"written": "Peutab 45-1",
+"machine": "55-126-00045-1"
+},
+{
+"sector": 22,
+"index": 132,
+"number": 38,
+"check": 6,
+"remembered": "Corubal 38",
+"written": "Corubal 38-6",
+"machine": "22-132-00038-6"
+},
+{
+"sector": 93,
+"index": 74,
+"number": 21,
+"check": 1,
+"remembered": "Incomené 21",
+"written": "Incomené 21-1",
+"machine": "93-074-00021-1"
+},
+{
+"sector": 56,
+"index": 7,
+"number": 6,
+"check": 9,
+"remembered": "Joninque 6",
+"written": "Joninque 6-9",
+"machine": "56-007-00006-9"
+},
+{
+"sector": 74,
+"index": 12,
+"number": 41,
+"check": 8,
+"remembered": "Loré 41",
+"written": "Loré 41-8",
+"machine": "74-012-00041-8"
+},
+{
+"sector": 34,
+"index": 58,
+"number": 194,
+"check": 9,
+"remembered": "Eticoba 194",
+"written": "Eticoba 194-9",
+"machine": "34-058-00194-9"
+},
+{
+"sector": 55,
+"index": 51,
+"number": 136,
+"check": 5,
+"remembered": "Capetal 136",
+"written": "Capetal 136-5",
+"machine": "55-051-00136-5"
+}
+],
+"found": [
+{
+"text": "Sagoiá 31",
+"machine": "64-070-00031-5"
+},
+{
+"text": "Sagoiá 31-5",
+"machine": "64-070-00031-5"
+},
+{
+"text": "Dingal 442",
+"machine": "52-056-00442-0"
+},
+{
+"text": "Dingal 442-0",
+"machine": "52-056-00442-0"
+},
+{
+"text": "Quebá Jilã 20",
+"machine": "22-112-00020-2"
+},
+{
+"text": "Quebá Jilã 20-2",
+"machine": "22-112-00020-2"
+},
+{
+"text": "Sinchã Fugà 341",
+"machine": "23-166-00341-3"
+},
+{
+"text": "Sinchã Fugà 341-3",
+"machine": "23-166-00341-3"
+},
+{
+"text": "Yussi 63",
+"machine": "84-047-00063-3"
+},
+{
+"text": "Yussi 63-3",
+"machine": "84-047-00063-3"
+},
+{
+"text": "Comuda 3658",
+"machine": "21-042-03658-4"
+},
+{
+"text": "Comuda 3658-4",
+"machine": "21-042-03658-4"
+},
+{
+"text": "Ganfodebá 6",
+"machine": "31-011-00006-2"
+},
+{
+"text": "Ganfodebá 6-2",
+"machine": "31-011-00006-2"
+},
+{
+"text": "Guro 8",
+"machine": "23-047-00008-4"
+},
+{
+"text": "Guro 8-4",
+"machine": "23-047-00008-4"
+},
+{
+"text": "Fajonquito 960",
+"machine": "23-028-00960-1"
+},
+{
+"text": "Fajonquito 960-1",
+"machine": "23-028-00960-1"
+},
+{
+"text": "Boussoura 9",
+"machine": "61-002-00009-0"
+},
+{
+"text": "Boussoura 9-0",
+"machine": "61-002-00009-0"
+},
+{
+"text": "Buncoi 156",
+"machine": "31-085-00156-1"
+},
+{
+"text": "Buncoi 156-1",
+"machine": "31-085-00156-1"
+},
+{
+"text": "Mansabá 6013",
+"machine": "82-012-06013-8"
+},
+{
+"text": "Mansabá 6013-8",
+"machine": "82-012-06013-8"
+},
+{
+"text": "Duntum 394",
+"machine": "26-093-00394-2"
+},
+{
+"text": "Duntum 394-2",
+"machine": "26-093-00394-2"
+},
+{
+"text": "Petasse 164",
+"machine": "54-014-00164-8"
+},
+{
+"text": "Petasse 164-8",
+"machine": "54-014-00164-8"
+},
+{
+"text": "Canchumà 134",
+"machine": "82-051-00134-3"
+},
+{
+"text": "Canchumà 134-3",
+"machine": "82-051-00134-3"
+},
+{
+"text": "Umual 48",
+"machine": "53-043-00048-7"
+},
+{
+"text": "Umual 48-7",
+"machine": "53-043-00048-7"
+},
+{
+"text": "Jogró 211",
+"machine": "42-043-00211-6"
+},
+{
+"text": "Jogró 211-6",
+"machine": "42-043-00211-6"
+},
+{
+"text": "Macájè 417",
+"machine": "62-156-00417-2"
+},
+{
+"text": "Macájè 417-2",
+"machine": "62-156-00417-2"
+},
+{
+"text": "Bijope 170",
+"machine": "53-106-00170-0"
+},
+{
+"text": "Bijope 170-0",
+"machine": "53-106-00170-0"
+},
+{
+"text": "Mancagna 17",
+"machine": "83-057-00017-2"
+},
+{
+"text": "Mancagna 17-2",
+"machine": "83-057-00017-2"
+},
+{
+"text": "Copiro 178",
+"machine": "64-079-00178-9"
+},
+{
+"text": "Copiro 178-9",
+"machine": "64-079-00178-9"
+},
+{
+"text": "Camaiupa 184",
+"machine": "93-030-00184-8"
+},
+{
+"text": "Camaiupa 184-8",
+"machine": "93-030-00184-8"
+},
+{
+"text": "Maca 77",
+"machine": "51-041-00077-8"
+},
+{
+"text": "Maca 77-8",
+"machine": "51-041-00077-8"
+},
+{
+"text": "Binhalom 6",
+"machine": "83-029-00006-0"
+},
+{
+"text": "Binhalom 6-0",
+"machine": "83-029-00006-0"
+},
+{
+"text": "Bissau Velho 416",
+"machine": "10-033-00416-8"
+},
+{
+"text": "Bissau Velho 416-8",
+"machine": "10-033-00416-8"
+},
+{
+"text": "Daifa 2",
+"machine": "63-099-00002-1"
+},
+{
+"text": "Daifa 2-1",
+"machine": "63-099-00002-1"
+},
+{
+"text": "Concomelo 993",
+"machine": "63-049-00993-7"
+},
+{
+"text": "Concomelo 993-7",
+"machine": "63-049-00993-7"
+},
+{
+"text": "Sare Chumbo 572",
+"machine": "25-159-00572-1"
+},
+{
+"text": "Sare Chumbo 572-1",
+"machine": "25-159-00572-1"
+},
+{
+"text": "Genicó 16",
+"machine": "72-065-00016-6"
+},
+{
+"text": "Genicó 16-6",
+"machine": "72-065-00016-6"
+},
+{
+"text": "Canquelifá 5036",
+"machine": "64-123-05036-2"
+},
+{
+"text": "Canquelifá 5036-2",
+"machine": "64-123-05036-2"
+},
+{
+"text": "Ieroiel 7",
+"machine": "95-013-00007-1"
+},
+{
+"text": "Ieroiel 7-1",
+"machine": "95-013-00007-1"
+},
+{
+"text": "Queuel 177",
+"machine": "62-123-00177-9"
+},
+{
+"text": "Queuel 177-9",
+"machine": "62-123-00177-9"
+},
+{
+"text": "Demba 156",
+"machine": "64-104-00156-7"
+},
+{
+"text": "Demba 156-7",
+"machine": "64-104-00156-7"
+},
+{
+"text": "Cumbajuba 146",
+"machine": "62-037-00146-0"
+},
+{
+"text": "Cumbajuba 146-0",
+"machine": "62-037-00146-0"
+},
+{
+"text": "Catunai 8",
+"machine": "92-081-00008-7"
+},
+{
+"text": "Catunai 8-7",
+"machine": "92-081-00008-7"
+},
+{
+"text": "Cancasso 72",
+"machine": "81-005-00072-0"
+},
+{
+"text": "Cancasso 72-0",
+"machine": "81-005-00072-0"
+},
+{
+"text": "Barraca Lugar 100",
+"machine": "56-072-00100-0"
+},
+{
+"text": "Barraca Lugar 100-0",
+"machine": "56-072-00100-0"
+},
+{
+"text": "Cantora 39",
+"machine": "52-002-00039-0"
+},
+{
+"text": "Cantora 39-0",
+"machine": "52-002-00039-0"
+},
+{
+"text": "Përula 43",
+"machine": "53-048-00043-5"
+},
+{
+"text": "Përula 43-5",
+"machine": "53-048-00043-5"
+},
+{
+"text": "Buba 10222",
+"machine": "81-000-10222-5"
+},
+{
+"text": "Buba 10222-5",
+"machine": "81-000-10222-5"
+},
+{
+"text": "Braíma 1183",
+"machine": "65-060-01183-2"
+},
+{
+"text": "Braíma 1183-2",
+"machine": "65-060-01183-2"
+},
+{
+"text": "Fula Mori 202",
+"machine": "26-078-00202-5"
+},
+{
+"text": "Fula Mori 202-5",
+"machine": "26-078-00202-5"
+},
+{
+"text": "Fulamansa 5060",
+"machine": "64-103-05060-6"
+},
+{
+"text": "Fulamansa 5060-6",
+"machine": "64-103-05060-6"
+},
+{
+"text": "Fenjanja 35",
+"machine": "52-111-00035-3"
+},
+{
+"text": "Fenjanja 35-3",
+"machine": "52-111-00035-3"
+},
+{
+"text": "Fangasse 359",
+"machine": "51-018-00359-2"
+},
+{
+"text": "Fangasse 359-2",
+"machine": "51-018-00359-2"
+},
+{
+"text": "Cuntanga 251",
+"machine": "75-011-00251-8"
+},
+{
+"text": "Cuntanga 251-8",
+"machine": "75-011-00251-8"
+},
+{
+"text": "Luguré 6",
+"machine": "61-043-00006-8"
+},
+{
+"text": "Luguré 6-8",
+"machine": "61-043-00006-8"
+},
+{
+"text": "Ejatem 104",
+"machine": "56-012-00104-5"
+},
+{
+"text": "Ejatem 104-5",
+"machine": "56-012-00104-5"
+},
+{
+"text": "Cambom 50",
+"machine": "92-041-00050-6"
+},
+{
+"text": "Cambom 50-6",
+"machine": "92-041-00050-6"
+},
+{
+"text": "Cuncum 151",
+"machine": "53-063-00151-5"
+},
+{
+"text": "Cuncum 151-5",
+"machine": "53-063-00151-5"
+},
+{
+"text": "Kolajer 2",
+"machine": "56-056-00002-7"
+},
+{
+"text": "Kolajer 2-7",
+"machine": "56-056-00002-7"
+},
+{
+"text": "Queruane 1001",
+"machine": "31-065-01001-0"
+},
+{
+"text": "Queruane 1001-0",
+"machine": "31-065-01001-0"
+},
+{
+"text": "Catábà Fali 418",
+"machine": "62-058-00418-7"
+},
+{
+"text": "Catábà Fali 418-7",
+"machine": "62-058-00418-7"
+},
+{
+"text": "Quebacar 161",
+"machine": "55-076-00161-9"
+},
+{
+"text": "Quebacar 161-9",
+"machine": "55-076-00161-9"
+},
+{
+"text": "Jaubècuta 46",
+"machine": "24-065-00046-4"
+},
+{
+"text": "Jaubècuta 46-4",
+"machine": "24-065-00046-4"
+},
+{
+"text": "Eticunda 188",
+"machine": "33-066-00188-6"
+},
+{
+"text": "Eticunda 188-6",
+"machine": "33-066-00188-6"
+},
+{
+"text": "Banjulo 30",
+"machine": "64-114-00030-5"
+},
+{
+"text": "Banjulo 30-5",
+"machine": "64-114-00030-5"
+},
+{
+"text": "Ucugne 551",
+"machine": "55-090-00551-7"
+},
+{
+"text": "Ucugne 551-7",
+"machine": "55-090-00551-7"
+},
+{
+"text": "Badancar 145",
+"machine": "72-027-00145-0"
+},
+{
+"text": "Badancar 145-0",
+"machine": "72-027-00145-0"
+},
+{
+"text": "Manaca 68",
+"machine": "71-110-00068-8"
+},
+{
+"text": "Manaca 68-8",
+"machine": "71-110-00068-8"
+},
+{
+"text": "Belel 606",
+"machine": "84-028-00606-9"
+},
+{
+"text": "Belel 606-9",
+"machine": "84-028-00606-9"
+},
+{
+"text": "Mantampa 14",
+"machine": "84-057-00014-9"
+},
+{
+"text": "Mantampa 14-9",
+"machine": "84-057-00014-9"
+},
+{
+"text": "Ancanho 1545",
+"machine": "32-012-01545-9"
+},
+{
+"text": "Ancanho 1545-9",
+"machine": "32-012-01545-9"
+},
+{
+"text": "Guiro Jau 4",
+"machine": "95-015-00004-7"
+},
+{
+"text": "Guiro Jau 4-7",
+"machine": "95-015-00004-7"
+},
+{
+"text": "Caduncó 42",
+"machine": "62-111-00042-0"
+},
+{
+"text": "Caduncó 42-0",
+"machine": "62-111-00042-0"
+},
+{
+"text": "Sinchã Mariu 8",
+"machine": "64-173-00008-2"
+},
+{
+"text": "Sinchã Mariu 8-2",
+"machine": "64-173-00008-2"
+},
+{
+"text": "Dembel Uri 191",
+"machine": "65-021-00191-1"
+},
+{
+"text": "Dembel Uri 191-1",
+"machine": "65-021-00191-1"
+},
+{
+"text": "Sare Patè 536",
+"machine": "25-162-00536-0"
+},
+{
+"text": "Sare Patè 536-0",
+"machine": "25-162-00536-0"
+},
+{
+"text": "Quijim 25",
+"machine": "71-026-00025-9"
+},
+{
+"text": "Quijim 25-9",
+"machine": "71-026-00025-9"
+},
+{
+"text": "Cumano 922",
+"machine": "43-031-00922-4"
+},
+{
+"text": "Cumano 922-4",
+"machine": "43-031-00922-4"
+},
+{
+"text": "Pinjanguru 59",
+"machine": "53-097-00059-5"
+},
+{
+"text": "Pinjanguru 59-5",
+"machine": "53-097-00059-5"
+},
+{
+"text": "Cumbijã 467",
+"machine": "95-008-00467-4"
+},
+{
+"text": "Cumbijã 467-4",
+"machine": "95-008-00467-4"
+},
+{
+"text": "Uncal 482",
+"machine": "53-068-00482-5"
+},
+{
+"text": "Uncal 482-5",
+"machine": "53-068-00482-5"
+},
+{
+"text": "Bajanacunda 9",
+"machine": "72-159-00009-7"
+},
+{
+"text": "Bajanacunda 9-7",
+"machine": "72-159-00009-7"
+},
+{
+"text": "Sonaco 1091",
+"machine": "65-000-01091-7"
+},
+{
+"text": "Sonaco 1091-7",
+"machine": "65-000-01091-7"
+},
+{
+"text": "Blom 2334",
+"machine": "43-034-02334-3"
+},
+{
+"text": "Blom 2334-3",
+"machine": "43-034-02334-3"
+},
+{
+"text": "Santancoto 145",
+"machine": "72-008-00145-3"
+},
+{
+"text": "Santancoto 145-3",
+"machine": "72-008-00145-3"
+},
+{
+"text": "Sagar 85",
+"machine": "64-083-00085-4"
+},
+{
+"text": "Sagar 85-4",
+"machine": "64-083-00085-4"
+},
+{
+"text": "Pampe 6",
+"machine": "26-028-00006-3"
+},
+{
+"text": "Pampe 6-3",
+"machine": "26-028-00006-3"
+},
+{
+"text": "Pentia 55",
+"machine": "55-060-00055-9"
+},
+{
+"text": "Pentia 55-9",
+"machine": "55-060-00055-9"
+},
+{
+"text": "Oco Maunde 1126",
+"machine": "62-036-01126-0"
+},
+{
+"text": "Oco Maunde 1126-0",
+"machine": "62-036-01126-0"
+},
+{
+"text": "Damé 92",
+"machine": "74-086-00092-9"
+},
+{
+"text": "Damé 92-9",
+"machine": "74-086-00092-9"
+},
+{
+"text": "Dua 115",
+"machine": "83-064-00115-0"
+},
+{
+"text": "Dua 115-0",
+"machine": "83-064-00115-0"
+},
+{
+"text": "Ussumane 1219",
+"machine": "61-018-01219-3"
+},
+{
+"text": "Ussumane 1219-3",
+"machine": "61-018-01219-3"
+},
+{
+"text": "Queroane 1104",
+"machine": "22-002-01104-2"
+},
+{
+"text": "Queroane 1104-2",
+"machine": "22-002-01104-2"
+},
+{
+"text": "Cai 72",
+"machine": "73-047-00072-8"
+},
+{
+"text": "Cai 72-8",
+"machine": "73-047-00072-8"
+},
+{
+"text": "Bambadinca 14083",
+"machine": "83-070-14083-8"
+},
+{
+"text": "Bambadinca 14083-8",
+"machine": "83-070-14083-8"
+},
+{
+"text": "Nhaé 628",
+"machine": "71-043-00628-6"
+},
+{
+"text": "Nhaé 628-6",
+"machine": "71-043-00628-6"
+},
+{
+"text": "Gã Chiquinho 90",
+"machine": "83-065-00090-3"
+},
+{
+"text": "Gã Chiquinho 90-3",
+"machine": "83-065-00090-3"
+},
+{
+"text": "Sinchã Iobà 117",
+"machine": "24-045-00117-9"
+},
+{
+"text": "Sinchã Iobà 117-9",
+"machine": "24-045-00117-9"
+},
+{
+"text": "Bamal 17",
+"machine": "53-127-00017-8"
+},
+{
+"text": "Bamal 17-8",
+"machine": "53-127-00017-8"
+},
+{
+"text": "Tancroal 56",
+"machine": "73-125-00056-3"
+},
+{
+"text": "Tancroal 56-3",
+"machine": "73-125-00056-3"
+},
+{
+"text": "Sare Guigui 61",
+"machine": "72-199-00061-5"
+},
+{
+"text": "Sare Guigui 61-5",
+"machine": "72-199-00061-5"
+},
+{
+"text": "Damadunguê 288",
+"machine": "81-016-00288-0"
+},
+{
+"text": "Damadunguê 288-0",
+"machine": "81-016-00288-0"
+},
+{
+"text": "Punconche 185",
+"machine": "55-078-00185-8"
+},
+{
+"text": "Punconche 185-8",
+"machine": "55-078-00185-8"
+},
+{
+"text": "Síbitò 53",
+"machine": "62-089-00053-8"
+},
+{
+"text": "Síbitò 53-8",
+"machine": "62-089-00053-8"
+},
+{
+"text": "Camabé 376",
+"machine": "64-134-00376-0"
+},
+{
+"text": "Camabé 376-0",
+"machine": "64-134-00376-0"
+},
+{
+"text": "Gã Beafada 95",
+"machine": "31-049-00095-4"
+},
+{
+"text": "Gã Beafada 95-4",
+"machine": "31-049-00095-4"
+},
+{
+"text": "Cópà 190",
+"machine": "63-019-00190-8"
+},
+{
+"text": "Cópà 190-8",
+"machine": "63-019-00190-8"
+},
+{
+"text": "Passabe 11",
+"machine": "52-022-00011-4"
+},
+{
+"text": "Passabe 11-4",
+"machine": "52-022-00011-4"
+},
+{
+"text": "Bissussum 21",
+"machine": "52-103-00021-8"
+},
+{
+"text": "Bissussum 21-8",
+"machine": "52-103-00021-8"
+},
+{
+"text": "Sinchã Demba 109",
+"machine": "65-033-00109-2"
+},
+{
+"text": "Sinchã Demba 109-2",
+"machine": "65-033-00109-2"
+},
+{
+"text": "Timbó 307",
+"machine": "93-068-00307-1"
+},
+{
+"text": "Timbó 307-1",
+"machine": "93-068-00307-1"
+},
+{
+"text": "Samaro 168",
+"machine": "26-103-00168-4"
+},
+{
+"text": "Samaro 168-4",
+"machine": "26-103-00168-4"
+},
+{
+"text": "São Paulo 2630",
+"machine": "10-065-02630-1"
+},
+{
+"text": "São Paulo 2630-1",
+"machine": "10-065-02630-1"
+},
+{
+"text": "Mansabandim 514",
+"machine": "71-051-00514-9"
+},
+{
+"text": "Mansabandim 514-9",
+"machine": "71-051-00514-9"
+},
+{
+"text": "Quebo 11022",
+"machine": "91-033-11022-7"
+},
+{
+"text": "Quebo 11022-7",
+"machine": "91-033-11022-7"
+},
+{
+"text": "Cudum Nhinha 169",
+"machine": "65-074-00169-9"
+},
+{
+"text": "Cudum Nhinha 169-9",
+"machine": "65-074-00169-9"
+},
+{
+"text": "Dembel 901",
+"machine": "63-064-00901-4"
+},
+{
+"text": "Dembel 901-4",
+"machine": "63-064-00901-4"
+},
+{
+"text": "Dando 2134",
+"machine": "23-042-02134-8"
+},
+{
+"text": "Dando 2134-8",
+"machine": "23-042-02134-8"
+},
+{
+"text": "Budampiol 21",
+"machine": "83-036-00021-1"
+},
+{
+"text": "Budampiol 21-1",
+"machine": "83-036-00021-1"
+},
+{
+"text": "Cambaju 1206",
+"machine": "23-101-01206-4"
+},
+{
+"text": "Cambaju 1206-4",
+"machine": "23-101-01206-4"
+},
+{
+"text": "Coli Sare 42",
+"machine": "73-038-00042-6"
+},
+{
+"text": "Coli Sare 42-6",
+"machine": "73-038-00042-6"
+},
+{
+"text": "Bruce 278",
+"machine": "34-042-00278-4"
+},
+{
+"text": "Bruce 278-4",
+"machine": "34-042-00278-4"
+},
+{
+"text": "Ancateb 70",
+"machine": "32-038-00070-9"
+},
+{
+"text": "Ancateb 70-9",
+"machine": "32-038-00070-9"
+},
+{
+"text": "Bessunha 43",
+"machine": "74-055-00043-1"
+},
+{
+"text": "Bessunha 43-1",
+"machine": "74-055-00043-1"
+},
+{
+"text": "Gã Juliana 34",
+"machine": "84-025-00034-7"
+},
+{
+"text": "Gã Juliana 34-7",
+"machine": "84-025-00034-7"
+},
+{
+"text": "Ponta Nova 961",
+"machine": "84-063-00961-7"
+},
+{
+"text": "Ponta Nova 961-7",
+"machine": "84-063-00961-7"
+},
+{
+"text": "Faraba 147",
+"machine": "51-102-00147-6"
+},
+{
+"text": "Faraba 147-6",
+"machine": "51-102-00147-6"
+},
+{
+"text": "Gam Mamadu 58",
+"machine": "83-052-00058-3"
+},
+{
+"text": "Gam Mamadu 58-3",
+"machine": "83-052-00058-3"
+},
+{
+"text": "Tabandinto 214",
+"machine": "24-100-00214-8"
+},
+{
+"text": "Tabandinto 214-8",
+"machine": "24-100-00214-8"
+},
+{
+"text": "Pampaire 10",
+"machine": "92-094-00010-9"
+},
+{
+"text": "Pampaire 10-9",
+"machine": "92-094-00010-9"
+},
+{
+"text": "Bula 5014",
+"machine": "52-000-05014-3"
+},
+{
+"text": "Bula 5014-3",
+"machine": "52-000-05014-3"
+},
+{
+"text": "Uangane 692",
+"machine": "91-054-00692-6"
+},
+{
+"text": "Uangane 692-6",
+"machine": "91-054-00692-6"
+},
+{
+"text": "Bunak 283",
+"machine": "56-058-00283-0"
+},
+{
+"text": "Bunak 283-0",
+"machine": "56-058-00283-0"
+},
+{
+"text": "Ujeque 27",
+"machine": "72-015-00027-2"
+},
+{
+"text": "Ujeque 27-2",
+"machine": "72-015-00027-2"
+},
+{
+"text": "Cumporumã 737",
+"machine": "64-095-00737-3"
+},
+{
+"text": "Cumporumã 737-3",
+"machine": "64-095-00737-3"
+},
+{
+"text": "Cã Grande 92",
+"machine": "75-034-00092-6"
+},
+{
+"text": "Cã Grande 92-6",
+"machine": "75-034-00092-6"
+},
+{
+"text": "Bitelhe 225",
+"machine": "33-067-00225-6"
+},
+{
+"text": "Bitelhe 225-6",
+"machine": "33-067-00225-6"
+},
+{
+"text": "Inquida 314",
+"machine": "74-088-00314-1"
+},
+{
+"text": "Inquida 314-1",
+"machine": "74-088-00314-1"
+},
+{
+"text": "Okakadje 147",
+"machine": "55-149-00147-3"
+},
+{
+"text": "Okakadje 147-3",
+"machine": "55-149-00147-3"
+},
+{
+"text": "Mamudo 22",
+"machine": "24-149-00022-6"
+},
+{
+"text": "Mamudo 22-6",
+"machine": "24-149-00022-6"
+},
+{
+"text": "Áfià 12883",
+"machine": "95-028-12883-8"
+},
+{
+"text": "Áfià 12883-8",
+"machine": "95-028-12883-8"
+},
+{
+"text": "Balinjã 4",
+"machine": "26-011-00004-0"
+},
+{
+"text": "Balinjã 4-0",
+"machine": "26-011-00004-0"
+},
+{
+"text": "Uaná 2",
+"machine": "83-030-00002-3"
+},
+{
+"text": "Uaná 2-3",
+"machine": "83-030-00002-3"
+},
+{
+"text": "Velingará 538",
+"machine": "64-044-00538-8"
+},
+{
+"text": "Velingará 538-8",
+"machine": "64-044-00538-8"
+},
+{
+"text": "Bambadinca 5232",
+"machine": "22-000-05232-0"
+},
+{
+"text": "Bambadinca 5232-0",
+"machine": "22-000-05232-0"
+},
+{
+"text": "Colebe 97",
+"machine": "61-071-00097-0"
+},
+{
+"text": "Colebe 97-0",
+"machine": "61-071-00097-0"
+},
+{
+"text": "Sinchã Alfá 188",
+"machine": "64-018-00188-7"
+},
+{
+"text": "Sinchã Alfá 188-7",
+"machine": "64-018-00188-7"
+},
+{
+"text": "Adulai 48",
+"machine": "21-030-00048-0"
+},
+{
+"text": "Adulai 48-0",
+"machine": "21-030-00048-0"
+},
+{
+"text": "Madina 3934",
+"machine": "56-070-03934-7"
+},
+{
+"text": "Madina 3934-7",
+"machine": "56-070-03934-7"
+},
+{
+"text": "Anbuba 42",
+"machine": "32-053-00042-9"
+},
+{
+"text": "Anbuba 42-9",
+"machine": "32-053-00042-9"
+},
+{
+"text": "Umbuganhete 196",
+"machine": "55-081-00196-5"
+},
+{
+"text": "Umbuganhete 196-5",
+"machine": "55-081-00196-5"
+},
+{
+"text": "Bunancar 8",
+"machine": "21-028-00008-4"
+},
+{
+"text": "Bunancar 8-4",
+"machine": "21-028-00008-4"
+},
+{
+"text": "Balomb 456",
+"machine": "53-081-00456-9"
+},
+{
+"text": "Balomb 456-9",
+"machine": "53-081-00456-9"
+},
+{
+"text": "Corrente 127",
+"machine": "42-023-00127-6"
+},
+{
+"text": "Corrente 127-6",
+"machine": "42-023-00127-6"
+},
+{
+"text": "Dungal 83",
+"machine": "72-030-00083-0"
+},
+{
+"text": "Dungal 83-0",
+"machine": "72-030-00083-0"
+},
+{
+"text": "Nhanguê 100",
+"machine": "81-010-00100-3"
+},
+{
+"text": "Nhanguê 100-3",
+"machine": "81-010-00100-3"
+},
+{
+"text": "Bugulha 340",
+"machine": "55-005-00340-6"
+},
+{
+"text": "Bugulha 340-6",
+"machine": "55-005-00340-6"
+},
+{
+"text": "Wite 212",
+"machine": "32-005-00212-0"
+},
+{
+"text": "Wite 212-0",
+"machine": "32-005-00212-0"
+},
+{
+"text": "Paiama 592",
+"machine": "65-135-00592-4"
+},
+{
+"text": "Paiama 592-4",
+"machine": "65-135-00592-4"
+},
+{
+"text": "Ponta Nova 900",
+"machine": "52-028-00900-7"
+},
+{
+"text": "Ponta Nova 900-7",
+"machine": "52-028-00900-7"
+},
+{
+"text": "Jamba 37",
+"machine": "51-099-00037-1"
+},
+{
+"text": "Jamba 37-1",
+"machine": "51-099-00037-1"
+},
+{
+"text": "Sototô 13",
+"machine": "72-232-00013-2"
+},
+{
+"text": "Sototô 13-2",
+"machine": "72-232-00013-2"
+},
+{
+"text": "Rucuto 569",
+"machine": "75-023-00569-6"
+},
+{
+"text": "Rucuto 569-6",
+"machine": "75-023-00569-6"
+},
+{
+"text": "N'Tchangue 384",
+"machine": "75-030-00384-7"
+},
+{
+"text": "N'Tchangue 384-7",
+"machine": "75-030-00384-7"
+},
+{
+"text": "Sare Bacar 192",
+"machine": "23-132-00192-0"
+},
+{
+"text": "Sare Bacar 192-0",
+"machine": "23-132-00192-0"
+},
+{
+"text": "Bacari 700",
+"machine": "65-053-00700-6"
+},
+{
+"text": "Bacari 700-6",
+"machine": "65-053-00700-6"
+},
+{
+"text": "Colhida 97",
+"machine": "22-012-00097-4"
+},
+{
+"text": "Colhida 97-4",
+"machine": "22-012-00097-4"
+},
+{
+"text": "Ancobarra 87",
+"machine": "34-068-00087-3"
+},
+{
+"text": "Ancobarra 87-3",
+"machine": "34-068-00087-3"
+},
+{
+"text": "Ancanam 107",
+"machine": "32-030-00107-8"
+},
+{
+"text": "Ancanam 107-8",
+"machine": "32-030-00107-8"
+},
+{
+"text": "Quitamo 168",
+"machine": "75-077-00168-0"
+},
+{
+"text": "Quitamo 168-0",
+"machine": "75-077-00168-0"
+},
+{
+"text": "Canom 165",
+"machine": "43-008-00165-0"
+},
+{
+"text": "Canom 165-0",
+"machine": "43-008-00165-0"
+},
+{
+"text": "Sinchã Umaro 57",
+"machine": "23-081-00057-6"
+},
+{
+"text": "Sinchã Umaro 57-6",
+"machine": "23-081-00057-6"
+},
+{
+"text": "Gã Farã 8",
+"machine": "74-078-00008-8"
+},
+{
+"text": "Gã Farã 8-8",
+"machine": "74-078-00008-8"
+},
+{
+"text": "Contuba 1389",
+"machine": "71-030-01389-4"
+},
+{
+"text": "Contuba 1389-4",
+"machine": "71-030-01389-4"
+},
+{
+"text": "Djita 345",
+"machine": "55-099-00345-5"
+},
+{
+"text": "Djita 345-5",
+"machine": "55-099-00345-5"
+},
+{
+"text": "Braia 44",
+"machine": "74-014-00044-3"
+},
+{
+"text": "Braia 44-3",
+"machine": "74-014-00044-3"
+},
+{
+"text": "Cundire 300",
+"machine": "91-002-00300-1"
+},
+{
+"text": "Cundire 300-1",
+"machine": "91-002-00300-1"
+},
+{
+"text": "Chacali 87",
+"machine": "22-015-00087-7"
+},
+{
+"text": "Chacali 87-7",
+"machine": "22-015-00087-7"
+},
+{
+"text": "Jabadá 649",
+"machine": "84-062-00649-0"
+},
+{
+"text": "Jabadá 649-0",
+"machine": "84-062-00649-0"
+},
+{
+"text": "Banjuno 48",
+"machine": "83-012-00048-8"
+},
+{
+"text": "Banjuno 48-8",
+"machine": "83-012-00048-8"
+},
+{
+"text": "Sajã 428",
+"machine": "64-098-00428-8"
+},
+{
+"text": "Sajã 428-8",
+"machine": "64-098-00428-8"
+},
+{
+"text": "Demba Taquel 16",
+"machine": "72-174-00016-6"
+},
+{
+"text": "Demba Taquel 16-6",
+"machine": "72-174-00016-6"
+},
+{
+"text": "Canja 34",
+"machine": "51-042-00034-0"
+},
+{
+"text": "Canja 34-0",
+"machine": "51-042-00034-0"
+},
+{
+"text": "Mangatamba 18",
+"machine": "61-041-00018-9"
+},
+{
+"text": "Mangatamba 18-9",
+"machine": "61-041-00018-9"
+},
+{
+"text": "Anquedjo 121",
+"machine": "33-030-00121-9"
+},
+{
+"text": "Anquedjo 121-9",
+"machine": "33-030-00121-9"
+},
+{
+"text": "Iusse 590",
+"machine": "75-095-00590-3"
+},
+{
+"text": "Iusse 590-3",
+"machine": "75-095-00590-3"
+},
+{
+"text": "Cassèfunda 92",
+"machine": "92-061-00092-6"
+},
+{
+"text": "Cassèfunda 92-6",
+"machine": "92-061-00092-6"
+},
+{
+"text": "Tenhegi 82",
+"machine": "22-021-00082-0"
+},
+{
+"text": "Tenhegi 82-0",
+"machine": "22-021-00082-0"
+},
+{
+"text": "Torcino 51",
+"machine": "95-021-00051-4"
+},
+{
+"text": "Torcino 51-4",
+"machine": "95-021-00051-4"
+},
+{
+"text": "Madinael 107",
+"machine": "24-060-00107-9"
+},
+{
+"text": "Madinael 107-9",
+"machine": "24-060-00107-9"
+},
+{
+"text": "Bieu 66",
+"machine": "54-055-00066-5"
+},
+{
+"text": "Bieu 66-5",
+"machine": "54-055-00066-5"
+},
+{
+"text": "Tanta Cossè 867",
+"machine": "21-086-00867-1"
+},
+{
+"text": "Tanta Cossè 867-1",
+"machine": "21-086-00867-1"
+},
+{
+"text": "Batau 376",
+"machine": "53-019-00376-9"
+},
+{
+"text": "Batau 376-9",
+"machine": "53-019-00376-9"
+},
+{
+"text": "Benobe 102",
+"machine": "55-053-00102-0"
+},
+{
+"text": "Benobe 102-0",
+"machine": "55-053-00102-0"
+},
+{
+"text": "Berecobato 24",
+"machine": "73-111-00024-2"
+},
+{
+"text": "Berecobato 24-2",
+"machine": "73-111-00024-2"
+},
+{
+"text": "Sare Jaubè 8",
+"machine": "64-165-00008-5"
+},
+{
+"text": "Sare Jaubè 8-5",
+"machine": "64-165-00008-5"
+},
+{
+"text": "Ianganã 119",
+"machine": "71-002-00119-1"
+},
+{
+"text": "Ianganã 119-1",
+"machine": "71-002-00119-1"
+},
+{
+"text": "Sinchã Jai 5",
+"machine": "62-098-00005-6"
+},
+{
+"text": "Sinchã Jai 5-6",
+"machine": "62-098-00005-6"
+},
+{
+"text": "Amedalai 4927",
+"machine": "25-146-04927-9"
+},
+{
+"text": "Amedalai 4927-9",
+"machine": "25-146-04927-9"
+},
+{
+"text": "Cunhoncome 8",
+"machine": "71-012-00008-8"
+},
+{
+"text": "Cunhoncome 8-8",
+"machine": "71-012-00008-8"
+},
+{
+"text": "Sare Bori 8",
+"machine": "72-139-00008-4"
+},
+{
+"text": "Sare Bori 8-4",
+"machine": "72-139-00008-4"
+},
+{
+"text": "Colonia 180",
+"machine": "31-076-00180-0"
+},
+{
+"text": "Colonia 180-0",
+"machine": "31-076-00180-0"
+},
+{
+"text": "Unfotote 22",
+"machine": "52-120-00022-1"
+},
+{
+"text": "Unfotote 22-1",
+"machine": "52-120-00022-1"
+},
+{
+"text": "Dalabá 42",
+"machine": "61-059-00042-5"
+},
+{
+"text": "Dalabá 42-5",
+"machine": "61-059-00042-5"
+},
+{
+"text": "Sinchã Corca 67",
+"machine": "64-144-00067-3"
+},
+{
+"text": "Sinchã Corca 67-3",
+"machine": "64-144-00067-3"
+},
+{
+"text": "Ilha do Rei 261",
+"machine": "10-016-00261-0"
+},
+{
+"text": "Ilha do Rei 261-0",
+"machine": "10-016-00261-0"
+},
+{
+"text": "Cancubanhe 229",
+"machine": "25-167-00229-0"
+},
+{
+"text": "Cancubanhe 229-0",
+"machine": "25-167-00229-0"
+},
+{
+"text": "Iracunda 143",
+"machine": "73-043-00143-7"
+},
+{
+"text": "Iracunda 143-7",
+"machine": "73-043-00143-7"
+},
+{
+"text": "Cacheuzinho 198",
+"machine": "56-047-00198-4"
+},
+{
+"text": "Cacheuzinho 198-4",
+"machine": "56-047-00198-4"
+},
+{
+"text": "Madina Boé 498",
+"machine": "62-131-00498-7"
+},
+{
+"text": "Madina Boé 498-7",
+"machine": "62-131-00498-7"
+},
+{
+"text": "Mangai 8",
+"machine": "22-003-00008-2"
+},
+{
+"text": "Mangai 8-2",
+"machine": "22-003-00008-2"
+},
+{
+"text": "Dulò Bana 9",
+"machine": "64-132-00009-7"
+},
+{
+"text": "Dulò Bana 9-7",
+"machine": "64-132-00009-7"
+},
+{
+"text": "Tendinto 107",
+"machine": "23-118-00107-3"
+},
+{
+"text": "Tendinto 107-3",
+"machine": "23-118-00107-3"
+},
+{
+"text": "Bôjo Fulbè 144",
+"machine": "24-019-00144-9"
+},
+{
+"text": "Bôjo Fulbè 144-9",
+"machine": "24-019-00144-9"
+},
+{
+"text": "Baradoulo 172",
+"machine": "74-054-00172-0"
+},
+{
+"text": "Baradoulo 172-0",
+"machine": "74-054-00172-0"
+},
+{
+"text": "Badjame 1",
+"machine": "53-116-00001-8"
+},
+{
+"text": "Badjame 1-8",
+"machine": "53-116-00001-8"
+},
+{
+"text": "Imboé 66",
+"machine": "75-054-00066-1"
+},
+{
+"text": "Imboé 66-1",
+"machine": "75-054-00066-1"
+},
+{
+"text": "Nhantandim 412",
+"machine": "23-077-00412-6"
+},
+{
+"text": "Nhantandim 412-6",
+"machine": "23-077-00412-6"
+},
+{
+"text": "Tendinto 889",
+"machine": "26-039-00889-4"
+},
+{
+"text": "Tendinto 889-4",
+"machine": "26-039-00889-4"
+},
+{
+"text": "Bairro Balanta 285",
+"machine": "71-053-00285-7"
+},
+{
+"text": "Bairro Balanta 285-7",
+"machine": "71-053-00285-7"
+},
+{
+"text": "Nema 1193",
+"machine": "21-008-01193-5"
+},
+{
+"text": "Nema 1193-5",
+"machine": "21-008-01193-5"
+},
+{
+"text": "Fulacunda 2052",
+"machine": "82-013-02052-1"
+},
+{
+"text": "Fulacunda 2052-1",
+"machine": "82-013-02052-1"
+},
+{
+"text": "Soncocunda 455",
+"machine": "63-108-00455-7"
+},
+{
+"text": "Soncocunda 455-7",
+"machine": "63-108-00455-7"
+},
+{
+"text": "Ponta Cajete 13",
+"machine": "92-047-00013-2"
+},
+{
+"text": "Ponta Cajete 13-2",
+"machine": "92-047-00013-2"
+},
+{
+"text": "Bianga 512",
+"machine": "53-008-00512-0"
+},
+{
+"text": "Bianga 512-0",
+"machine": "53-008-00512-0"
+},
+{
+"text": "Sija 190",
+"machine": "42-005-00190-3"
+},
+{
+"text": "Sija 190-3",
+"machine": "42-005-00190-3"
+},
+{
+"text": "Cufar 502",
+"machine": "93-025-00502-9"
+},
+{
+"text": "Cufar 502-9",
+"machine": "93-025-00502-9"
+},
+{
+"text": "Incalá 824",
+"machine": "91-046-00824-5"
+},
+{
+"text": "Incalá 824-5",
+"machine": "91-046-00824-5"
+},
+{
+"text": "Bundojidè 16",
+"machine": "23-075-00016-1"
+},
+{
+"text": "Bundojidè 16-1",
+"machine": "23-075-00016-1"
+},
+{
+"text": "Bissabur 160",
+"machine": "51-064-00160-4"
+},
+{
+"text": "Bissabur 160-4",
+"machine": "51-064-00160-4"
+},
+{
+"text": "São João 312",
+"machine": "51-094-00312-4"
+},
+{
+"text": "São João 312-4",
+"machine": "51-094-00312-4"
+},
+{
+"text": "Guebogue 5",
+"machine": "53-074-00005-2"
+},
+{
+"text": "Guebogue 5-2",
+"machine": "53-074-00005-2"
+},
+{
+"text": "Vendu Chamo 22",
+"machine": "61-054-00022-7"
+},
+{
+"text": "Vendu Chamo 22-7",
+"machine": "61-054-00022-7"
+},
+{
+"text": "Alimo 39",
+"machine": "24-154-00039-4"
+},
+{
+"text": "Alimo 39-4",
+"machine": "24-154-00039-4"
+},
+{
+"text": "Pate Bana 172",
+"machine": "24-068-00172-9"
+},
+{
+"text": "Pate Bana 172-9",
+"machine": "24-068-00172-9"
+},
+{
+"text": "Caramacó 86",
+"machine": "75-018-00086-0"
+},
+{
+"text": "Caramacó 86-0",
+"machine": "75-018-00086-0"
+},
+{
+"text": "Zona Sete 4190",
+"machine": "10-015-04190-2"
+},
+{
+"text": "Zona Sete 4190-2",
+"machine": "10-015-04190-2"
+},
+{
+"text": "Ambeduco 60",
+"machine": "33-018-00060-5"
+},
+{
+"text": "Ambeduco 60-5",
+"machine": "33-018-00060-5"
+},
+{
+"text": "Demba Ialare 67",
+"machine": "62-114-00067-4"
+},
+{
+"text": "Demba Ialare 67-4",
+"machine": "62-114-00067-4"
+},
+{
+"text": "Roncò 30",
+"machine": "83-073-00030-6"
+},
+{
+"text": "Roncò 30-6",
+"machine": "83-073-00030-6"
+},
+{
+"text": "Caiar 289",
+"machine": "94-024-00289-7"
+},
+{
+"text": "Caiar 289-7",
+"machine": "94-024-00289-7"
+},
+{
+"text": "Cancumba 511",
+"machine": "82-056-00511-8"
+},
+{
+"text": "Cancumba 511-8",
+"machine": "82-056-00511-8"
+},
+{
+"text": "Insumeté 70",
+"machine": "71-034-00070-3"
+},
+{
+"text": "Insumeté 70-3",
+"machine": "71-034-00070-3"
+},
+{
+"text": "Bojol 238",
+"machine": "81-034-00238-1"
+},
+{
+"text": "Bojol 238-1",
+"machine": "81-034-00238-1"
+},
+{
+"text": "Chamarra 265",
+"machine": "95-027-00265-2"
+},
+{
+"text": "Chamarra 265-2",
+"machine": "95-027-00265-2"
+},
+{
+"text": "Hopfer 62",
+"machine": "52-066-00062-9"
+},
+{
+"text": "Hopfer 62-9",
+"machine": "52-066-00062-9"
+},
+{
+"text": "Demba Jamiel 458",
+"machine": "64-108-00458-4"
+},
+{
+"text": "Demba Jamiel 458-4",
+"machine": "64-108-00458-4"
+},
+{
+"text": "Maonga 7",
+"machine": "21-083-00007-1"
+},
+{
+"text": "Maonga 7-1",
+"machine": "21-083-00007-1"
+},
+{
+"text": "Cachabate 66",
+"machine": "55-116-00066-9"
+},
+{
+"text": "Cachabate 66-9",
+"machine": "55-116-00066-9"
+},
+{
+"text": "Ca Quidima 87",
+"machine": "61-044-00087-2"
+},
+{
+"text": "Ca Quidima 87-2",
+"machine": "61-044-00087-2"
+},
+{
+"text": "Gancherno 186",
+"machine": "83-020-00186-0"
+},
+{
+"text": "Gancherno 186-0",
+"machine": "83-020-00186-0"
+},
+{
+"text": "Catora 43",
+"machine": "55-151-00043-7"
+},
+{
+"text": "Catora 43-7",
+"machine": "55-151-00043-7"
+},
+{
+"text": "Bidjembe 3",
+"machine": "34-056-00003-3"
+},
+{
+"text": "Bidjembe 3-3",
+"machine": "34-056-00003-3"
+},
+{
+"text": "Cambaju 1001",
+"machine": "73-128-01001-2"
+},
+{
+"text": "Cambaju 1001-2",
+"machine": "73-128-01001-2"
+},
+{
+"text": "Iufaná 22",
+"machine": "63-094-00022-2"
+},
+{
+"text": "Iufaná 22-2",
+"machine": "63-094-00022-2"
+},
+{
+"text": "Tabaúma 90",
+"machine": "23-083-00090-0"
+},
+{
+"text": "Tabaúma 90-0",
+"machine": "23-083-00090-0"
+},
+{
+"text": "Dinga Ioba 190",
+"machine": "63-073-00190-3"
+},
+{
+"text": "Dinga Ioba 190-3",
+"machine": "63-073-00190-3"
+},
+{
+"text": "Temanto 281",
+"machine": "72-064-00281-7"
+},
+{
+"text": "Temanto 281-7",
+"machine": "72-064-00281-7"
+},
+{
+"text": "Binham 178",
+"machine": "51-073-00178-4"
+},
+{
+"text": "Binham 178-4",
+"machine": "51-073-00178-4"
+},
+{
+"text": "Jombocari 2",
+"machine": "26-109-00002-4"
+},
+{
+"text": "Jombocari 2-4",
+"machine": "26-109-00002-4"
+},
+{
+"text": "Cauane 11",
+"machine": "94-003-00011-3"
+},
+{
+"text": "Cauane 11-3",
+"machine": "94-003-00011-3"
+},
+{
+"text": "Cacheu 326",
+"machine": "53-102-00326-0"
+},
+{
+"text": "Cacheu 326-0",
+"machine": "53-102-00326-0"
+},
+{
+"text": "Uatchitcha 115",
+"machine": "55-047-00115-8"
+},
+{
+"text": "Uatchitcha 115-8",
+"machine": "55-047-00115-8"
+},
+{
+"text": "Madina 4158",
+"machine": "81-031-04158-4"
+},
+{
+"text": "Madina 4158-4",
+"machine": "81-031-04158-4"
+},
+{
+"text": "Utanque 2",
+"machine": "52-074-00002-4"
+},
+{
+"text": "Utanque 2-4",
+"machine": "52-074-00002-4"
+},
+{
+"text": "Iero Nai 351",
+"machine": "23-065-00351-0"
+},
+{
+"text": "Iero Nai 351-0",
+"machine": "23-065-00351-0"
+},
+{
+"text": "Uaque 307",
+"machine": "74-020-00307-1"
+},
+{
+"text": "Uaque 307-1",
+"machine": "74-020-00307-1"
+},
+{
+"text": "Sare Chumbo 1039",
+"machine": "25-128-01039-2"
+},
+{
+"text": "Sare Chumbo 1039-2",
+"machine": "25-128-01039-2"
+},
+{
+"text": "Sinchã Umaro 24",
+"machine": "23-033-00024-3"
+},
+{
+"text": "Sinchã Umaro 24-3",
+"machine": "23-033-00024-3"
+},
+{
+"text": "Sare Donhà 91",
+"machine": "95-054-00091-0"
+},
+{
+"text": "Sare Donhà 91-0",
+"machine": "95-054-00091-0"
+},
+{
+"text": "Nhataba 13",
+"machine": "56-097-00013-9"
+},
+{
+"text": "Nhataba 13-9",
+"machine": "56-097-00013-9"
+},
+{
+"text": "Salanca 31",
+"machine": "31-030-00031-5"
+},
+{
+"text": "Salanca 31-5",
+"machine": "31-030-00031-5"
+},
+{
+"text": "Dembalô 29",
+"machine": "62-003-00029-7"
+},
+{
+"text": "Dembalô 29-7",
+"machine": "62-003-00029-7"
+},
+{
+"text": "Nhangasia 8",
+"machine": "73-132-00008-8"
+},
+{
+"text": "Nhangasia 8-8",
+"machine": "73-132-00008-8"
+},
+{
+"text": "Subal 19",
+"machine": "75-029-00019-9"
+},
+{
+"text": "Subal 19-9",
+"machine": "75-029-00019-9"
+},
+{
+"text": "Calaque 484",
+"machine": "92-020-00484-6"
+},
+{
+"text": "Calaque 484-6",
+"machine": "92-020-00484-6"
+},
+{
+"text": "Nhapo 123",
+"machine": "65-013-00123-1"
+},
+{
+"text": "Nhapo 123-1",
+"machine": "65-013-00123-1"
+},
+{
+"text": "Gancali 92",
+"machine": "83-005-00092-6"
+},
+{
+"text": "Gancali 92-6",
+"machine": "83-005-00092-6"
+},
+{
+"text": "Cafal 216",
+"machine": "91-076-00216-9"
+},
+{
+"text": "Cafal 216-9",
+"machine": "91-076-00216-9"
+},
+{
+"text": "Oco Grande 24",
+"machine": "75-021-00024-7"
+},
+{
+"text": "Oco Grande 24-7",
+"machine": "75-021-00024-7"
+},
+{
+"text": "Binhal 67",
+"machine": "82-045-00067-3"
+},
+{
+"text": "Binhal 67-3",
+"machine": "82-045-00067-3"
+},
+{
+"text": "Querene 99",
+"machine": "74-080-00099-4"
+},
+{
+"text": "Querene 99-4",
+"machine": "74-080-00099-4"
+},
+{
+"text": "Posto 1429",
+"machine": "32-027-01429-8"
+},
+{
+"text": "Posto 1429-8",
+"machine": "32-027-01429-8"
+},
+{
+"text": "Chumael 86",
+"machine": "26-063-00086-6"
+},
+{
+"text": "Chumael 86-6",
+"machine": "26-063-00086-6"
+},
+{
+"text": "Gambicilai 134",
+"machine": "22-096-00134-1"
+},
+{
+"text": "Gambicilai 134-1",
+"machine": "22-096-00134-1"
+},
+{
+"text": "Sinchã Coi 38",
+"machine": "64-009-00038-3"
+},
+{
+"text": "Sinchã Coi 38-3",
+"machine": "64-009-00038-3"
+},
+{
+"text": "Jambacunda 47",
+"machine": "51-085-00047-4"
+},
+{
+"text": "Jambacunda 47-4",
+"machine": "51-085-00047-4"
+},
+{
+"text": "Cheuel 151",
+"machine": "25-026-00151-8"
+},
+{
+"text": "Cheuel 151-8",
+"machine": "25-026-00151-8"
+},
+{
+"text": "Chumbume 252",
+"machine": "75-097-00252-4"
+},
+{
+"text": "Chumbume 252-4",
+"machine": "75-097-00252-4"
+},
+{
+"text": "Sare Nhaco 19",
+"machine": "72-233-00019-6"
+},
+{
+"text": "Sare Nhaco 19-6",
+"machine": "72-233-00019-6"
+},
+{
+"text": "Farina 745",
+"machine": "62-095-00745-2"
+},
+{
+"text": "Farina 745-2",
+"machine": "62-095-00745-2"
+},
+{
+"text": "Daro 55",
+"machine": "64-012-00055-9"
+},
+{
+"text": "Daro 55-9",
+"machine": "64-012-00055-9"
+},
+{
+"text": "Madina Iobà 70",
+"machine": "21-112-00070-1"
+},
+{
+"text": "Madina Iobà 70-1",
+"machine": "21-112-00070-1"
+},
+{
+"text": "Claque 247",
+"machine": "74-015-00247-0"
+},
+{
+"text": "Claque 247-0",
+"machine": "74-015-00247-0"
+},
+{
+"text": "Ambeno 88",
+"machine": "32-014-00088-4"
+},
+{
+"text": "Ambeno 88-4",
+"machine": "32-014-00088-4"
+},
+{
+"text": "Utama 40",
+"machine": "53-040-00040-0"
+},
+{
+"text": "Utama 40-0",
+"machine": "53-040-00040-0"
+},
+{
+"text": "Sinchã Delo 423",
+"machine": "24-024-00423-1"
+},
+{
+"text": "Sinchã Delo 423-1",
+"machine": "24-024-00423-1"
+},
+{
+"text": "Encheia 203",
+"machine": "71-107-00203-7"
+},
+{
+"text": "Encheia 203-7",
+"machine": "71-107-00203-7"
+},
+{
+"text": "Ganjanbali 137",
+"machine": "55-045-00137-3"
+},
+{
+"text": "Ganjanbali 137-3",
+"machine": "55-045-00137-3"
+},
+{
+"text": "Gossica 7",
+"machine": "34-027-00007-9"
+},
+{
+"text": "Gossica 7-9",
+"machine": "34-027-00007-9"
+},
+{
+"text": "Missirá 6975",
+"machine": "72-094-06975-6"
+},
+{
+"text": "Missirá 6975-6",
+"machine": "72-094-06975-6"
+},
+{
+"text": "Peutab 45",
+"machine": "55-126-00045-1"
+},
+{
+"text": "Peutab 45-1",
+"machine": "55-126-00045-1"
+},
+{
+"text": "Corubal 38",
+"machine": "22-132-00038-6"
+},
+{
+"text": "Corubal 38-6",
+"machine": "22-132-00038-6"
+},
+{
+"text": "Incomené 21",
+"machine": "93-074-00021-1"
+},
+{
+"text": "Incomené 21-1",
+"machine": "93-074-00021-1"
+},
+{
+"text": "Joninque 6",
+"machine": "56-007-00006-9"
+},
+{
+"text": "Joninque 6-9",
+"machine": "56-007-00006-9"
+},
+{
+"text": "Loré 41",
+"machine": "74-012-00041-8"
+},
+{
+"text": "Loré 41-8",
+"machine": "74-012-00041-8"
+},
+{
+"text": "Eticoba 194",
+"machine": "34-058-00194-9"
+},
+{
+"text": "Eticoba 194-9",
+"machine": "34-058-00194-9"
+},
+{
+"text": "Capetal 136",
+"machine": "55-051-00136-5"
+},
+{
+"text": "Capetal 136-5",
+"machine": "55-051-00136-5"
+},
+{
+"text": "Barraca Mandioca 1",
+"machine": "56-069-00001-1"
+},
+{
+"text": "Sinchã Candébè 1",
+"machine": "64-106-00001-2"
+},
+{
+"text": "Ponto do Ingles 1",
+"machine": "22-006-00001-2"
+},
+{
+"text": "Saucunda Beafada 1001",
+"machine": "82-101-01001-7"
+},
+{
+"text": "Gandemba (Dembaiunda) 101",
+"machine": "25-045-00101-6"
+},
+{
+"text": "Sinchã Braíma 1",
+"machine": "64-052-00001-3"
+},
+{
+"text": "Sinchã Samba Seidi 501",
+"machine": "62-054-00501-0"
+},
+{
+"text": "Ponta Caninòcante 1",
+"machine": "34-001-00001-1"
+},
+{
+"text": "Cacafale Nalu 1",
+"machine": "92-092-00001-0"
+},
+{
+"text": "São Miguel Balanta 101",
+"machine": "82-055-00101-7"
+},
+{
+"text": "Ponta Domingos Monteiro 1",
+"machine": "52-033-00001-5"
+},
+{
+"text": "Catão Cassica 1",
+"machine": "56-008-00001-7"
+},
+{
+"text": "Limbi Mangatamba 1",
+"machine": "61-041-00001-4"
+},
+{
+"text": "Sinchã Demba Danejo 301",
+"machine": "63-068-00301-8"
+},
+{
+"text": "Calequechus Mata 1",
+"machine": "53-146-00001-7"
+},
+{
+"text": "Colonia de Baixo 1",
+"machine": "31-076-00001-7"
+},
+{
+"text": "Canchumà Manjaco 201",
+"machine": "82-049-00201-2"
+},
+{
+"text": "Peche Caboiana 1",
+"machine": "53-141-00001-9"
+},
+{
+"text": "Sejo Mandinga 101",
+"machine": "63-008-00101-8"
+},
+{
+"text": "Bassecunda 1",
+"machine": "63-065-00001-6"
+},
+{
+"text": "Salancaur Cul 1",
+"machine": "91-084-00001-1"
+},
+{
+"text": "Calaque Balanta 601",
+"machine": "91-079-00601-5"
+},
+{
+"text": "Madina Bacari 701",
+"machine": "65-053-00701-1"
+},
+{
+"text": "Ponta de Ancàcuá Equinar 1",
+"machine": "33-003-00001-4"
+},
+{
+"text": "Madina Ierò Baldè 1",
+"machine": "65-047-00001-5"
+},
+{
+"text": "Ponta Arif Elawar 1",
+"machine": "21-063-00001-0"
+},
+{
+"text": "Cheuel Bessel Demba 1",
+"machine": "63-085-00001-7"
+},
+{
+"text": "Gubia Mancanha 501",
+"machine": "82-090-00501-2"
+},
+{
+"text": "Nhala de Baixo 1101",
+"machine": "84-002-01101-8"
+},
+{
+"text": "Sinchã Dembuel 1",
+"machine": "25-071-00001-5"
+},
+{
+"text": "P. Augusto Okakadje 1",
+"machine": "55-149-00001-1"
+},
+{
+"text": "Sare Iero Jau 1",
+"machine": "72-113-00001-7"
+},
+{
+"text": "Uasiado (Curral) 1",
+"machine": "31-015-00001-5"
+},
+{
+"text": "Sare Meta Boído 1",
+"machine": "21-119-00001-3"
+},
+{
+"text": "Bolama de Baixo 2001",
+"machine": "31-003-02001-2"
+},
+{
+"text": "Sinchã Barbosa 1",
+"machine": "62-075-00001-8"
+},
+{
+"text": "Sare Iero Nai 1",
+"machine": "23-065-00001-2"
+},
+{
+"text": "Bissássema de Baixo 1",
+"machine": "84-038-00001-5"
+},
+{
+"text": "Sinchã Cambajã 1001",
+"machine": "64-036-01001-3"
+},
+{
+"text": "Candombe Mané 1",
+"machine": "23-108-00001-0"
+},
+{
+"text": "Boa Esperança 1",
+"machine": "93-084-00001-9"
+},
+{
+"text": "Sinchã Queuto 1",
+"machine": "21-029-00001-5"
+},
+{
+"text": "Sucuta (Madina Fali) 1",
+"machine": "25-007-00001-0"
+},
+{
+"text": "Ponta Augusto Soares 1",
+"machine": "42-027-00001-2"
+},
+{
+"text": "Ponta Luís Dias 1",
+"machine": "22-004-00001-2"
+},
+{
+"text": "Sare Nhanhala 1",
+"machine": "23-110-00001-5"
+},
+{
+"text": "Ponta da Negado 1",
+"machine": "42-016-00001-2"
+},
+{
+"text": "Quibir Canabria 1",
+"machine": "91-017-00001-8"
+},
+{
+"text": "Ilhéu de Cisse 1",
+"machine": "55-032-00001-8"
+},
+{
+"text": "Sinchã Famora 21",
+"machine": "25-042-00021-9"
+},
+{
+"text": "Balandugo/Tarige 1",
+"machine": "61-069-00001-7"
+},
+{
+"text": "Ponta Augusto Barreto 1",
+"machine": "56-048-00001-8"
+},
+{
+"text": "Cafachè Manjaco 41",
+"machine": "91-068-00041-6"
+},
+{
+"text": "Sinchã Báquel 1",
+"machine": "25-099-00001-0"
+},
+{
+"text": "Roca Esperança 1",
+"machine": "72-089-00001-6"
+},
+{
+"text": "Sinchã Concomelo 501",
+"machine": "63-049-00501-4"
+},
+{
+"text": "Ponta de Pedra 1",
+"machine": "54-039-00001-0"
+},
+{
+"text": "Catunco Papel 601",
+"machine": "94-009-00601-7"
+},
+{
+"text": "Madina Tambachá 1",
+"machine": "64-042-00001-7"
+},
+{
+"text": "Sinchã Maundè Nhanjô 1",
+"machine": "26-071-00001-9"
+}
+],
+"spots": [
+{
+"lat": 12.028728648069439,
+"lon": -15.599217319507623,
+"sector": 75,
+"code": "75-2421-8485",
+"refined": "75-2421-8485.2",
+"decoded": [
+12.0287269,
+-15.5992222
+],
+"cell": [
+2288,
+4145
+],
+"hilbert": 57299115
+},
+{
+"lat": 12.166753435436592,
+"lon": -15.948293027591461,
+"sector": 55,
+"code": "55-6775-6182",
+"refined": "55-6775-6182.9",
+"decoded": [
+12.1667516,
+-15.9482901
+],
+"cell": [
+6768,
+7512
+],
+"hilbert": 45558976
+},
+{
+"lat": 11.823536544975429,
+"lon": -15.11544742941247,
+"sector": 83,
+"code": "83-5549-6043",
+"refined": "83-5549-6043.6",
+"decoded": [
+11.8235415,
+-15.1154479
+],
+"cell": [
+5464,
+5903
+],
+"hilbert": 36049727
+},
+{
+"lat": 12.48010370908963,
+"lon": -14.522901226697318,
+"sector": 23,
+"code": "23-6258-2529",
+"refined": "23-6258-2529.2",
+"decoded": [
+12.4801129,
+-14.5229029
+],
+"cell": [
+6522,
+2859
+],
+"hilbert": 25565577
+},
+{
+"lat": 12.346401625054995,
+"lon": -16.474991636840915,
+"sector": 56,
+"code": "56-3249-7579",
+"refined": "56-3249-7579.8",
+"decoded": [
+12.3463902,
+-16.4749983
+],
+"cell": [
+3477,
+2959
+],
+"hilbert": 11807590
+},
+{
+"lat": 12.121030546378057,
+"lon": -15.64675405826489,
+"sector": 52,
+"code": "52-8463-2077",
+"refined": "52-8463-2077.5",
+"decoded": [
+12.1210321,
+-15.6467564
+],
+"cell": [
+8627,
+4307
+],
+"hilbert": 229350560
+},
+{
+"lat": 12.06783073059434,
+"lon": -15.479046347503225,
+"sector": 75,
+"code": "75-5583-2144",
+"refined": "75-5583-2144.5",
+"decoded": [
+12.0678325,
+-15.4790464
+],
+"cell": [
+5824,
+5314
+],
+"hilbert": 36571814
+},
+{
+"lat": 11.679387873167009,
+"lon": -14.090702789705128,
+"sector": 61,
+"code": "61-4166-5874",
+"refined": "61-4166-5874.6",
+"decoded": [
+11.6793965,
+-14.090701
+],
+"cell": [
+4657,
+1684
+],
+"hilbert": 18408603
+},
+{
+"lat": 11.772731794672788,
+"lon": -14.892653888192585,
+"sector": 81,
+"code": "81-5982-3421",
+"refined": "81-5982-3421.8",
+"decoded": [
+11.7727278,
+-14.8926596
+],
+"cell": [
+5832,
+9241
+],
+"hilbert": 126245763
+},
+{
+"lat": 11.177729284174672,
+"lon": -15.012785753031528,
+"sector": 91,
+"code": "91-5430-4602",
+"refined": "91-5430-4602.5",
+"decoded": [
+11.1777225,
+-15.0127908
+],
+"cell": [
+5340,
+4062
+],
+"hilbert": 29689868
+},
+{
+"lat": 12.197901551715916,
+"lon": -15.37554598144498,
+"sector": 71,
+"code": "71-8103-0307",
+"refined": "71-8103-0307.5",
+"decoded": [
+12.1978991,
+-15.3755427
+],
+"cell": [
+8000,
+1337
+],
+"hilbert": 23475561
+},
+{
+"lat": 12.34353799656666,
+"lon": -15.746310509264086,
+"sector": 51,
+"code": "51-5251-7093",
+"refined": "51-5251-7093.9",
+"decoded": [
+12.3435349,
+-15.7463172
+],
+"cell": [
+5579,
+2103
+],
+"hilbert": 31022970
+},
+{
+"lat": 12.038338868852787,
+"lon": -15.938530038873576,
+"sector": 55,
+"code": "55-7309-3642",
+"refined": "55-7309-3642.5",
+"decoded": [
+12.0383429,
+-15.9385286
+],
+"cell": [
+7034,
+3962
+],
+"hilbert": 28344354
+},
+{
+"lat": 12.32818292850281,
+"lon": -16.20792436468397,
+"sector": 56,
+"code": "56-7226-9994",
+"refined": "56-7226-9994.8",
+"decoded": [
+12.3281761,
+-16.2079236
+],
+"cell": [
+7299,
+2694
+],
+"hilbert": 27142801
+},
+{
+"lat": 11.62113393985054,
+"lon": -14.670762848930858,
+"sector": 95,
+"code": "95-5514-8052",
+"refined": "95-5514-8052.8",
+"decoded": [
+11.621134,
+-14.6707623
+],
+"cell": [
+5185,
+5402
+],
+"hilbert": 35888109
+},
+{
+"lat": 11.84568243556358,
+"lon": -15.739247977832203,
+"sector": 41,
+"code": "41-4596-9787",
+"refined": "41-4596-9787.9",
+"decoded": [
+11.8456854,
+-15.7392476
+],
+"cell": [
+4998,
+5677
+],
+"hilbert": 35376871
+},
+{
+"lat": 11.188623722068819,
+"lon": -15.286149834125744,
+"sector": 94,
+"code": "94-5358-4948",
+"refined": "94-5358-4948.2",
+"decoded": [
+11.1886239,
+-15.286147
+],
+"cell": [
+5544,
+3898
+],
+"hilbert": 29647148
+},
+{
+"lat": 12.005005091582607,
+"lon": -15.638128661635472,
+"sector": 43,
+"code": "43-4891-4882",
+"refined": "43-4891-4882.2",
+"decoded": [
+12.0050065,
+-15.6381281
+],
+"cell": [
+4948,
+8182
+],
+"hilbert": 49988742
+},
+{
+"lat": 11.308310129235855,
+"lon": -15.153825157463238,
+"sector": 93,
+"code": "93-7298-9298",
+"refined": "93-7298-9298.9",
+"decoded": [
+11.3083086,
+-15.1538229
+],
+"cell": [
+7999,
+2828
+],
+"hilbert": 26871205
+},
+{
+"lat": 11.877278014728104,
+"lon": -15.62349311579065,
+"sector": 10,
+"code": "10-2543-6571",
+"refined": "10-2543-6571.5",
+"decoded": [
+11.8772757,
+-15.6234947
+],
+"cell": [
+2467,
+5351
+],
+"hilbert": 57882672
+},
+{
+"lat": 12.356227242395162,
+"lon": -15.084801101293214,
+"sector": 73,
+"code": "73-7304-3555",
+"refined": "73-7304-3555.7",
+"decoded": [
+12.3562358,
+-15.084799
+],
+"cell": [
+7035,
+3455
+],
+"hilbert": 28606480
+},
+{
+"lat": 11.818538049847945,
+"lon": -14.817943539529026,
+"sector": 26,
+"code": "26-3421-8482",
+"refined": "26-3421-8482.2",
+"decoded": [
+11.8185463,
+-14.8179366
+],
+"cell": [
+3288,
+4142
+],
+"hilbert": 56253884
+},
+{
+"lat": 12.220769432332169,
+"lon": -16.094106981404178,
+"sector": 53,
+"code": "53-6426-3899",
+"refined": "53-6426-3899.5",
+"decoded": [
+12.2207757,
+-16.0941047
+],
+"cell": [
+6239,
+4689
+],
+"hilbert": 38019670
+},
+{
+"lat": 12.315556843665545,
+"lon": -15.63438061148501,
+"sector": 71,
+"code": "71-2358-8359",
+"refined": "71-2358-8359.6",
+"decoded": [
+12.3155614,
+-15.6343864
+],
+"cell": [
+2585,
+3839
+],
+"hilbert": 10026044
+},
+{
+"lat": 11.411624091589587,
+"lon": -14.853365362638902,
+"sector": 95,
+"code": "95-1185-6451",
+"refined": "95-1185-6451.9",
+"decoded": [
+11.4116273,
+-14.8533665
+],
+"cell": [
+1865,
+1541
+],
+"hilbert": 2702034
+},
+{
+"lat": 12.33031777466664,
+"lon": -16.010039207908477,
+"sector": 53,
+"code": "53-7699-6754",
+"refined": "53-7699-6754.2",
+"decoded": [
+12.3303156,
+-16.0100398
+],
+"cell": [
+7965,
+6974
+],
+"hilbert": 43650055
+},
+{
+"lat": 12.411320913439374,
+"lon": -14.677072597596894,
+"sector": 21,
+"code": "21-0854-9162",
+"refined": "21-0854-9162.4",
+"decoded": [
+12.4113211,
+-14.6770758
+],
+"cell": [
+596,
+8412
+],
+"hilbert": 67396298
+},
+{
+"lat": 12.439108123858114,
+"lon": -15.273442388212517,
+"sector": 72,
+"code": "72-3039-1851",
+"refined": "72-3039-1851.7",
+"decoded": [
+12.4391138,
+-15.2734502
+],
+"cell": [
+3315,
+981
+],
+"hilbert": 16100534
+},
+{
+"lat": 12.27962075654296,
+"lon": -14.586479981819595,
+"sector": 21,
+"code": "21-3407-5791",
+"refined": "21-3407-5791.3",
+"decoded": [
+12.2796204,
+-14.5864739
+],
+"cell": [
+3059,
+4771
+],
+"hilbert": 56865184
+},
+{
+"lat": 11.365901940385038,
+"lon": -16.104960412605415,
+"sector": 33,
+"code": "33-5246-4122",
+"refined": "33-5246-4122.8",
+"decoded": [
+11.3659025,
+-16.1049524
+],
+"cell": [
+5442,
+2612
+],
+"hilbert": 31274396
+},
+{
+"lat": 11.614577352227961,
+"lon": -15.157473072191383,
+"sector": 82,
+"code": "82-7781-7058",
+"refined": "82-7781-7058.6",
+"decoded": [
+11.6145789,
+-15.1574698
+],
+"cell": [
+7875,
+7108
+],
+"hilbert": 43715253
+},
+{
+"lat": 11.810632544561154,
+"lon": -14.725880292355594,
+"sector": 26,
+"code": "26-4399-3939",
+"refined": "26-4399-3939.4",
+"decoded": [
+11.8106391,
+-14.7258816
+],
+"cell": [
+4933,
+3999
+],
+"hilbert": 33217476
+},
+{
+"lat": 11.676360182104533,
+"lon": -15.033970869278361,
+"sector": 81,
+"code": "81-2638-3109",
+"refined": "81-2638-3109.5",
+"decoded": [
+11.676364,
+-15.0339647
+],
+"cell": [
+2330,
+6819
+],
+"hilbert": 52907361
+},
+{
+"lat": 11.23060459361723,
+"lon": -15.174051397836656,
+"sector": 93,
+"code": "93-7046-4870",
+"refined": "93-7046-4870.9",
+"decoded": [
+11.2306049,
+-15.1740525
+],
+"cell": [
+7447,
+680
+],
+"hilbert": 22923135
+},
+{
+"lat": 12.122261936308394,
+"lon": -15.637398350368553,
+"sector": 52,
+"code": "52-8483-9453",
+"refined": "52-8483-9453.8",
+"decoded": [
+12.1222578,
+-15.6373987
+],
+"cell": [
+8895,
+4343
+],
+"hilbert": 229421120
+},
+{
+"lat": 12.272335456563559,
+"lon": -15.527186527489153,
+"sector": 71,
+"code": "71-4289-2280",
+"refined": "71-4289-2280.7",
+"decoded": [
+12.2723276,
+-15.5271935
+],
+"cell": [
+4828,
+2920
+],
+"hilbert": 31581978
+},
+{
+"lat": 11.658829933705851,
+"lon": -14.938549636837703,
+"sector": 81,
+"code": "81-4663-9758",
+"refined": "81-4663-9758.1",
+"decoded": [
+11.6588288,
+-14.9385508
+],
+"cell": [
+4695,
+6378
+],
+"hilbert": 48688601
+},
+{
+"lat": 11.78454656501998,
+"lon": -14.089847400154436,
+"sector": 61,
+"code": "61-4361-6199",
+"refined": "61-4361-6199.1",
+"decoded": [
+11.7845406,
+-14.0898584
+],
+"cell": [
+4669,
+3119
+],
+"hilbert": 32770820
+},
+{
+"lat": 11.319867020701665,
+"lon": -15.32397284186998,
+"sector": 93,
+"code": "93-3331-5477",
+"refined": "93-3331-5477.1",
+"decoded": [
+11.3198725,
+-15.3239669
+],
+"cell": [
+3357,
+3147
+],
+"hilbert": 10555804
+},
+{
+"lat": 11.571957146284507,
+"lon": -15.04706338406276,
+"sector": 81,
+"code": "81-2401-0955",
+"refined": "81-2401-0955.3",
+"decoded": [
+11.5719621,
+-15.047065
+],
+"cell": [
+2005,
+4195
+],
+"hilbert": 60114716
+},
+{
+"lat": 11.601363029855738,
+"lon": -15.446943965264204,
+"sector": 31,
+"code": "31-7417-6902",
+"refined": "31-7417-6902.7",
+"decoded": [
+11.6013645,
+-15.4469509
+],
+"cell": [
+7160,
+4792
+],
+"hilbert": 38473770
+},
+{
+"lat": 12.395373501231822,
+"lon": -15.745195027534375,
+"sector": 51,
+"code": "51-5259-9781",
+"refined": "51-5259-9781.4",
+"decoded": [
+12.3953645,
+-15.7452044
+],
+"cell": [
+5598,
+2971
+],
+"hilbert": 31363763
+},
+{
+"lat": 12.13326518876008,
+"lon": -15.778290133362361,
+"sector": 52,
+"code": "52-4486-6603",
+"refined": "52-4486-6603.5",
+"decoded": [
+12.1332664,
+-15.7782875
+],
+"cell": [
+4860,
+4663
+],
+"hilbert": 34142927
+},
+{
+"lat": 11.95346317811858,
+"lon": -14.065658262672347,
+"sector": 61,
+"code": "61-4594-9245",
+"refined": "61-4594-9245.2",
+"decoded": [
+11.9534646,
+-14.0656706
+],
+"cell": [
+4994,
+5425
+],
+"hilbert": 35418023
+},
+{
+"lat": 12.079468916856268,
+"lon": -14.56582216533769,
+"sector": 24,
+"code": "24-7733-5953",
+"refined": "24-7733-5953.1",
+"decoded": [
+12.079471,
+-14.5658165
+],
+"cell": [
+7355,
+7393
+],
+"hilbert": 44086254
+},
+{
+"lat": 11.696770392999786,
+"lon": -15.082858298430748,
+"sector": 83,
+"code": "83-6241-2144",
+"refined": "83-6241-2144.2",
+"decoded": [
+11.696766,
+-15.0828636
+],
+"cell": [
+6424,
+2114
+],
+"hilbert": 25235780
+},
+{
+"lat": 11.35270773277961,
+"lon": -15.294774004674696,
+"sector": 93,
+"code": "93-4410-5535",
+"refined": "93-4410-5535.6",
+"decoded": [
+11.3527072,
+-15.2947707
+],
+"cell": [
+4153,
+4055
+],
+"hilbert": 33551998
+},
+{
+"lat": 11.95587662625515,
+"lon": -14.83034690050915,
+"sector": 22,
+"code": "22-5378-4637",
+"refined": "22-5378-4637.9",
+"decoded": [
+11.9558784,
+-14.830349
+],
+"cell": [
+5743,
+3867
+],
+"hilbert": 29572528
+},
+{
+"lat": 12.150151384990886,
+"lon": -14.507916275141826,
+"sector": 21,
+"code": "21-5111-9952",
+"refined": "21-5111-9952.3",
+"decoded": [
+12.1501506,
+-14.507922
+],
+"cell": [
+5195,
+1192
+],
+"hilbert": 18904613
+},
+{
+"lat": 11.406141285918064,
+"lon": -15.634539827547007,
+"sector": 31,
+"code": "31-3048-3697",
+"refined": "31-3048-3697.9",
+"decoded": [
+11.4061333,
+-15.6345475
+],
+"cell": [
+3439,
+867
+],
+"hilbert": 16132346
+},
+{
+"lat": 11.857889615228327,
+"lon": -14.158060877468055,
+"sector": 61,
+"code": "61-3471-5211",
+"refined": "61-3471-5211.9",
+"decoded": [
+11.8578924,
+-14.15806
+],
+"cell": [
+3751,
+4121
+],
+"hilbert": 55994324
+},
+{
+"lat": 11.833415501849508,
+"lon": -15.724373168626677,
+"sector": 41,
+"code": "41-5489-0998",
+"refined": "41-5489-0998.1",
+"decoded": [
+11.8334161,
+-15.7243741
+],
+"cell": [
+5809,
+4998
+],
+"hilbert": 36933437
+},
+{
+"lat": 11.06005165566458,
+"lon": -15.004525387660182,
+"sector": 92,
+"code": "92-3472-8458",
+"refined": "92-3472-8458.5",
+"decoded": [
+11.0600578,
+-15.0045283
+],
+"cell": [
+3785,
+4248
+],
+"hilbert": 55980843
+},
+{
+"lat": 12.117048327704842,
+"lon": -13.970327867537524,
+"sector": 61,
+"code": "61-6726-7568",
+"refined": "61-6726-7568.3",
+"decoded": [
+12.117041,
+-13.9703321
+],
+"cell": [
+6276,
+7658
+],
+"hilbert": 45857910
+},
+{
+"lat": 11.167920071955075,
+"lon": -15.231358564045221,
+"sector": 94,
+"code": "94-8209-3474",
+"refined": "94-8209-3474.2",
+"decoded": [
+11.1679174,
+-15.2313576
+],
+"cell": [
+8037,
+2944
+],
+"hilbert": 26924697
+},
+{
+"lat": 11.636196547735844,
+"lon": -15.299281586961515,
+"sector": 84,
+"code": "84-8088-2227",
+"refined": "84-8088-2227.3",
+"decoded": [
+11.6361981,
+-15.299284
+],
+"cell": [
+8822,
+827
+],
+"hilbert": 245575801
+},
+{
+"lat": 11.121077965360115,
+"lon": -16.013642925728558,
+"sector": 32,
+"code": "32-0472-7465",
+"refined": "32-0472-7465.5",
+"decoded": [
+11.1210867,
+-16.0136515
+],
+"cell": [
+776,
+4245
+],
+"hilbert": 61195121
+},
+{
+"lat": 11.564254612351698,
+"lon": -14.517699774462717,
+"sector": 95,
+"code": "95-7493-6583",
+"refined": "95-7493-6583.1",
+"decoded": [
+11.564249,
+-14.5176968
+],
+"cell": [
+7968,
+4353
+],
+"hilbert": 39191555
+},
+{
+"lat": 12.188066391551127,
+"lon": -16.382143169507525,
+"sector": 56,
+"code": "56-4086-0565",
+"refined": "56-4086-0565.1",
+"decoded": [
+12.1880769,
+-16.3821534
+],
+"cell": [
+4806,
+655
+],
+"hilbert": 17349185
+},
+{
+"lat": 11.62448054509082,
+"lon": -15.329668756176236,
+"sector": 31,
+"code": "31-9542-8566",
+"refined": "31-9542-8566.1",
+"decoded": [
+11.6244772,
+-15.3296631
+],
+"cell": [
+9486,
+5256
+],
+"hilbert": 227131580
+},
+{
+"lat": 12.356067769375832,
+"lon": -14.650607495422097,
+"sector": 21,
+"code": "21-1638-1855",
+"refined": "21-1638-1855.9",
+"decoded": [
+12.35607,
+-14.6506099
+],
+"cell": [
+1315,
+6885
+],
+"hilbert": 64877214
+},
+{
+"lat": 12.152175200616453,
+"lon": -14.257401000455154,
+"sector": 62,
+"code": "62-3633-4829",
+"refined": "62-3633-4829.6",
+"decoded": [
+12.1521774,
+-14.2573887
+],
+"cell": [
+3342,
+6389
+],
+"hilbert": 53608295
+},
+{
+"lat": 12.585152199210624,
+"lon": -15.329027565146534,
+"sector": 72,
+"code": "72-2342-5828",
+"refined": "72-2342-5828.8",
+"decoded": [
+12.5851607,
+-15.3290197
+],
+"cell": [
+2452,
+3288
+],
+"hilbert": 9549936
+},
+{
+"lat": 12.004232902594707,
+"lon": -14.47782910385313,
+"sector": 62,
+"code": "62-0476-8499",
+"refined": "62-0476-8499.8",
+"decoded": [
+12.00423,
+-14.4778367
+],
+"cell": [
+789,
+4649
+],
+"hilbert": 61015922
+},
+{
+"lat": 11.264232781314126,
+"lon": -16.341337088054914,
+"sector": 33,
+"code": "33-2101-9522",
+"refined": "33-2101-9522.8",
+"decoded": [
+11.264233,
+-16.3413437
+],
+"cell": [
+2092,
+1152
+],
+"hilbert": 14314576
+},
+{
+"lat": 12.057785936076197,
+"lon": -15.435151011540349,
+"sector": 74,
+"code": "74-0249-7045",
+"refined": "74-0249-7045.2",
+"decoded": [
+12.0577934,
+-15.4351555
+],
+"cell": [
+474,
+2905
+],
+"hilbert": 5038733
+},
+{
+"lat": 11.27826860868247,
+"lon": -15.867860169544139,
+"sector": 32,
+"code": "32-3618-1071",
+"refined": "32-3618-1071.6",
+"decoded": [
+11.2782737,
+-15.8678692
+],
+"cell": [
+3117,
+6801
+],
+"hilbert": 53798738
+},
+{
+"lat": 12.609414013332799,
+"lon": -13.843482863477092,
+"sector": 64,
+"code": "64-5886-1734",
+"refined": "64-5886-1734.2",
+"decoded": [
+12.609407,
+-13.8434819
+],
+"cell": [
+5813,
+8674
+],
+"hilbert": 129841463
+},
+{
+"lat": 12.289343572025176,
+"lon": -13.872618141628841,
+"sector": 64,
+"code": "64-5239-0626",
+"refined": "64-5239-0626.5",
+"decoded": [
+12.2893348,
+-13.8726219
+],
+"cell": [
+5302,
+2966
+],
+"hilbert": 31403560
+},
+{
+"lat": 12.041679184342899,
+"lon": -15.42365619736816,
+"sector": 74,
+"code": "74-0265-9943",
+"refined": "74-0265-9943.7",
+"decoded": [
+12.0416756,
+-15.4236539
+],
+"cell": [
+694,
+2593
+],
+"hilbert": 4776343
+},
+{
+"lat": 11.849416999385411,
+"lon": -15.76051880881131,
+"sector": 41,
+"code": "41-3588-3893",
+"refined": "41-3588-3893.6",
+"decoded": [
+11.8494174,
+-15.7605208
+],
+"cell": [
+3839,
+5883
+],
+"hilbert": 54657082
+},
+{
+"lat": 12.242352629154135,
+"lon": -15.921466783174836,
+"sector": 52,
+"code": "52-0778-5397",
+"refined": "52-0778-5397.3",
+"decoded": [
+12.242356,
+-15.9214691
+],
+"cell": [
+759,
+7837
+],
+"hilbert": 66196548
+},
+{
+"lat": 11.32427108194996,
+"lon": -15.173854544579871,
+"sector": 93,
+"code": "93-7342-5639",
+"refined": "93-7342-5639.4",
+"decoded": [
+11.3242737,
+-15.1738571
+],
+"cell": [
+7453,
+3269
+],
+"hilbert": 27483080
+},
+{
+"lat": 12.397516367537236,
+"lon": -14.521812089942195,
+"sector": 23,
+"code": "23-6154-4504",
+"refined": "23-6154-4504.3",
+"decoded": [
+12.3975212,
+-14.5218064
+],
+"cell": [
+6540,
+1454
+],
+"hilbert": 24652964
+},
+{
+"lat": 12.475900704099747,
+"lon": -14.482945772366932,
+"sector": 23,
+"code": "23-7217-9808",
+"refined": "23-7217-9808.8",
+"decoded": [
+12.4759,
+-14.4829512
+],
+"cell": [
+7190,
+2788
+],
+"hilbert": 27196718
+},
+{
+"lat": 11.400979393179021,
+"lon": -15.208414912431818,
+"sector": 93,
+"code": "93-6553-1809",
+"refined": "93-6553-1809.1",
+"decoded": [
+11.4009765,
+-15.2084161
+],
+"cell": [
+6510,
+5389
+],
+"hilbert": 41467405
+},
+{
+"lat": 11.796170923029575,
+"lon": -14.447990741150416,
+"sector": 62,
+"code": "62-1212-3051",
+"refined": "62-1212-3051.1",
+"decoded": [
+11.7961799,
+-14.4479927
+],
+"cell": [
+1135,
+2201
+],
+"hilbert": 8027412
+},
+{
+"lat": 12.128827008033518,
+"lon": -14.807545044915855,
+"sector": 24,
+"code": "24-0877-7548",
+"refined": "24-0877-7548.8",
+"decoded": [
+12.1288255,
+-14.8075496
+],
+"cell": [
+774,
+8758
+],
+"hilbert": 67702568
+},
+{
+"lat": 11.780102017613926,
+"lon": -15.34474914887823,
+"sector": 84,
+"code": "84-7459-5027",
+"refined": "84-7459-5027.1",
+"decoded": [
+11.7801017,
+-15.3447535
+],
+"cell": [
+7552,
+4907
+],
+"hilbert": 39636677
+},
+{
+"lat": 12.181482311683903,
+"lon": -15.36029418663706,
+"sector": 74,
+"code": "74-1593-0045",
+"refined": "74-1593-0045.7",
+"decoded": [
+12.181477,
+-15.3602991
+],
+"cell": [
+1904,
+5305
+],
+"hilbert": 59734593
+},
+{
+"lat": 11.946352636232001,
+"lon": -15.839816551377824,
+"sector": 42,
+"code": "42-4733-6337",
+"refined": "42-4733-6337.3",
+"decoded": [
+11.9463561,
+-15.8398118
+],
+"cell": [
+4363,
+7337
+],
+"hilbert": 49505828
+},
+{
+"lat": 10.939969379091075,
+"lon": -15.683924707640085,
+"sector": 32,
+"code": "32-6103-7020",
+"refined": "32-6103-7020.4",
+"decoded": [
+10.9399772,
+-15.6839186
+],
+"cell": [
+6072,
+1300
+],
+"hilbert": 19686608
+},
+{
+"lat": 11.792880586521829,
+"lon": -14.964531874584129,
+"sector": 26,
+"code": "26-0366-6797",
+"refined": "26-0366-6797.5",
+"decoded": [
+11.7928754,
+-14.9645269
+],
+"cell": [
+669,
+3677
+],
+"hilbert": 5797896
+},
+{
+"lat": 11.211015449604457,
+"lon": -15.106763330600495,
+"sector": 91,
+"code": "91-3447-0547",
+"refined": "91-3447-0547.8",
+"decoded": [
+11.2110191,
+-15.1067575
+],
+"cell": [
+3404,
+4757
+],
+"hilbert": 56482657
+},
+{
+"lat": 11.404700513458753,
+"lon": -14.840352805181237,
+"sector": 95,
+"code": "95-2114-0123",
+"refined": "95-2114-0123.5",
+"decoded": [
+11.4046998,
+-14.8403482
+],
+"cell": [
+2102,
+1413
+],
+"hilbert": 14249863
+},
+{
+"lat": 11.998017531063017,
+"lon": -16.02815029041187,
+"sector": 55,
+"code": "55-4258-9457",
+"refined": "55-4258-9457.2",
+"decoded": [
+11.99802,
+-16.0281457
+],
+"cell": [
+4595,
+2847
+],
+"hilbert": 32397050
+},
+{
+"lat": 12.062018666820112,
+"lon": -15.863835505765811,
+"sector": 52,
+"code": "52-2245-1900",
+"refined": "52-2245-1900.8",
+"decoded": [
+12.062014,
+-15.8638333
+],
+"cell": [
+2410,
+2590
+],
+"hilbert": 9279410
+},
+{
+"lat": 11.676741594567561,
+"lon": -14.778334437060321,
+"sector": 26,
+"code": "26-3195-9762",
+"refined": "26-3195-9762.4",
+"decoded": [
+11.6767496,
+-14.7783272
+],
+"cell": [
+3996,
+1572
+],
+"hilbert": 12838858
+},
+{
+"lat": 11.23758588579429,
+"lon": -15.311449869798192,
+"sector": 94,
+"code": "94-4631-9534",
+"refined": "94-4631-9534.4",
+"decoded": [
+11.2375829,
+-15.3114502
+],
+"cell": [
+4393,
+6154
+],
+"hilbert": 48866855
+},
+{
+"lat": 11.169315353538328,
+"lon": -16.232507891608762,
+"sector": 34,
+"code": "34-3443-6195",
+"refined": "34-3443-6195.7",
+"decoded": [
+11.1693207,
+-16.2325143
+],
+"cell": [
+3469,
+4315
+],
+"hilbert": 56170782
+},
+{
+"lat": 11.941553625887336,
+"lon": -15.602990430732422,
+"sector": 75,
+"code": "75-2115-7470",
+"refined": "75-2115-7470.2",
+"decoded": [
+11.941559,
+-15.6029947
+],
+"cell": [
+2177,
+1540
+],
+"hilbert": 14073873
+},
+{
+"lat": 11.22260606860319,
+"lon": -15.238716343220887,
+"sector": 93,
+"code": "93-5064-8539",
+"refined": "93-5064-8539.8",
+"decoded": [
+11.2226103,
+-15.2387117
+],
+"cell": [
+5683,
+459
+],
+"hilbert": 20799306
+},
+{
+"lat": 11.981052357686874,
+"lon": -15.927551028384272,
+"sector": 55,
+"code": "55-7233-3738",
+"refined": "55-7233-3738.1",
+"decoded": [
+11.981054,
+-15.9275545
+],
+"cell": [
+7333,
+2378
+],
+"hilbert": 26336477
+},
+{
+"lat": 12.421749579893946,
+"lon": -14.342123338514957,
+"sector": 65,
+"code": "65-4516-1232",
+"refined": "65-4516-1232.6",
+"decoded": [
+12.4217505,
+-14.3421171
+],
+"cell": [
+4113,
+5622
+],
+"hilbert": 34864663
+},
+{
+"lat": 12.480888374972324,
+"lon": -14.996215108355184,
+"sector": 72,
+"code": "72-7166-1481",
+"refined": "72-7166-1481.9",
+"decoded": [
+12.4808957,
+-14.9962252
+],
+"cell": [
+7618,
+1641
+],
+"hilbert": 23938669
+},
+{
+"lat": 12.23636978141307,
+"lon": -16.32053353906572,
+"sector": 56,
+"code": "56-5163-8578",
+"refined": "56-5163-8578.6",
+"decoded": [
+12.2363728,
+-16.3205441
+],
+"cell": [
+5687,
+1358
+],
+"hilbert": 19767107
+},
+{
+"lat": 11.395374613812281,
+"lon": -16.00439717404458,
+"sector": 33,
+"code": "33-6380-6375",
+"refined": "33-6380-6375.5",
+"decoded": [
+11.395382,
+-16.0043979
+],
+"cell": [
+6867,
+3035
+],
+"hilbert": 25797344
+},
+{
+"lat": 11.811861138566801,
+"lon": -15.776749450188792,
+"sector": 41,
+"code": "41-2398-5057",
+"refined": "41-2398-5057.8",
+"decoded": [
+11.8118619,
+-15.7767525
+],
+"cell": [
+2955,
+3807
+],
+"hilbert": 10170778
+},
+{
+"lat": 12.618305961570474,
+"lon": -14.389833558917902,
+"sector": 65,
+"code": "65-3915-8073",
+"refined": "65-3915-8073.5",
+"decoded": [
+12.618303,
+-14.3898278
+],
+"cell": [
+3187,
+9503
+],
+"hilbert": 73471738
+},
+{
+"lat": 11.821508976553472,
+"lon": -15.30056352164971,
+"sector": 84,
+"code": "84-8670-8871",
+"refined": "84-8670-8871.1",
+"decoded": [
+11.8215093,
+-15.3005603
+],
+"cell": [
+8787,
+6081
+],
+"hilbert": 227789580
+},
+{
+"lat": 11.71181980588154,
+"lon": -15.268914460273946,
+"sector": 83,
+"code": "83-0295-4644",
+"refined": "83-0295-4644.3",
+"decoded": [
+11.7118238,
+-15.2689193
+],
+"cell": [
+944,
+2564
+],
+"hilbert": 4804410
+},
+{
+"lat": 12.243154170106955,
+"lon": -15.937280700652261,
+"sector": 53,
+"code": "53-9541-5596",
+"refined": "53-9541-5596.5",
+"decoded": [
+12.2431598,
+-15.9372744
+],
+"cell": [
+9459,
+5156
+],
+"hilbert": 227169077
+},
+{
+"lat": 12.17751560666087,
+"lon": -15.440576833335491,
+"sector": 71,
+"code": "71-6069-4004",
+"refined": "71-6069-4004.7",
+"decoded": [
+12.1775205,
+-15.4405723
+],
+"cell": [
+6640,
+904
+],
+"hilbert": 21413738
+},
+{
+"lat": 12.325515060765374,
+"lon": -16.308740554369205,
+"sector": 56,
+"code": "56-5286-5565",
+"refined": "56-5286-5565.6",
+"decoded": [
+12.3255185,
+-16.3087347
+],
+"cell": [
+5856,
+2655
+],
+"hilbert": 30600533
+},
+{
+"lat": 12.643641091176098,
+"lon": -14.641094751633805,
+"sector": 23,
+"code": "23-4556-4461",
+"refined": "23-4556-4461.1",
+"decoded": [
+12.6436504,
+-14.6411033
+],
+"cell": [
+4546,
+5641
+],
+"hilbert": 35125869
+},
+{
+"lat": 12.239086655841367,
+"lon": -14.46931267106423,
+"sector": 65,
+"code": "65-1260-4145",
+"refined": "65-1260-4145.1",
+"decoded": [
+12.2390915,
+-14.4693172
+],
+"cell": [
+1644,
+2015
+],
+"hilbert": 2877199
+},
+{
+"lat": 12.3237578996323,
+"lon": -15.979440144572834,
+"sector": 53,
+"code": "53-8658-9338",
+"refined": "53-8658-9338.9",
+"decoded": [
+12.323765,
+-15.9794367
+],
+"cell": [
+8593,
+6838
+],
+"hilbert": 224890007
+},
+{
+"lat": 11.670895199961873,
+"lon": -15.37869871867876,
+"sector": 31,
+"code": "31-8651-1930",
+"refined": "31-8651-1930.9",
+"decoded": [
+11.6709016,
+-15.3786927
+],
+"cell": [
+8513,
+6190
+],
+"hilbert": 225124093
+},
+{
+"lat": 11.86035215718597,
+"lon": -15.610710078376544,
+"sector": 10,
+"code": "10-3422-8560",
+"refined": "10-3422-8560.3",
+"decoded": [
+11.8603537,
+-15.6107091
+],
+"cell": [
+3286,
+4250
+],
+"hilbert": 56242898
+},
+{
+"lat": 11.34431986799988,
+"lon": -16.342562996554378,
+"sector": 33,
+"code": "33-2203-7052",
+"refined": "33-2203-7052.7",
+"decoded": [
+11.3443151,
+-16.3425668
+],
+"cell": [
+2075,
+2302
+],
+"hilbert": 8453177
+},
+{
+"lat": 11.775305803647973,
+"lon": -15.23313582986097,
+"sector": 83,
+"code": "83-1494-9681",
+"refined": "83-1494-9681.3",
+"decoded": [
+11.7753008,
+-15.2331319
+],
+"cell": [
+1998,
+4461
+],
+"hilbert": 60089511
+},
+{
+"lat": 11.664827763789278,
+"lon": -14.811865523239462,
+"sector": 95,
+"code": "95-2662-2007",
+"refined": "95-2662-2007.4",
+"decoded": [
+11.6648333,
+-14.8118731
+],
+"cell": [
+2620,
+6207
+],
+"hilbert": 53217967
+},
+{
+"lat": 11.413689515836067,
+"lon": -15.735272723441463,
+"sector": 31,
+"code": "31-1140-4129",
+"refined": "31-1140-4129.7",
+"decoded": [
+11.4136938,
+-15.7352792
+],
+"cell": [
+1442,
+1019
+],
+"hilbert": 1850313
+},
+{
+"lat": 12.18871820709158,
+"lon": -16.456509286340253,
+"sector": 56,
+"code": "56-3076-4625",
+"refined": "56-3076-4625.7",
+"decoded": [
+12.1887184,
+-16.4565039
+],
+"cell": [
+3742,
+665
+],
+"hilbert": 16286359
+},
+{
+"lat": 12.373682369926298,
+"lon": -15.453672473741472,
+"sector": 71,
+"code": "71-6530-6765",
+"refined": "71-6530-6765.4",
+"decoded": [
+12.3736872,
+-15.4536707
+],
+"cell": [
+6366,
+5075
+],
+"hilbert": 38117979
+},
+{
+"lat": 11.952213615518446,
+"lon": -15.935144582376468,
+"sector": 55,
+"code": "55-7115-2861",
+"refined": "55-7115-2861.5",
+"decoded": [
+11.9522106,
+-15.9351482
+],
+"cell": [
+7126,
+1581
+],
+"hilbert": 24377159
+},
+{
+"lat": 11.910410383405553,
+"lon": -14.529820346652176,
+"sector": 24,
+"code": "24-8237-3250",
+"refined": "24-8237-3250.4",
+"decoded": [
+11.9104137,
+-14.5298173
+],
+"cell": [
+8335,
+2720
+],
+"hilbert": 241577215
+},
+{
+"lat": 11.927296836505732,
+"lon": -15.727850489758813,
+"sector": 42,
+"code": "42-8616-7759",
+"refined": "42-8616-7759.7",
+"decoded": [
+11.9272944,
+-15.7278533
+],
+"cell": [
+8175,
+6679
+],
+"hilbert": 43603776
+},
+{
+"lat": 12.316617435567137,
+"lon": -14.97147688192803,
+"sector": 73,
+"code": "73-9216-6909",
+"refined": "73-9216-6909.1",
+"decoded": [
+12.3166159,
+-14.971468
+],
+"cell": [
+9160,
+2699
+],
+"hilbert": 241250447
+},
+{
+"lat": 12.513564170998125,
+"lon": -14.491068891980444,
+"sector": 23,
+"code": "23-7304-5248",
+"refined": "23-7304-5248.3",
+"decoded": [
+12.5135611,
+-14.4910651
+],
+"cell": [
+7054,
+3428
+],
+"hilbert": 28628068
+},
+{
+"lat": 12.202269409868993,
+"lon": -15.65246562625146,
+"sector": 71,
+"code": "71-2124-0370",
+"refined": "71-2124-0370.5",
+"decoded": [
+12.2022726,
+-15.6524723
+],
+"cell": [
+2207,
+1430
+],
+"hilbert": 14231787
+},
+{
+"lat": 12.054728156014336,
+"lon": -15.807679038632847,
+"sector": 52,
+"code": "52-4203-1788",
+"refined": "52-4203-1788.9",
+"decoded": [
+12.0547284,
+-15.8076757
+],
+"cell": [
+4018,
+2378
+],
+"hilbert": 12509026
+},
+{
+"lat": 12.409941773759353,
+"lon": -14.608038616035666,
+"sector": 23,
+"code": "23-5106-9696",
+"refined": "23-5106-9696.7",
+"decoded": [
+12.4099442,
+-14.6080295
+],
+"cell": [
+5099,
+1666
+],
+"hilbert": 18552419
+},
+{
+"lat": 11.628580591064642,
+"lon": -14.849075723770234,
+"sector": 95,
+"code": "95-1595-4339",
+"refined": "95-1595-4339.6",
+"decoded": [
+11.628586,
+-14.849076
+],
+"cell": [
+1943,
+5539
+],
+"hilbert": 59674000
+},
+{
+"lat": 12.436925001728097,
+"lon": -14.49432897902935,
+"sector": 65,
+"code": "65-1519-5282",
+"refined": "65-1519-5282.8",
+"decoded": [
+12.436927,
+-14.4943315
+],
+"cell": [
+1158,
+5922
+],
+"hilbert": 59100818
+},
+{
+"lat": 12.136812411679605,
+"lon": -15.672372315270579,
+"sector": 52,
+"code": "52-7487-9636",
+"refined": "52-7487-9636.3",
+"decoded": [
+12.1368176,
+-15.6723736
+],
+"cell": [
+7893,
+4766
+],
+"hilbert": 39368941
+},
+{
+"lat": 11.986927183570403,
+"lon": -15.326471376869103,
+"sector": 74,
+"code": "74-2155-5301",
+"refined": "74-2155-5301.7",
+"decoded": [
+11.9869304,
+-15.326475
+],
+"cell": [
+2550,
+1531
+],
+"hilbert": 14155995
+},
+{
+"lat": 12.105694633589804,
+"lon": -14.870039819150234,
+"sector": 25,
+"code": "25-2041-7557",
+"refined": "25-2041-7557.4",
+"decoded": [
+12.1056946,
+-14.8700377
+],
+"cell": [
+2475,
+157
+],
+"hilbert": 15435550
+},
+{
+"lat": 12.360914437215987,
+"lon": -14.876593621568311,
+"sector": 25,
+"code": "25-2631-2631",
+"refined": "25-2631-2631.2",
+"decoded": [
+12.3609116,
+-14.8765918
+],
+"cell": [
+2323,
+6161
+],
+"hilbert": 53150214
+},
+{
+"lat": 12.363227020491484,
+"lon": -14.838133793510297,
+"sector": 25,
+"code": "25-3622-1136",
+"refined": "25-3622-1136.8",
+"decoded": [
+12.3632211,
+-14.8381312
+],
+"cell": [
+3213,
+6216
+],
+"hilbert": 53533209
+},
+{
+"lat": 11.934414235754323,
+"lon": -15.822244042096157,
+"sector": 42,
+"code": "42-4699-6215",
+"refined": "42-4699-6215.9",
+"decoded": [
+11.9344136,
+-15.8222454
+],
+"cell": [
+4961,
+6925
+],
+"hilbert": 48273144
+},
+{
+"lat": 12.367014108143849,
+"lon": -14.449886560305453,
+"sector": 65,
+"code": "65-2405-2411",
+"refined": "65-2405-2411.2",
+"decoded": [
+12.3670203,
+-14.4498827
+],
+"cell": [
+2021,
+4541
+],
+"hilbert": 60035400
+},
+{
+"lat": 12.001421608193725,
+"lon": -15.005590456440606,
+"sector": 74,
+"code": "74-8168-7182",
+"refined": "74-8168-7182.9",
+"decoded": [
+12.0014157,
+-15.005582
+],
+"cell": [
+8678,
+1812
+],
+"hilbert": 244602670
+},
+{
+"lat": 11.354797418493781,
+"lon": -16.113324301416537,
+"sector": 34,
+"code": "34-6815-8807",
+"refined": "34-6815-8807.3",
+"decoded": [
+11.3547965,
+-16.1133242
+],
+"cell": [
+6180,
+8587
+],
+"hilbert": 130106485
+},
+{
+"lat": 12.33529358014541,
+"lon": -14.863032833579176,
+"sector": 25,
+"code": "25-2565-3579",
+"refined": "25-2565-3579.7",
+"decoded": [
+12.335295,
+-14.863037
+],
+"cell": [
+2637,
+5559
+],
+"hilbert": 58187628
+},
+{
+"lat": 11.46184115132733,
+"lon": -15.099185536634755,
+"sector": 81,
+"code": "81-0174-1248",
+"refined": "81-0174-1248.4",
+"decoded": [
+11.4618434,
+-15.0991835
+],
+"cell": [
+714,
+1428
+],
+"hilbert": 3641820
+},
+{
+"lat": 11.480468586339784,
+"lon": -15.136541436240678,
+"sector": 82,
+"code": "82-8430-5119",
+"refined": "82-8430-5119.8",
+"decoded": [
+11.4804714,
+-15.1365409
+],
+"cell": [
+8351,
+4019
+],
+"hilbert": 240463450
+},
+{
+"lat": 11.933374260081035,
+"lon": -16.20323893193779,
+"sector": 54,
+"code": "54-4418-1574",
+"refined": "54-4418-1574.8",
+"decoded": [
+11.9333788,
+-16.2032445
+],
+"cell": [
+4117,
+4854
+],
+"hilbert": 34536999
+},
+{
+"lat": 12.156430087619235,
+"lon": -14.62104848625453,
+"sector": 21,
+"code": "21-2113-1696",
+"refined": "21-2113-1696.6",
+"decoded": [
+12.156433,
+-14.6210426
+],
+"cell": [
+2119,
+1366
+],
+"hilbert": 14256939
+},
+{
+"lat": 11.881601729492273,
+"lon": -14.71088351689234,
+"sector": 26,
+"code": "26-5522-0815",
+"refined": "26-5522-0815.1",
+"decoded": [
+11.8816019,
+-14.7108812
+],
+"cell": [
+5201,
+5285
+],
+"hilbert": 35682104
+},
+{
+"lat": 12.329756538100654,
+"lon": -16.11405366577471,
+"sector": 56,
+"code": "56-8267-4127",
+"refined": "56-8267-4127.9",
+"decoded": [
+12.329757,
+-16.1140538
+],
+"cell": [
+8642,
+2717
+],
+"hilbert": 241678685
+},
+{
+"lat": 12.318097030458413,
+"lon": -14.7841770423153,
+"sector": 25,
+"code": "25-4541-6524",
+"refined": "25-4541-6524.4",
+"decoded": [
+12.3180945,
+-14.7841711
+],
+"cell": [
+4462,
+5154
+],
+"hilbert": 34681426
+},
+{
+"lat": 11.162416557157515,
+"lon": -14.976626071175591,
+"sector": 92,
+"code": "92-4648-7280",
+"refined": "92-4648-7280.1",
+"decoded": [
+11.162417,
+-14.9766292
+],
+"cell": [
+4478,
+6820
+],
+"hilbert": 49140678
+},
+{
+"lat": 11.363752775241483,
+"lon": -16.12454327603699,
+"sector": 33,
+"code": "33-5215-6841",
+"refined": "33-5215-6841.9",
+"decoded": [
+11.3637437,
+-16.1245459
+],
+"cell": [
+5164,
+2581
+],
+"hilbert": 31198691
+},
+{
+"lat": 12.33228840786665,
+"lon": -15.42259373009647,
+"sector": 73,
+"code": "73-0279-0918",
+"refined": "73-0279-0918.5",
+"decoded": [
+12.332282,
+-15.4225875
+],
+"cell": [
+701,
+2998
+],
+"hilbert": 4923623
+},
+{
+"lat": 12.585196373303045,
+"lon": -13.871366739366241,
+"sector": 64,
+"code": "64-5832-2443",
+"refined": "64-5832-2443.8",
+"decoded": [
+12.585203,
+-13.8713674
+],
+"cell": [
+5324,
+8243
+],
+"hilbert": 129037813
+},
+{
+"lat": 12.12612030950542,
+"lon": -14.713299490386852,
+"sector": 24,
+"code": "24-3836-4803",
+"refined": "24-3836-4803.4",
+"decoded": [
+12.1261245,
+-14.7133029
+],
+"cell": [
+3340,
+8683
+],
+"hilbert": 72504479
+},
+{
+"lat": 12.253096620742438,
+"lon": -15.529630418463197,
+"sector": 71,
+"code": "71-4275-7171",
+"refined": "71-4275-7171.7",
+"decoded": [
+12.2530935,
+-15.5296315
+],
+"cell": [
+4777,
+2511
+],
+"hilbert": 31962644
+},
+{
+"lat": 12.056080888677302,
+"lon": -14.996571078414483,
+"sector": 22,
+"code": "22-1682-0795",
+"refined": "22-1682-0795.1",
+"decoded": [
+12.0560816,
+-14.9965709
+],
+"cell": [
+1809,
+6275
+],
+"hilbert": 64350638
+},
+{
+"lat": 12.121297182006153,
+"lon": -14.460967470597232,
+"sector": 62,
+"code": "62-0690-8246",
+"refined": "62-0690-8246.9",
+"decoded": [
+12.1212901,
+-14.4609721
+],
+"cell": [
+984,
+6026
+],
+"hilbert": 62559020
+},
+{
+"lat": 11.491630049623568,
+"lon": -15.081289469056246,
+"sector": 81,
+"code": "81-1211-5777",
+"refined": "81-1211-5777.8",
+"decoded": [
+11.4916346,
+-15.0812951
+],
+"cell": [
+1157,
+2177
+],
+"hilbert": 8006296
+},
+{
+"lat": 11.243619968641296,
+"lon": -15.206023417339482,
+"sector": 93,
+"code": "93-6150-7359",
+"refined": "93-6150-7359.2",
+"decoded": [
+11.2436158,
+-15.2060217
+],
+"cell": [
+6575,
+1039
+],
+"hilbert": 24733184
+},
+{
+"lat": 12.665141262016121,
+"lon": -14.335945521638893,
+"sector": 23,
+"code": "23-9660-4087",
+"refined": "23-9660-4087.5",
+"decoded": [
+12.6651459,
+-14.3359434
+],
+"cell": [
+9648,
+6007
+],
+"hilbert": 227438783
+},
+{
+"lat": 12.233720472780316,
+"lon": -14.095728022914315,
+"sector": 62,
+"code": "62-5723-1458",
+"refined": "62-5723-1458.1",
+"decoded": [
+12.2337313,
+-14.0957364
+],
+"cell": [
+5215,
+7348
+],
+"hilbert": 46823109
+},
+{
+"lat": 12.38564029716244,
+"lon": -15.20198576901789,
+"sector": 73,
+"code": "73-4480-3175",
+"refined": "73-4480-3175.3",
+"decoded": [
+12.3856448,
+-15.2019876
+],
+"cell": [
+4837,
+4015
+],
+"hilbert": 33241284
+},
+{
+"lat": 11.711315769795132,
+"lon": -15.442813187284836,
+"sector": 84,
+"code": "84-4289-1517",
+"refined": "84-4289-1517.6",
+"decoded": [
+11.7113125,
+-15.4428135
+],
+"cell": [
+4811,
+2957
+],
+"hilbert": 31529502
+},
+{
+"lat": 12.016272004643705,
+"lon": -14.114704033055649,
+"sector": 62,
+"code": "62-4497-9950",
+"refined": "62-4497-9950.2",
+"decoded": [
+12.0162733,
+-14.1147018
+],
+"cell": [
+4995,
+4790
+],
+"hilbert": 34178355
+},
+{
+"lat": 12.065288683785942,
+"lon": -14.427265277767395,
+"sector": 62,
+"code": "62-1533-7657",
+"refined": "62-1533-7657.4",
+"decoded": [
+12.0652962,
+-14.4272718
+],
+"cell": [
+1375,
+5367
+],
+"hilbert": 59467456
+},
+{
+"lat": 11.42093218292667,
+"lon": -15.334362221591464,
+"sector": 82,
+"code": "82-3286-5457",
+"refined": "82-3286-5457.5",
+"decoded": [
+11.4209276,
+-15.3343612
+],
+"cell": [
+3855,
+2647
+],
+"hilbert": 11645376
+},
+{
+"lat": 11.863355694944046,
+"lon": -14.862282620461489,
+"sector": 26,
+"code": "26-2449-9565",
+"refined": "26-2449-9565.7",
+"decoded": [
+11.8633601,
+-14.862285
+],
+"cell": [
+2496,
+4955
+],
+"hilbert": 57565519
+},
+{
+"lat": 12.442148099174908,
+"lon": -14.940145061251785,
+"sector": 72,
+"code": "72-8140-8299",
+"refined": "72-8140-8299.8",
+"decoded": [
+12.4421524,
+-14.9401403
+],
+"cell": [
+8489,
+1029
+],
+"hilbert": 245042898
+},
+{
+"lat": 12.62923725206928,
+"lon": -14.027687956407167,
+"sector": 63,
+"code": "63-6423-7638",
+"refined": "63-6423-7638.5",
+"decoded": [
+12.6292419,
+-14.0276964
+],
+"cell": [
+6273,
+4368
+],
+"hilbert": 37972739
+},
+{
+"lat": 12.285136218994229,
+"lon": -15.874058207319262,
+"sector": 51,
+"code": "51-3141-7254",
+"refined": "51-3141-7254.1",
+"decoded": [
+12.2851397,
+-15.8740655
+],
+"cell": [
+3475,
+1124
+],
+"hilbert": 13204917
+},
+{
+"lat": 11.546362444049091,
+"lon": -15.860925107489255,
+"sector": 33,
+"code": "33-8592-0003",
+"refined": "33-8592-0003.6",
+"decoded": [
+11.5463542,
+-15.8609167
+],
+"cell": [
+8900,
+5203
+],
+"hilbert": 228352287
+},
+{
+"lat": 12.424415697978771,
+"lon": -14.03314521934401,
+"sector": 64,
+"code": "64-2543-8775",
+"refined": "64-2543-8775.5",
+"decoded": [
+12.4244099,
+-14.0331489
+],
+"cell": [
+2487,
+5375
+],
+"hilbert": 57883328
+},
+{
+"lat": 11.759250636505902,
+"lon": -15.277281041171706,
+"sector": 84,
+"code": "84-9443-3176",
+"refined": "84-9443-3176.6",
+"decoded": [
+11.7592451,
+-15.2772768
+],
+"cell": [
+9437,
+4316
+],
+"hilbert": 229679779
+},
+{
+"lat": 11.932040557157283,
+"lon": -16.010520075014735,
+"sector": 55,
+"code": "55-5100-7253",
+"refined": "55-5100-7253.1",
+"decoded": [
+11.932037,
+-16.0105211
+],
+"cell": [
+5075,
+1023
+],
+"hilbert": 17476688
+},
+{
+"lat": 11.408573164868509,
+"lon": -15.790334761692668,
+"sector": 32,
+"code": "32-4839-6230",
+"refined": "32-4839-6230.7",
+"decoded": [
+11.408566,
+-15.7903289
+],
+"cell": [
+4363,
+8920
+],
+"hilbert": 128406319
+},
+{
+"lat": 12.115180339950308,
+"lon": -15.563957186115298,
+"sector": 75,
+"code": "75-3637-2269",
+"refined": "75-3637-2269.4",
+"decoded": [
+12.1151809,
+-15.5639556
+],
+"cell": [
+3326,
+6729
+],
+"hilbert": 53765527
+},
+{
+"lat": 11.895956307007344,
+"lon": -14.478388027681584,
+"sector": 24,
+"code": "24-9273-3250",
+"refined": "24-9273-3250.1",
+"decoded": [
+11.8959558,
+-14.47839
+],
+"cell": [
+9735,
+2320
+],
+"hilbert": 243116479
+},
+{
+"lat": 12.114519088018032,
+"lon": -14.581010968286705,
+"sector": 24,
+"code": "24-6893-4612",
+"refined": "24-6893-4612.2",
+"decoded": [
+12.1145244,
+-14.5810121
+],
+"cell": [
+6941,
+8362
+],
+"hilbert": 130411933
+},
+{
+"lat": 11.91820603771779,
+"lon": -15.630581526016767,
+"sector": 43,
+"code": "43-5333-5893",
+"refined": "43-5333-5893.2",
+"decoded": [
+11.9182049,
+-15.6305807
+],
+"cell": [
+5359,
+3383
+],
+"hilbert": 30012266
+},
+{
+"lat": 11.560699505111145,
+"lon": -14.971085265340855,
+"sector": 81,
+"code": "81-3389-8182",
+"refined": "81-3389-8182.3",
+"decoded": [
+11.5607009,
+-14.9710862
+],
+"cell": [
+3888,
+3912
+],
+"hilbert": 11154880
+},
+{
+"lat": 12.523552923033717,
+"lon": -13.971832022112844,
+"sector": 64,
+"code": "64-3751-6423",
+"refined": "64-3751-6423.3",
+"decoded": [
+12.5235622,
+-13.9718274
+],
+"cell": [
+3562,
+7143
+],
+"hilbert": 53913713
+},
+{
+"lat": 11.125652397467118,
+"lon": -15.080219877672945,
+"sector": 91,
+"code": "91-3299-5716",
+"refined": "91-3299-5716.7",
+"decoded": [
+11.1256527,
+-15.0802242
+],
+"cell": [
+3951,
+2976
+],
+"hilbert": 11565141
+},
+{
+"lat": 12.227859299703717,
+"lon": -15.508447327899802,
+"sector": 71,
+"code": "71-5129-2704",
+"refined": "71-5129-2704.4",
+"decoded": [
+12.2278555,
+-15.5084543
+],
+"cell": [
+5220,
+1974
+],
+"hilbert": 19231524
+},
+{
+"lat": 11.33718480973778,
+"lon": -15.217402993671682,
+"sector": 93,
+"code": "93-6326-6246",
+"refined": "93-6326-6246.6",
+"decoded": [
+11.3371882,
+-15.217407
+],
+"cell": [
+6264,
+3626
+],
+"hilbert": 29104516
+},
+{
+"lat": 11.363064069745485,
+"lon": -16.445878095954395,
+"sector": 33,
+"code": "33-0265-1711",
+"refined": "33-0265-1711.4",
+"decoded": [
+11.3630706,
+-16.4458733
+],
+"cell": [
+611,
+2571
+],
+"hilbert": 4723786
+},
+{
+"lat": 11.777920024875167,
+"lon": -16.04137255103664,
+"sector": 54,
+"code": "54-8037-1651",
+"refined": "54-8037-1651.6",
+"decoded": [
+11.7779245,
+-16.0413723
+],
+"cell": [
+8315,
+761
+],
+"hilbert": 245776430
+},
+{
+"lat": 12.48822239594622,
+"lon": -14.847317931210734,
+"sector": 23,
+"code": "23-1209-9987",
+"refined": "23-1209-9987.1",
+"decoded": [
+12.4882251,
+-14.8473209
+],
+"cell": [
+1098,
+2997
+],
+"hilbert": 7697885
+},
+{
+"lat": 12.473459298572193,
+"lon": -15.022182477600094,
+"sector": 72,
+"code": "72-7125-1253",
+"refined": "72-7125-1253.3",
+"decoded": [
+12.4734678,
+-15.0221848
+],
+"cell": [
+7215,
+1523
+],
+"hilbert": 23157242
+},
+{
+"lat": 12.658382667282922,
+"lon": -14.185598287504018,
+"sector": 63,
+"code": "63-3429-0493",
+"refined": "63-3429-0493.2",
+"decoded": [
+12.6583795,
+-14.185599
+],
+"cell": [
+3209,
+4943
+],
+"hilbert": 56586430
+},
+{
+"lat": 11.004343871796245,
+"lon": -15.209902997984116,
+"sector": 91,
+"code": "91-1024-7495",
+"refined": "91-1024-7495.8",
+"decoded": [
+11.0043376,
+-15.2098975
+],
+"cell": [
+1279,
+445
+],
+"hilbert": 1159182
+},
+{
+"lat": 12.14032719551012,
+"lon": -16.015309232062677,
+"sector": 53,
+"code": "53-7380-5171",
+"refined": "53-7380-5171.7",
+"decoded": [
+12.1403303,
+-16.0153161
+],
+"cell": [
+7857,
+3011
+],
+"hilbert": 26943396
+},
+{
+"lat": 12.14650600884039,
+"lon": -14.417712793963046,
+"sector": 62,
+"code": "62-1643-8252",
+"refined": "62-1643-8252.3",
+"decoded": [
+12.14651,
+-14.4177171
+],
+"cell": [
+1485,
+6322
+],
+"hilbert": 64167773
+},
+{
+"lat": 12.184051872871587,
+"lon": -15.221954284200518,
+"sector": 74,
+"code": "74-4553-4565",
+"refined": "74-4553-4565.8",
+"decoded": [
+12.1840545,
+-15.2219483
+],
+"cell": [
+4546,
+5355
+],
+"hilbert": 34713289
+},
+{
+"lat": 12.44064669619452,
+"lon": -14.68276360532469,
+"sector": 21,
+"code": "21-0942-4213",
+"refined": "21-0942-4213.8",
+"decoded": [
+12.4406468,
+-14.6827637
+],
+"cell": [
+441,
+9223
+],
+"hilbert": 68243412
+},
+{
+"lat": 11.442149836289094,
+"lon": -15.262970704399288,
+"sector": 82,
+"code": "82-5341-7386",
+"refined": "82-5341-7386.4",
+"decoded": [
+11.442155,
+-15.2629652
+],
+"cell": [
+5478,
+3136
+],
+"hilbert": 30090260
+},
+{
+"lat": 12.001114412811896,
+"lon": -14.670412313505413,
+"sector": 24,
+"code": "24-4552-0277",
+"refined": "24-4552-0277.3",
+"decoded": [
+12.0011162,
+-14.67041
+],
+"cell": [
+4507,
+5227
+],
+"hilbert": 34700682
+},
+{
+"lat": 11.927713583430318,
+"lon": -16.147292231801654,
+"sector": 54,
+"code": "54-5457-6085",
+"refined": "54-5457-6085.9",
+"decoded": [
+11.9277192,
+-16.1472864
+],
+"cell": [
+5568,
+4705
+],
+"hilbert": 37211139
+},
+{
+"lat": 12.295092437683119,
+"lon": -15.990750376025494,
+"sector": 53,
+"code": "53-8632-6319",
+"refined": "53-8632-6319.2",
+"decoded": [
+12.2950858,
+-15.9907526
+],
+"cell": [
+8361,
+6239
+],
+"hilbert": 225107260
+},
+{
+"lat": 12.135441723158369,
+"lon": -15.857854751938271,
+"sector": 52,
+"code": "52-2457-8216",
+"refined": "52-2457-8216.3",
+"decoded": [
+12.1354429,
+-15.857851
+],
+"cell": [
+2581,
+4726
+],
+"hilbert": 56792199
+},
+{
+"lat": 12.438226897801428,
+"lon": -14.826259871420172,
+"sector": 25,
+"code": "25-3749-8880",
+"refined": "25-3749-8880.1",
+"decoded": [
+12.4382291,
+-14.8262617
+],
+"cell": [
+3488,
+7980
+],
+"hilbert": 51267824
+},
+{
+"lat": 11.53518945034777,
+"lon": -15.75316779985686,
+"sector": 31,
+"code": "31-1304-8671",
+"refined": "31-1304-8671.2",
+"decoded": [
+11.5351931,
+-15.7531632
+],
+"cell": [
+1087,
+3461
+],
+"hilbert": 6541252
+},
+{
+"lat": 11.904612119045883,
+"lon": -13.810007473565244,
+"sector": 61,
+"code": "61-8447-3538",
+"refined": "61-8447-3538.1",
+"decoded": [
+11.9046041,
+-13.8100138
+],
+"cell": [
+8433,
+4758
+],
+"hilbert": 228988055
+},
+{
+"lat": 11.65794667588854,
+"lon": -15.337019997495165,
+"sector": 31,
+"code": "31-9539-4209",
+"refined": "31-9539-4209.1",
+"decoded": [
+11.6579526,
+-15.3370251
+],
+"cell": [
+9340,
+5929
+],
+"hilbert": 227513273
+},
+{
+"lat": 11.555504166413819,
+"lon": -15.356209519885446,
+"sector": 82,
+"code": "82-3537-5487",
+"refined": "82-3537-5487.6",
+"decoded": [
+11.5554981,
+-15.3562141
+],
+"cell": [
+3358,
+5747
+],
+"hilbert": 55000667
+},
+{
+"lat": 11.538571804322283,
+"lon": -15.827382394742346,
+"sector": 33,
+"code": "33-9530-7961",
+"refined": "33-9530-7961.1",
+"decoded": [
+11.5385781,
+-15.827375
+],
+"cell": [
+9376,
+5091
+],
+"hilbert": 230004751
+},
+{
+"lat": 12.044557746789376,
+"lon": -16.039817604027288,
+"sector": 55,
+"code": "55-4421-7374",
+"refined": "55-4421-7374.9",
+"decoded": [
+12.0445529,
+-16.0398179
+],
+"cell": [
+4277,
+4134
+],
+"hilbert": 33573773
+},
+{
+"lat": 12.571548859174644,
+"lon": -14.642874995418852,
+"sector": 23,
+"code": "23-4454-1165",
+"refined": "23-4454-1165.8",
+"decoded": [
+12.5715419,
+-14.6428776
+],
+"cell": [
+4516,
+4415
+],
+"hilbert": 33743813
+},
+{
+"lat": 12.367979787807432,
+"lon": -14.956077296691015,
+"sector": 25,
+"code": "25-0643-8248",
+"refined": "25-0643-8248.7",
+"decoded": [
+12.3679817,
+-14.9560771
+],
+"cell": [
+484,
+6328
+],
+"hilbert": 63019984
+},
+{
+"lat": 12.375268867462418,
+"lon": -14.65437383376526,
+"sector": 21,
+"code": "21-1724-1135",
+"refined": "21-1724-1135.2",
+"decoded": [
+12.3752668,
+-14.6543733
+],
+"cell": [
+1213,
+7415
+],
+"hilbert": 65056836
+},
+{
+"lat": 12.520635178264293,
+"lon": -14.059997891682052,
+"sector": 63,
+"code": "63-5262-4264",
+"refined": "63-5262-4264.9",
+"decoded": [
+12.5206425,
+-14.0599915
+],
+"cell": [
+5646,
+2224
+],
+"hilbert": 30852606
+},
+{
+"lat": 12.567330249271551,
+"lon": -14.9918969902904,
+"sector": 72,
+"code": "72-7360-8066",
+"refined": "72-7360-8066.4",
+"decoded": [
+12.5673296,
+-14.9918878
+],
+"cell": [
+7686,
+3006
+],
+"hilbert": 26985832
+},
+{
+"lat": 11.539973112287813,
+"lon": -14.924685625881384,
+"sector": 81,
+"code": "81-5303-3981",
+"refined": "81-5303-3981.3",
+"decoded": [
+11.539969,
+-14.9246839
+],
+"cell": [
+5038,
+3391
+],
+"hilbert": 32917929
+},
+{
+"lat": 11.16765007463412,
+"lon": -15.242067328067987,
+"sector": 94,
+"code": "94-7259-5302",
+"refined": "94-7259-5302.4",
+"decoded": [
+11.1676497,
+-15.2420679
+],
+"cell": [
+7550,
+2932
+],
+"hilbert": 27033676
+},
+{
+"lat": 11.535586847836662,
+"lon": -15.818777654747946,
+"sector": 33,
+"code": "33-9540-9488",
+"refined": "33-9540-9488.1",
+"decoded": [
+11.5355837,
+-15.8187661
+],
+"cell": [
+9498,
+5048
+],
+"hilbert": 230050854
+},
+{
+"lat": 12.411351571925469,
+"lon": -14.508134205457972,
+"sector": 23,
+"code": "23-6176-6990",
+"refined": "23-6176-6990.8",
+"decoded": [
+12.411355,
+-14.5081303
+],
+"cell": [
+6769,
+1690
+],
+"hilbert": 24280263
+},
+{
+"lat": 11.67832395783761,
+"lon": -15.458770267075066,
+"sector": 84,
+"code": "84-4230-6252",
+"refined": "84-4230-6252.9",
+"decoded": [
+11.6783228,
+-15.4587731
+],
+"cell": [
+4365,
+2022
+],
+"hilbert": 18240621
+},
+{
+"lat": 12.154137322088479,
+"lon": -15.45087292107256,
+"sector": 75,
+"code": "75-6768-5933",
+"refined": "75-6768-5933.2",
+"decoded": [
+12.1541415,
+-15.4508716
+],
+"cell": [
+6653,
+7893
+],
+"hilbert": 45983330
+},
+{
+"lat": 12.16377698569566,
+"lon": -14.019784992552369,
+"sector": 64,
+"code": "64-2077-2217",
+"refined": "64-2077-2217.9",
+"decoded": [
+12.163773,
+-14.0197859
+],
+"cell": [
+2721,
+727
+],
+"hilbert": 14818622
+},
+{
+"lat": 11.989998219406703,
+"lon": -15.654608772233772,
+"sector": 43,
+"code": "43-4703-5513",
+"refined": "43-4703-5513.7",
+"decoded": [
+11.9899999,
+-15.6546063
+],
+"cell": [
+4051,
+7353
+],
+"hilbert": 50673222
+},
+{
+"lat": 12.438351034090802,
+"lon": -14.377681656706141,
+"sector": 65,
+"code": "65-3549-2530",
+"refined": "65-3549-2530.7",
+"decoded": [
+12.4383451,
+-14.3776898
+],
+"cell": [
+3423,
+5950
+],
+"hilbert": 54828713
+},
+{
+"lat": 11.344949227515766,
+"lon": -14.868185002236503,
+"sector": 91,
+"code": "91-8735-1591",
+"refined": "91-8735-1591.6",
+"decoded": [
+11.3449562,
+-14.8681843
+],
+"cell": [
+8319,
+7551
+],
+"hilbert": 223969280
+},
+{
+"lat": 11.25652954291245,
+"lon": -15.223007031350578,
+"sector": 93,
+"code": "93-6113-1926",
+"refined": "93-6113-1926.1",
+"decoded": [
+11.2565303,
+-15.2230019
+],
+"cell": [
+6112,
+1396
+],
+"hilbert": 19677968
+},
+{
+"lat": 11.897366106167448,
+"lon": -15.048745974063579,
+"sector": 83,
+"code": "83-7841-2099",
+"refined": "83-7841-2099.1",
+"decoded": [
+11.8973692,
+-15.0487513
+],
+"cell": [
+7429,
+8109
+],
+"hilbert": 44852808
+},
+{
+"lat": 12.24944946031379,
+"lon": -15.374443630055572,
+"sector": 71,
+"code": "71-8204-2333",
+"refined": "71-8204-2333.2",
+"decoded": [
+12.2494567,
+-15.3744432
+],
+"cell": [
+8023,
+2433
+],
+"hilbert": 26663316
+},
+{
+"lat": 11.24556830454656,
+"lon": -15.219839353816008,
+"sector": 93,
+"code": "93-6110-9983",
+"refined": "93-6110-9983.2",
+"decoded": [
+11.2455693,
+-15.219838
+],
+"cell": [
+6198,
+1093
+],
+"hilbert": 24818989
+},
+{
+"lat": 11.764175505485634,
+"lon": -14.893952176469936,
+"sector": 81,
+"code": "81-5980-0206",
+"refined": "81-5980-0206.8",
+"decoded": [
+11.7641724,
+-14.8939508
+],
+"cell": [
+5800,
+9026
+],
+"hilbert": 129621060
+},
+{
+"lat": 11.121090583991903,
+"lon": -15.127819770561649,
+"sector": 91,
+"code": "91-2298-7800",
+"refined": "91-2298-7800.2",
+"decoded": [
+11.1210832,
+-15.1278223
+],
+"cell": [
+2970,
+2880
+],
+"hilbert": 9075046
+},
+{
+"lat": 11.981555026990106,
+"lon": -15.719426667689332,
+"sector": 52,
+"code": "52-6052-4468",
+"refined": "52-6052-4468.1",
+"decoded": [
+11.9815514,
+-15.7194296
+],
+"cell": [
+6546,
+248
+],
+"hilbert": 21085926
+},
+{
+"lat": 12.267517164169261,
+"lon": -15.895505900506095,
+"sector": 52,
+"code": "52-1855-0639",
+"refined": "52-1855-0639.2",
+"decoded": [
+12.267512,
+-15.8955028
+],
+"cell": [
+1503,
+8569
+],
+"hilbert": 70796348
+},
+{
+"lat": 12.118028987671856,
+"lon": -15.95295108450803,
+"sector": 55,
+"code": "55-6661-4615",
+"refined": "55-6661-4615.9",
+"decoded": [
+12.1180241,
+-15.9529565
+],
+"cell": [
+6641,
+6165
+],
+"hilbert": 42030610
+},
+{
+"lat": 12.292355135042543,
+"lon": -15.248132802239597,
+"sector": 73,
+"code": "73-3292-7327",
+"refined": "73-3292-7327.8",
+"decoded": [
+12.2923474,
+-15.2481378
+],
+"cell": [
+3972,
+2237
+],
+"hilbert": 12529633
+},
+{
+"lat": 12.139077170538945,
+"lon": -16.09868629591859,
+"sector": 55,
+"code": "55-2667-7457",
+"refined": "55-2667-7457.9",
+"decoded": [
+12.1390779,
+-16.0986808
+],
+"cell": [
+2675,
+6747
+],
+"hilbert": 52596298
+},
+{
+"lat": 11.931199898114013,
+"lon": -14.825605817364517,
+"sector": 22,
+"code": "22-5382-5763",
+"refined": "22-5382-5763.1",
+"decoded": [
+11.9311951,
+-14.8256034
+],
+"cell": [
+5856,
+3273
+],
+"hilbert": 30188609
+},
+{
+"lat": 12.5161621993624,
+"lon": -14.33993582756416,
+"sector": 63,
+"code": "63-0221-1345",
+"refined": "63-0221-1345.3",
+"decoded": [
+12.5161689,
+-14.3399286
+],
+"cell": [
+214,
+2135
+],
+"hilbert": 4219435
+},
+{
+"lat": 11.903659694940254,
+"lon": -15.629437121391982,
+"sector": 43,
+"code": "43-5245-2719",
+"refined": "43-5245-2719.3",
+"decoded": [
+11.9036626,
+-15.629436
+],
+"cell": [
+5421,
+2579
+],
+"hilbert": 31262558
+},
+{
+"lat": 12.207319450049296,
+"lon": -15.08839532369223,
+"sector": 73,
+"code": "73-6096-6176",
+"refined": "73-6096-6176.9",
+"decoded": [
+12.2073201,
+-15.08839
+],
+"cell": [
+6967,
+616
+],
+"hilbert": 21729749
+},
+{
+"lat": 12.497304661564929,
+"lon": -14.581230682994056,
+"sector": 23,
+"code": "23-5351-4572",
+"refined": "23-5351-4572.7",
+"decoded": [
+12.4972975,
+-14.5812355
+],
+"cell": [
+5547,
+3152
+],
+"hilbert": 30137839
+},
+{
+"lat": 11.846104128596739,
+"lon": -16.066975414572376,
+"sector": 54,
+"code": "54-7265-5516",
+"refined": "54-7265-5516.6",
+"decoded": [
+11.8461051,
+-16.0669736
+],
+"cell": [
+7651,
+2556
+],
+"hilbert": 26388831
+},
+{
+"lat": 11.777485996902529,
+"lon": -15.337819873817178,
+"sector": 84,
+"code": "84-7478-4353",
+"refined": "84-7478-4353.3",
+"decoded": [
+11.7774917,
+-15.3378233
+],
+"cell": [
+7745,
+4833
+],
+"hilbert": 39347202
+},
+{
+"lat": 11.632872705323965,
+"lon": -14.645459674333734,
+"sector": 95,
+"code": "95-5566-4158",
+"refined": "95-5566-4158.5",
+"decoded": [
+11.6328728,
+-14.6454592
+],
+"cell": [
+5645,
+5618
+],
+"hilbert": 36525559
+},
+{
+"lat": 11.377320594744138,
+"lon": -15.766583347761923,
+"sector": 32,
+"code": "32-4874-4142",
+"refined": "32-4874-4142.8",
+"decoded": [
+11.3773254,
+-15.7665853
+],
+"cell": [
+4744,
+8412
+],
+"hilbert": 128760762
+},
+{
+"lat": 11.275455887712997,
+"lon": -14.943523864619157,
+"sector": 91,
+"code": "91-6671-6071",
+"refined": "91-6671-6071.5",
+"decoded": [
+11.2754553,
+-14.9435292
+],
+"cell": [
+6767,
+6101
+],
+"hilbert": 40978278
+},
+{
+"lat": 11.821006917469212,
+"lon": -15.073140051302259,
+"sector": 83,
+"code": "83-6578-1207",
+"refined": "83-6578-1207.3",
+"decoded": [
+11.8210095,
+-15.0731415
+],
+"cell": [
+6710,
+5827
+],
+"hilbert": 41050041
+},
+{
+"lat": 12.274989779353517,
+"lon": -16.39226758333596,
+"sector": 56,
+"code": "56-4169-6210",
+"refined": "56-4169-6210.5",
+"decoded": [
+12.2750003,
+-16.3922625
+],
+"cell": [
+4661,
+1920
+],
+"hilbert": 18433339
+},
+{
+"lat": 11.93900908063091,
+"lon": -14.395161437758041,
+"sector": 62,
+"code": "62-1378-4871",
+"refined": "62-1378-4871.1",
+"decoded": [
+11.9389983,
+-14.3951543
+],
+"cell": [
+1747,
+3881
+],
+"hilbert": 6944622
+},
+{
+"lat": 12.13555906972722,
+"lon": -16.191169505258124,
+"sector": 53,
+"code": "53-4229-4161",
+"refined": "53-4229-4161.5",
+"decoded": [
+12.1355531,
+-16.1911739
+],
+"cell": [
+4246,
+2911
+],
+"hilbert": 32469609
+},
+{
+"lat": 11.87856694741113,
+"lon": -14.466143464701007,
+"sector": 62,
+"code": "62-0391-2740",
+"refined": "62-0391-2740.3",
+"decoded": [
+11.8785555,
+-14.4661524
+],
+"cell": [
+924,
+3170
+],
+"hilbert": 6281204
+},
+{
+"lat": 11.311159982976115,
+"lon": -15.056261021470455,
+"sector": 91,
+"code": "91-4648-4446",
+"refined": "91-4648-4446.6",
+"decoded": [
+11.3111644,
+-15.0562633
+],
+"cell": [
+4444,
+6846
+],
+"hilbert": 49143470
+},
+{
+"lat": 12.252754396380777,
+"lon": -14.24554197709603,
+"sector": 62,
+"code": "62-3745-8702",
+"refined": "62-3745-8702.4",
+"decoded": [
+12.2527454,
+-14.2455317
+],
+"cell": [
+3480,
+7572
+],
+"hilbert": 50866384
+},
+{
+"lat": 11.662809529895592,
+"lon": -15.483388093281684,
+"sector": 84,
+"code": "84-3165-7872",
+"refined": "84-3165-7872.9",
+"decoded": [
+11.6628038,
+-15.4833925
+],
+"cell": [
+3677,
+1582
+],
+"hilbert": 12760839
+},
+{
+"lat": 11.686401514495113,
+"lon": -15.496452547910037,
+"sector": 84,
+"code": "84-3232-1521",
+"refined": "84-3232-1521.9",
+"decoded": [
+11.6863998,
+-15.4964537
+],
+"cell": [
+3312,
+2251
+],
+"hilbert": 12193637
+},
+{
+"lat": 12.1497118534632,
+"lon": -14.522791743449023,
+"sector": 21,
+"code": "21-4171-9810",
+"refined": "21-4171-9810.2",
+"decoded": [
+12.1497165,
+-14.5227915
+],
+"cell": [
+4791,
+1180
+],
+"hilbert": 18752581
+},
+{
+"lat": 12.43627432455332,
+"lon": -14.528022525642692,
+"sector": 23,
+"code": "23-6241-3164",
+"refined": "23-6241-3164.9",
+"decoded": [
+12.4362795,
+-14.5280264
+],
+"cell": [
+6436,
+2114
+],
+"hilbert": 25239220
+},
+{
+"lat": 11.91286149574556,
+"lon": -14.123622985190497,
+"sector": 62,
+"code": "62-4385-9724",
+"refined": "62-4385-9724.4",
+"decoded": [
+11.9128716,
+-14.1236233
+],
+"cell": [
+4892,
+3574
+],
+"hilbert": 32963812
+},
+{
+"lat": 12.403482860960782,
+"lon": -13.745623651236581,
+"sector": 64,
+"code": "64-7550-2092",
+"refined": "64-7550-2092.8",
+"decoded": [
+12.4034767,
+-13.745626
+],
+"cell": [
+7529,
+5002
+],
+"hilbert": 39616045
+},
+{
+"lat": 11.268970670235687,
+"lon": -15.196533943401649,
+"sector": 93,
+"code": "93-6187-3440",
+"refined": "93-6187-3440.2",
+"decoded": [
+11.2689744,
+-15.1965299
+],
+"cell": [
+6834,
+1740
+],
+"hilbert": 24262132
+},
+{
+"lat": 11.626473966003992,
+"lon": -15.389903830270548,
+"sector": 31,
+"code": "31-8522-9916",
+"refined": "31-8522-9916.2",
+"decoded": [
+11.6264668,
+-15.3899038
+],
+"cell": [
+8291,
+5296
+],
+"hilbert": 228227343
+},
+{
+"lat": 12.183459413600115,
+"lon": -14.629202387565359,
+"sector": 21,
+"code": "21-1281-9173",
+"refined": "21-1281-9173.6",
+"decoded": [
+12.1834556,
+-14.6292067
+],
+"cell": [
+1897,
+2113
+],
+"hilbert": 8357480
+},
+{
+"lat": 11.90201975640488,
+"lon": -15.83853947436991,
+"sector": 42,
+"code": "42-4548-0075",
+"refined": "42-4548-0075.1",
+"decoded": [
+11.9020202,
+-15.8385388
+],
+"cell": [
+4407,
+5805
+],
+"hilbert": 35086822
+},
+{
+"lat": 12.293258033436656,
+"lon": -14.459290633464285,
+"sector": 65,
+"code": "65-1380-3885",
+"refined": "65-1380-3885.6",
+"decoded": [
+12.2932646,
+-14.4592909
+],
+"cell": [
+1838,
+3085
+],
+"hilbert": 7278093
+},
+{
+"lat": 11.417198345893029,
+"lon": -14.80285220382685,
+"sector": 95,
+"code": "95-2176-8443",
+"refined": "95-2176-8443.1",
+"decoded": [
+11.4171982,
+-14.802852
+],
+"cell": [
+2784,
+1643
+],
+"hilbert": 13779653
+},
+{
+"lat": 12.053924088131575,
+"lon": -15.39406946686491,
+"sector": 74,
+"code": "74-1228-5390",
+"refined": "74-1228-5390.1",
+"decoded": [
+12.0539272,
+-15.3940709
+],
+"cell": [
+1259,
+2830
+],
+"hilbert": 7732403
+},
+{
+"lat": 11.526989999710889,
+"lon": -14.97472512390335,
+"sector": 81,
+"code": "81-3370-9685",
+"refined": "81-3370-9685.5",
+"decoded": [
+11.5269835,
+-14.9747312
+],
+"cell": [
+3798,
+3065
+],
+"hilbert": 11775101
+}
+],
+"numbering": {
+"sector": 75,
+"from": 2000,
+"compounds": [
+{
+"id": "c00",
+"lat": 12.041243612980374,
+"lon": -15.52171167181426
+},
+{
+"id": "c01",
+"lat": 12.042798220942556,
+"lon": -15.524798964183491
+},
+{
+"id": "c02",
+"lat": 12.040272527470806,
+"lon": -15.521029996289025
+},
+{
+"id": "c03",
+"lat": 12.041468224993324,
+"lon": -15.522609756280948
+},
+{
+"id": "c04",
+"lat": 12.04329467877164,
+"lon": -15.522112026327118
+},
+{
+"id": "c05",
+"lat": 12.042221310821361,
+"lon": -15.523836269582661
+},
+{
+"id": "c06",
+"lat": 12.04176894165604,
+"lon": -15.523786909684986
+},
+{
+"id": "c07",
+"lat": 12.04138160571237,
+"lon": -15.523095189631153
+},
+{
+"id": "c08",
+"lat": 12.040700270635877,
+"lon": -15.523796728654792
+},
+{
+"id": "c09",
+"lat": 12.04186805836696,
+"lon": -15.52369313524445
+},
+{
+"id": "c10",
+"lat": 12.04390324992543,
+"lon": -15.523355987647273
+},
+{
+"id": "c11",
+"lat": 12.043853313982748,
+"lon": -15.52114268027252
+},
+{
+"id": "c12",
+"lat": 12.040765654670984,
+"lon": -15.523125212485537
+},
+{
+"id": "c13",
+"lat": 12.04389641369915,
+"lon": -15.521706287819264
+}
+],
+"numbers": {
+"c01": 2001,
+"c08": 2003,
+"c12": 2005,
+"c03": 2007,
+"c07": 2009,
+"c09": 2011,
+"c06": 2013,
+"c05": 2015,
+"c10": 2017,
+"c04": 2019,
+"c13": 2021,
+"c11": 2023,
+"c00": 2025,
+"c02": 2027
+},
+"block": [
+2000,
+2099
+],
+"inserts": [
+{
+"lat": 12.04083854482416,
+"lon": -15.52160955644847,
+"number": 2026,
+"why": "gap"
+},
+{
+"lat": 12.040746621084017,
+"lon": -15.523575412357122,
+"number": 2006,
+"why": "gap"
+},
+{
+"lat": 12.040843741229349,
+"lon": -15.521445323014287,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044412161570733,
+"lon": -15.521862795802939,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.042776893203738,
+"lon": -15.522891391976925,
+"number": 2018,
+"why": "gap"
+},
+{
+"lat": 12.040832749852001,
+"lon": -15.521353676854737,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.039500662464867,
+"lon": -15.524091073310421,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044926288104504,
+"lon": -15.521360699300734,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.041494370638759,
+"lon": -15.523125037434449,
+"number": 2006,
+"why": "gap"
+},
+{
+"lat": 12.044212566297752,
+"lon": -15.524014451879763,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.041482427140176,
+"lon": -15.523441290558546,
+"number": 2006,
+"why": "gap"
+},
+{
+"lat": 12.043184281479775,
+"lon": -15.52265901665115,
+"number": 2018,
+"why": "gap"
+},
+{
+"lat": 12.044755987372573,
+"lon": -15.524907310579344,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.043769867105164,
+"lon": -15.523032207397163,
+"number": 2018,
+"why": "gap"
+},
+{
+"lat": 12.040353618749528,
+"lon": -15.522679703633486,
+"number": 2004,
+"why": "gap"
+},
+{
+"lat": 12.042263275821947,
+"lon": -15.523209257917838,
+"number": 2018,
+"why": "gap"
+},
+{
+"lat": 12.04244648787494,
+"lon": -15.523580531347584,
+"number": 2018,
+"why": "gap"
+},
+{
+"lat": 12.039224691469348,
+"lon": -15.524165405473465,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.039684229686928,
+"lon": -15.523708051884917,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044777830590851,
+"lon": -15.521485935020351,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.039383819722472,
+"lon": -15.525429942009538,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.04298581777582,
+"lon": -15.521171081304216,
+"number": 2024,
+"why": "gap"
+},
+{
+"lat": 12.043367954422584,
+"lon": -15.525979164470895,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.041427648588053,
+"lon": -15.525847990348042,
+"number": 2002,
+"why": "gap"
+},
+{
+"lat": 12.043443213610983,
+"lon": -15.52338586883246,
+"number": 2016,
+"why": "gap"
+},
+{
+"lat": 12.039372754737617,
+"lon": -15.523239551743242,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044926312270293,
+"lon": -15.523411006010207,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044672175490266,
+"lon": -15.524233608967593,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.044498815113126,
+"lon": -15.521540984518573,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.042575400147514,
+"lon": -15.523666081986153,
+"number": 2016,
+"why": "gap"
+},
+{
+"lat": 12.040762709530702,
+"lon": -15.5205070237035,
+"number": 2028,
+"why": "end"
+},
+{
+"lat": 12.041396594321633,
+"lon": -15.521323032343236,
+"number": 2024,
+"why": "gap"
+},
+{
+"lat": 12.040196549702193,
+"lon": -15.525656611405507,
+"number": 2002,
+"why": "gap"
+},
+{
+"lat": 12.042665153907429,
+"lon": -15.520692120970802,
+"number": 2024,
+"why": "gap"
+},
+{
+"lat": 12.04371615043509,
+"lon": -15.520579478773818,
+"number": 2024,
+"why": "gap"
+},
+{
+"lat": 12.042541765808021,
+"lon": -15.520925924908344,
+"number": 2024,
+"why": "gap"
+},
+{
+"lat": 12.043374437649097,
+"lon": -15.522085052897054,
+"number": 2020,
+"why": "gap"
+},
+{
+"lat": 12.040049128182789,
+"lon": -15.52352523302473,
+"number": 2004,
+"why": "gap"
+},
+{
+"lat": 12.042896575781375,
+"lon": -15.52446390700278,
+"number": 2016,
+"why": "gap"
+},
+{
+"lat": 12.044684426282164,
+"lon": -15.5203069328759,
+"number": 2028,
+"why": "end"
+}
+]
+}
+}

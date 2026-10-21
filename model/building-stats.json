@@ -1,0 +1,1479 @@
+{
+ "computed": "2026-10-18",
+ "note": "Statistics from N-Ways map data (OpenStreetMap + Google/Microsoft footprints via Overture); compounds are machine-grouped candidates until people confirm them.",
+ "rules": {
+  "settlementClassesBuildingsPerHa": {
+   "cidade": ">=10",
+   "vila": "4-10",
+   "tabanca": "1-4",
+   "disperso": "<1"
+  },
+  "proximityMetres": {
+   "cidade": {
+    "annexJoin": 6,
+    "structureGap": 3
+   },
+   "vila": {
+    "annexJoin": 10,
+    "structureGap": 6
+   },
+   "tabanca": {
+    "annexJoin": 15,
+    "structureGap": 12
+   },
+   "disperso": {
+    "annexJoin": 20,
+    "structureGap": 15
+   }
+  },
+  "annexBelowM2": 40,
+  "maxStructuresBeforeSplit": 12
+ },
+ "country": {
+  "footprints": 419593,
+  "fromOpenStreetMap": 99131,
+  "compounds": 241673,
+  "compoundsFromEnclosures": 763,
+  "compoundsWithKnownGate": 12,
+  "footprintsInMultiStructureCompounds": 274773,
+  "shareFootprintsInMultiStructureCompounds": 0.655,
+  "structuresPerCompound": {
+   "mean": 1.74,
+   "p50": 1,
+   "p90": 3,
+   "p99": 7
+  },
+  "compoundSizeMix": {
+   "1": 144820,
+   "2": 56535,
+   "3": 21794,
+   "4": 9176,
+   "5": 4239,
+   "6": 2172,
+   "7-12": 2903,
+   ">12": 34
+  },
+  "footprintAreaM2": {
+   "p10": 18.0,
+   "p25": 33.2,
+   "p50": 116.0,
+   "p75": 196.2,
+   "p90": 256.3
+  },
+  "compoundFootprintAreaM2": {
+   "p10": 36.4,
+   "p25": 86.5,
+   "p50": 182.8,
+   "p75": 274.8,
+   "p90": 435.5
+  },
+  "settlement": {
+   "disperso": 36208,
+   "tabanca": 116782,
+   "vila": 148357,
+   "cidade": 118246
+  },
+  "useTop": {
+   "residential": 416529,
+   "unknown": 1012,
+   "commercial": 584,
+   "industrial": 375,
+   "government": 360,
+   "education": 236,
+   "hospitality": 174,
+   "health": 104,
+   "religious": 98,
+   "status": 78,
+   "transport": 19,
+   "public": 15,
+   "agricultural": 8,
+   "utility": 1
+  },
+  "useDetail": {
+   "residential.compound-house": 375096,
+   "residential.annex": 37222,
+   "residential.house": 2511,
+   "residential.round-house": 1469,
+   "unknown.large": 1012,
+   "industrial": 375,
+   "government.military": 331,
+   "commercial.office": 308,
+   "education": 236,
+   "residential.hut": 231,
+   "commercial.shop": 178,
+   "hospitality": 174,
+   "health": 104,
+   "religious": 98
+  },
+  "useConfidenceMean": 0.55,
+  "useFromTagsOrPlaces": 3567,
+  "floorsKnown": 82,
+  "compoundUse": {
+   "residential": 241005,
+   "mixed": 299,
+   "commercial": 131,
+   "hospitality": 60,
+   "education": 43,
+   "religious": 43,
+   "government": 38,
+   "health": 21,
+   "industrial": 15,
+   "transport": 9,
+   "public": 6,
+   "agricultural": 3
+  }
+ },
+ "regions": {
+  "GW-BA": {
+   "footprints": 60980,
+   "fromOpenStreetMap": 13185,
+   "compounds": 34432,
+   "compoundsFromEnclosures": 49,
+   "compoundsWithKnownGate": 0,
+   "footprintsInMultiStructureCompounds": 41218,
+   "shareFootprintsInMultiStructureCompounds": 0.676,
+   "structuresPerCompound": {
+    "mean": 1.77,
+    "p50": 1,
+    "p90": 3,
+    "p99": 7
+   },
+   "compoundSizeMix": {
+    "1": 19778,
+    "2": 8566,
+    "3": 3303,
+    "4": 1418,
+    "5": 621,
+    "6": 321,
+    "7-12": 422,
+    ">12": 3
+   },
+   "footprintAreaM2": {
+    "p10": 17.5,
+    "p25": 30.9,
+    "p50": 108.5,
+    "p75": 186.1,
+    "p90": 229.4
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 39.1,
+    "p25": 84.0,
+    "p50": 174.7,
+    "p75": 250.8,
+    "p90": 407.8
+   },
+   "settlement": {
+    "disperso": 5135,
+    "tabanca": 15946,
+    "vila": 27471,
+    "cidade": 12428
+   },
+   "useTop": {
+    "residential": 60857,
+    "unknown": 59,
+    "government": 22,
+    "status": 17,
+    "transport": 7,
+    "commercial": 6,
+    "industrial": 5,
+    "religious": 4,
+    "hospitality": 2,
+    "health": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 54964,
+    "residential.annex": 5596,
+    "residential.round-house": 276,
+    "unknown.large": 59,
+    "government.military": 20,
+    "residential.house": 19,
+    "status.construction": 17,
+    "transport": 7,
+    "commercial.office": 5,
+    "industrial": 5,
+    "religious": 4,
+    "hospitality": 2,
+    "government": 2,
+    "residential.hut": 2
+   },
+   "useConfidenceMean": 0.55,
+   "useFromTagsOrPlaces": 60,
+   "floorsKnown": 0,
+   "compoundUse": {
+    "residential": 34408,
+    "mixed": 17,
+    "transport": 3,
+    "commercial": 1,
+    "religious": 1,
+    "government": 1,
+    "industrial": 1
+   }
+  },
+  "GW-BL": {
+   "footprints": 14157,
+   "fromOpenStreetMap": 9551,
+   "compounds": 7974,
+   "compoundsFromEnclosures": 62,
+   "compoundsWithKnownGate": 3,
+   "footprintsInMultiStructureCompounds": 9355,
+   "shareFootprintsInMultiStructureCompounds": 0.661,
+   "structuresPerCompound": {
+    "mean": 1.78,
+    "p50": 1,
+    "p90": 3,
+    "p99": 8
+   },
+   "compoundSizeMix": {
+    "1": 4802,
+    "2": 1796,
+    "3": 708,
+    "4": 316,
+    "5": 132,
+    "6": 84,
+    "7-12": 132,
+    ">12": 4
+   },
+   "footprintAreaM2": {
+    "p10": 18.3,
+    "p25": 31.9,
+    "p50": 68.7,
+    "p75": 128.7,
+    "p90": 201.4
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 31.9,
+    "p25": 65.1,
+    "p50": 121.1,
+    "p75": 209.5,
+    "p90": 322.5
+   },
+   "settlement": {
+    "disperso": 1109,
+    "tabanca": 2936,
+    "vila": 5642,
+    "cidade": 4470
+   },
+   "useTop": {
+    "residential": 13860,
+    "commercial": 73,
+    "hospitality": 51,
+    "health": 47,
+    "government": 33,
+    "religious": 26,
+    "education": 25,
+    "status": 21,
+    "unknown": 9,
+    "agricultural": 8,
+    "transport": 2,
+    "industrial": 1,
+    "public": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 12035,
+    "residential.round-house": 821,
+    "residential.annex": 787,
+    "residential.house": 207,
+    "commercial.shop": 55,
+    "hospitality": 51,
+    "health": 47,
+    "religious": 26,
+    "education": 25,
+    "government.military": 23,
+    "status.ruin": 20,
+    "commercial.office": 14,
+    "government": 10,
+    "residential.hut": 10
+   },
+   "useConfidenceMean": 0.56,
+   "useFromTagsOrPlaces": 443,
+   "floorsKnown": 32,
+   "compoundUse": {
+    "residential": 7797,
+    "mixed": 64,
+    "commercial": 45,
+    "government": 20,
+    "hospitality": 17,
+    "religious": 13,
+    "health": 10,
+    "education": 5,
+    "agricultural": 3
+   }
+  },
+  "GW-BM": {
+   "footprints": 36234,
+   "fromOpenStreetMap": 3434,
+   "compounds": 21844,
+   "compoundsFromEnclosures": 19,
+   "compoundsWithKnownGate": 3,
+   "footprintsInMultiStructureCompounds": 22062,
+   "shareFootprintsInMultiStructureCompounds": 0.609,
+   "structuresPerCompound": {
+    "mean": 1.66,
+    "p50": 1,
+    "p90": 3,
+    "p99": 7
+   },
+   "compoundSizeMix": {
+    "1": 14141,
+    "2": 4559,
+    "3": 1589,
+    "4": 731,
+    "5": 355,
+    "6": 196,
+    "7-12": 271,
+    ">12": 2
+   },
+   "footprintAreaM2": {
+    "p10": 21.3,
+    "p25": 55.4,
+    "p50": 151.5,
+    "p75": 232.5,
+    "p90": 309.9
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 43.3,
+    "p25": 114.0,
+    "p50": 217.1,
+    "p75": 333.3,
+    "p90": 527.5
+   },
+   "settlement": {
+    "disperso": 2361,
+    "tabanca": 10179,
+    "vila": 15807,
+    "cidade": 7887
+   },
+   "useTop": {
+    "residential": 35867,
+    "unknown": 243,
+    "commercial": 107,
+    "education": 7,
+    "hospitality": 5,
+    "health": 3,
+    "religious": 1,
+    "utility": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 33353,
+    "residential.annex": 2500,
+    "unknown.large": 243,
+    "commercial.office": 107,
+    "residential.house": 11,
+    "education": 7,
+    "hospitality": 5,
+    "health": 3,
+    "residential.round-house": 3,
+    "religious": 1,
+    "utility": 1
+   },
+   "useConfidenceMean": 0.56,
+   "useFromTagsOrPlaces": 33,
+   "floorsKnown": 0,
+   "compoundUse": {
+    "residential": 21822,
+    "mixed": 10,
+    "commercial": 8,
+    "education": 2,
+    "religious": 1,
+    "hospitality": 1
+   }
+  },
+  "GW-BS": {
+   "footprints": 69245,
+   "fromOpenStreetMap": 32101,
+   "compounds": 43858,
+   "compoundsFromEnclosures": 55,
+   "compoundsWithKnownGate": 3,
+   "footprintsInMultiStructureCompounds": 40142,
+   "shareFootprintsInMultiStructureCompounds": 0.58,
+   "structuresPerCompound": {
+    "mean": 1.58,
+    "p50": 1,
+    "p90": 3,
+    "p99": 6
+   },
+   "compoundSizeMix": {
+    "1": 29134,
+    "2": 9210,
+    "3": 3179,
+    "4": 1255,
+    "5": 526,
+    "6": 239,
+    "7-12": 302,
+    ">12": 13
+   },
+   "footprintAreaM2": {
+    "p10": 23.1,
+    "p25": 59.1,
+    "p50": 167.2,
+    "p75": 236.8,
+    "p90": 298.7
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 52.0,
+    "p25": 136.6,
+    "p50": 221.0,
+    "p75": 310.2,
+    "p90": 475.3
+   },
+   "settlement": {
+    "disperso": 186,
+    "tabanca": 1895,
+    "vila": 8713,
+    "cidade": 58451
+   },
+   "useTop": {
+    "residential": 67830,
+    "unknown": 411,
+    "industrial": 278,
+    "commercial": 224,
+    "education": 164,
+    "government": 139,
+    "hospitality": 92,
+    "status": 38,
+    "religious": 27,
+    "health": 23,
+    "public": 13,
+    "transport": 6
+   },
+   "useDetail": {
+    "residential.compound-house": 63288,
+    "residential.annex": 4382,
+    "unknown.large": 411,
+    "industrial": 278,
+    "education": 164,
+    "residential.house": 149,
+    "government.military": 127,
+    "commercial.office": 112,
+    "hospitality": 92,
+    "commercial.shop": 73,
+    "status.construction": 38,
+    "commercial.market": 37,
+    "religious": 27,
+    "health": 23
+   },
+   "useConfidenceMean": 0.51,
+   "useFromTagsOrPlaces": 586,
+   "floorsKnown": 45,
+   "compoundUse": {
+    "residential": 43520,
+    "mixed": 176,
+    "commercial": 64,
+    "hospitality": 35,
+    "education": 18,
+    "religious": 15,
+    "government": 9,
+    "industrial": 6,
+    "public": 6,
+    "health": 6,
+    "transport": 3
+   }
+  },
+  "GW-CA": {
+   "footprints": 62777,
+   "fromOpenStreetMap": 15104,
+   "compounds": 35431,
+   "compoundsFromEnclosures": 110,
+   "compoundsWithKnownGate": 1,
+   "footprintsInMultiStructureCompounds": 42212,
+   "shareFootprintsInMultiStructureCompounds": 0.672,
+   "structuresPerCompound": {
+    "mean": 1.77,
+    "p50": 1,
+    "p90": 3,
+    "p99": 7
+   },
+   "compoundSizeMix": {
+    "1": 20565,
+    "2": 8585,
+    "3": 3419,
+    "4": 1408,
+    "5": 678,
+    "6": 356,
+    "7-12": 415,
+    ">12": 5
+   },
+   "footprintAreaM2": {
+    "p10": 18.7,
+    "p25": 36.5,
+    "p50": 119.2,
+    "p75": 206.0,
+    "p90": 271.4
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 42.5,
+    "p25": 101.5,
+    "p50": 197.6,
+    "p75": 301.6,
+    "p90": 467.5
+   },
+   "settlement": {
+    "disperso": 9437,
+    "tabanca": 26766,
+    "vila": 19903,
+    "cidade": 6671
+   },
+   "useTop": {
+    "residential": 62392,
+    "unknown": 154,
+    "commercial": 138,
+    "religious": 28,
+    "health": 26,
+    "education": 20,
+    "hospitality": 13,
+    "government": 3,
+    "transport": 3
+   },
+   "useDetail": {
+    "residential.compound-house": 55517,
+    "residential.annex": 6698,
+    "unknown.large": 154,
+    "residential.house": 145,
+    "commercial.market": 52,
+    "commercial.shop": 48,
+    "commercial.office": 38,
+    "residential.round-house": 32,
+    "religious": 28,
+    "health": 26,
+    "education": 20,
+    "hospitality": 13,
+    "government": 3,
+    "transport": 3
+   },
+   "useConfidenceMean": 0.57,
+   "useFromTagsOrPlaces": 198,
+   "floorsKnown": 0,
+   "compoundUse": {
+    "residential": 35383,
+    "mixed": 15,
+    "education": 10,
+    "religious": 7,
+    "commercial": 7,
+    "transport": 3,
+    "hospitality": 2,
+    "government": 2,
+    "health": 2
+   }
+  },
+  "GW-GA": {
+   "footprints": 73517,
+   "fromOpenStreetMap": 11109,
+   "compounds": 43413,
+   "compoundsFromEnclosures": 104,
+   "compoundsWithKnownGate": 1,
+   "footprintsInMultiStructureCompounds": 48594,
+   "shareFootprintsInMultiStructureCompounds": 0.661,
+   "structuresPerCompound": {
+    "mean": 1.69,
+    "p50": 1,
+    "p90": 3,
+    "p99": 5
+   },
+   "compoundSizeMix": {
+    "1": 24920,
+    "2": 11396,
+    "3": 4489,
+    "4": 1586,
+    "5": 603,
+    "6": 235,
+    "7-12": 183,
+    ">12": 1
+   },
+   "footprintAreaM2": {
+    "p10": 14.5,
+    "p25": 22.7,
+    "p50": 41.2,
+    "p75": 148.0,
+    "p90": 202.6
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 23.6,
+    "p25": 46.4,
+    "p50": 124.5,
+    "p75": 201.5,
+    "p90": 278.4
+   },
+   "settlement": {
+    "tabanca": 14964,
+    "disperso": 4259,
+    "vila": 35894,
+    "cidade": 18400
+   },
+   "useTop": {
+    "residential": 73380,
+    "government": 93,
+    "unknown": 22,
+    "commercial": 13,
+    "hospitality": 5,
+    "religious": 2,
+    "public": 1,
+    "status": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 65258,
+    "residential.annex": 7541,
+    "residential.round-house": 308,
+    "residential.hut": 138,
+    "residential.house": 135,
+    "government.military": 93,
+    "unknown.large": 22,
+    "commercial.office": 12,
+    "hospitality": 5,
+    "religious": 2,
+    "public.landmark": 1,
+    "status.ruin": 1,
+    "commercial.shop": 1
+   },
+   "useConfidenceMean": 0.55,
+   "useFromTagsOrPlaces": 283,
+   "floorsKnown": 0,
+   "compoundUse": {
+    "residential": 43402,
+    "mixed": 5,
+    "hospitality": 2,
+    "religious": 2,
+    "commercial": 1,
+    "government": 1
+   }
+  },
+  "GW-OI": {
+   "footprints": 56785,
+   "fromOpenStreetMap": 9138,
+   "compounds": 29489,
+   "compoundsFromEnclosures": 142,
+   "compoundsWithKnownGate": 1,
+   "footprintsInMultiStructureCompounds": 40220,
+   "shareFootprintsInMultiStructureCompounds": 0.708,
+   "structuresPerCompound": {
+    "mean": 1.93,
+    "p50": 1,
+    "p90": 4,
+    "p99": 9
+   },
+   "compoundSizeMix": {
+    "1": 16552,
+    "2": 6773,
+    "3": 2891,
+    "4": 1405,
+    "5": 731,
+    "6": 436,
+    "7-12": 699,
+    ">12": 2
+   },
+   "footprintAreaM2": {
+    "p10": 17.4,
+    "p25": 36.3,
+    "p50": 131.7,
+    "p75": 196.9,
+    "p90": 248.7
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 40.2,
+    "p25": 104.7,
+    "p50": 194.9,
+    "p75": 305.1,
+    "p90": 522.7
+   },
+   "settlement": {
+    "disperso": 8299,
+    "tabanca": 26561,
+    "vila": 17311,
+    "cidade": 4614
+   },
+   "useTop": {
+    "residential": 56574,
+    "industrial": 70,
+    "unknown": 67,
+    "government": 53,
+    "education": 7,
+    "religious": 4,
+    "commercial": 4,
+    "hospitality": 3,
+    "health": 2,
+    "transport": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 49094,
+    "residential.annex": 6146,
+    "residential.house": 1313,
+    "industrial": 70,
+    "unknown.large": 67,
+    "government.military": 51,
+    "residential.hut": 14,
+    "residential.round-house": 7,
+    "education": 7,
+    "religious": 4,
+    "hospitality": 3,
+    "commercial.market": 3,
+    "health": 2,
+    "government": 2
+   },
+   "useConfidenceMean": 0.58,
+   "useFromTagsOrPlaces": 1355,
+   "floorsKnown": 2,
+   "compoundUse": {
+    "residential": 29458,
+    "mixed": 8,
+    "industrial": 7,
+    "government": 4,
+    "religious": 3,
+    "education": 3,
+    "commercial": 3,
+    "hospitality": 2,
+    "health": 1
+   }
+  },
+  "GW-QU": {
+   "footprints": 17011,
+   "fromOpenStreetMap": 2102,
+   "compounds": 9131,
+   "compoundsFromEnclosures": 97,
+   "compoundsWithKnownGate": 0,
+   "footprintsInMultiStructureCompounds": 11520,
+   "shareFootprintsInMultiStructureCompounds": 0.677,
+   "structuresPerCompound": {
+    "mean": 1.86,
+    "p50": 1,
+    "p90": 4,
+    "p99": 8
+   },
+   "compoundSizeMix": {
+    "1": 5491,
+    "2": 1881,
+    "3": 787,
+    "4": 395,
+    "5": 209,
+    "6": 127,
+    "7-12": 239,
+    ">12": 2
+   },
+   "footprintAreaM2": {
+    "p10": 22.4,
+    "p25": 61.2,
+    "p50": 137.8,
+    "p75": 200.3,
+    "p90": 249.3
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 51.2,
+    "p25": 120.3,
+    "p50": 198.4,
+    "p75": 298.4,
+    "p90": 525.6
+   },
+   "settlement": {
+    "disperso": 2010,
+    "tabanca": 6535,
+    "vila": 6534,
+    "cidade": 1932
+   },
+   "useTop": {
+    "residential": 16955,
+    "unknown": 23,
+    "commercial": 19,
+    "education": 5,
+    "religious": 5,
+    "hospitality": 2,
+    "status": 1,
+    "health": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 15198,
+    "residential.annex": 1224,
+    "residential.house": 526,
+    "unknown.large": 23,
+    "commercial.office": 19,
+    "education": 5,
+    "residential.round-house": 5,
+    "religious": 5,
+    "hospitality": 2,
+    "residential.hut": 2,
+    "status.construction": 1,
+    "health": 1
+   },
+   "useConfidenceMean": 0.58,
+   "useFromTagsOrPlaces": 534,
+   "floorsKnown": 3,
+   "compoundUse": {
+    "residential": 9123,
+    "mixed": 3,
+    "education": 2,
+    "commercial": 2,
+    "health": 1
+   }
+  },
+  "GW-TO": {
+   "footprints": 28887,
+   "fromOpenStreetMap": 3407,
+   "compounds": 16101,
+   "compoundsFromEnclosures": 125,
+   "compoundsWithKnownGate": 0,
+   "footprintsInMultiStructureCompounds": 19450,
+   "shareFootprintsInMultiStructureCompounds": 0.673,
+   "structuresPerCompound": {
+    "mean": 1.79,
+    "p50": 1,
+    "p90": 3,
+    "p99": 7
+   },
+   "compoundSizeMix": {
+    "1": 9437,
+    "2": 3769,
+    "3": 1429,
+    "4": 662,
+    "5": 384,
+    "6": 178,
+    "7-12": 240,
+    ">12": 2
+   },
+   "footprintAreaM2": {
+    "p10": 20.5,
+    "p25": 40.5,
+    "p50": 107.9,
+    "p75": 172.1,
+    "p90": 226.4
+   },
+   "compoundFootprintAreaM2": {
+    "p10": 43.5,
+    "p25": 91.0,
+    "p50": 164.2,
+    "p75": 257.6,
+    "p90": 421.1
+   },
+   "settlement": {
+    "disperso": 3412,
+    "tabanca": 11000,
+    "vila": 11082,
+    "cidade": 3393
+   },
+   "useTop": {
+    "residential": 28814,
+    "unknown": 24,
+    "industrial": 21,
+    "government": 17,
+    "education": 8,
+    "religious": 1,
+    "health": 1,
+    "hospitality": 1
+   },
+   "useDetail": {
+    "residential.compound-house": 26389,
+    "residential.annex": 2348,
+    "residential.hut": 65,
+    "unknown.large": 24,
+    "industrial": 21,
+    "government.military": 17,
+    "education": 8,
+    "residential.round-house": 6,
+    "residential.house": 6,
+    "religious": 1,
+    "health": 1,
+    "hospitality": 1
+   },
+   "useConfidenceMean": 0.57,
+   "useFromTagsOrPlaces": 75,
+   "floorsKnown": 0,
+   "compoundUse": {
+    "residential": 16092,
+    "education": 3,
+    "religious": 1,
+    "health": 1,
+    "mixed": 1,
+    "government": 1,
+    "hospitality": 1,
+    "industrial": 1
+   }
+  }
+ },
+ "sectors": {
+  "10": {
+   "key": "BIS",
+   "name": "Bissau",
+   "footprints": 69276,
+   "compounds": 43858,
+   "places": 54
+  },
+  "21": {
+   "key": "BAF",
+   "name": "Bafatá",
+   "footprints": 13359,
+   "compounds": 8417,
+   "places": 77
+  },
+  "22": {
+   "key": "BAM",
+   "name": "Bambadinca",
+   "footprints": 11300,
+   "compounds": 6304,
+   "places": 112
+  },
+  "23": {
+   "key": "CTB",
+   "name": "Contuboel",
+   "footprints": 14051,
+   "compounds": 7629,
+   "places": 120
+  },
+  "24": {
+   "key": "GAL",
+   "name": "Galomaro",
+   "footprints": 8706,
+   "compounds": 4629,
+   "places": 120
+  },
+  "25": {
+   "key": "GAM",
+   "name": "Gã-Mamudo",
+   "footprints": 7337,
+   "compounds": 3785,
+   "places": 118
+  },
+  "26": {
+   "key": "XIT",
+   "name": "Xitole",
+   "footprints": 6243,
+   "compounds": 3668,
+   "places": 78
+  },
+  "31": {
+   "key": "BOL",
+   "name": "Bolama",
+   "footprints": 3567,
+   "compounds": 2060,
+   "places": 81
+  },
+  "32": {
+   "key": "BBQ",
+   "name": "Bubaque",
+   "footprints": 4911,
+   "compounds": 2812,
+   "places": 49
+  },
+  "33": {
+   "key": "CAR",
+   "name": "Caravela",
+   "footprints": 2792,
+   "compounds": 1454,
+   "places": 45
+  },
+  "34": {
+   "key": "UNO",
+   "name": "Uno",
+   "footprints": 2887,
+   "compounds": 1648,
+   "places": 53
+  },
+  "41": {
+   "key": "PRA",
+   "name": "Prábis",
+   "footprints": 4831,
+   "compounds": 2908,
+   "places": 24
+  },
+  "42": {
+   "key": "QNH",
+   "name": "Quinhamel",
+   "footprints": 11482,
+   "compounds": 6436,
+   "places": 44
+  },
+  "43": {
+   "key": "SAF",
+   "name": "Safim",
+   "footprints": 19890,
+   "compounds": 12500,
+   "places": 30
+  },
+  "51": {
+   "key": "BIG",
+   "name": "Bigene",
+   "footprints": 13695,
+   "compounds": 7737,
+   "places": 106
+  },
+  "52": {
+   "key": "BUL",
+   "name": "Bula",
+   "footprints": 9805,
+   "compounds": 5379,
+   "places": 123
+  },
+  "53": {
+   "key": "CAC",
+   "name": "Cacheu",
+   "footprints": 8197,
+   "compounds": 4282,
+   "places": 142
+  },
+  "54": {
+   "key": "CAI",
+   "name": "Caió",
+   "footprints": 4810,
+   "compounds": 2573,
+   "places": 38
+  },
+  "55": {
+   "key": "CAN",
+   "name": "Canchungo",
+   "footprints": 14715,
+   "compounds": 8586,
+   "places": 142
+  },
+  "56": {
+   "key": "SDO",
+   "name": "São Domingos",
+   "footprints": 11555,
+   "compounds": 6874,
+   "places": 98
+  },
+  "61": {
+   "key": "BOE",
+   "name": "Boé (Madina do Boé)",
+   "footprints": 4840,
+   "compounds": 2816,
+   "places": 70
+  },
+  "62": {
+   "key": "GAB",
+   "name": "Gabú",
+   "footprints": 23595,
+   "compounds": 14729,
+   "places": 141
+  },
+  "63": {
+   "key": "PIR",
+   "name": "Pirada",
+   "footprints": 14118,
+   "compounds": 7665,
+   "places": 98
+  },
+  "64": {
+   "key": "PIT",
+   "name": "Pitche",
+   "footprints": 19279,
+   "compounds": 11349,
+   "places": 152
+  },
+  "65": {
+   "key": "SON",
+   "name": "Sonaco",
+   "footprints": 11682,
+   "compounds": 6854,
+   "places": 108
+  },
+  "71": {
+   "key": "BSR",
+   "name": "Bissorã",
+   "footprints": 9144,
+   "compounds": 4910,
+   "places": 114
+  },
+  "72": {
+   "key": "FAR",
+   "name": "Farim",
+   "footprints": 12205,
+   "compounds": 6836,
+   "places": 169
+  },
+  "73": {
+   "key": "MSB",
+   "name": "Mansabá",
+   "footprints": 9915,
+   "compounds": 5691,
+   "places": 122
+  },
+  "74": {
+   "key": "MSO",
+   "name": "Mansoa",
+   "footprints": 13840,
+   "compounds": 6963,
+   "places": 95
+  },
+  "75": {
+   "key": "NHA",
+   "name": "Nhacra",
+   "footprints": 11668,
+   "compounds": 5089,
+   "places": 97
+  },
+  "81": {
+   "key": "BUB",
+   "name": "Buba",
+   "footprints": 5669,
+   "compounds": 3618,
+   "places": 44
+  },
+  "82": {
+   "key": "EMP",
+   "name": "Empada",
+   "footprints": 4740,
+   "compounds": 2366,
+   "places": 78
+  },
+  "83": {
+   "key": "FUL",
+   "name": "Fulacunda",
+   "footprints": 2841,
+   "compounds": 1384,
+   "places": 59
+  },
+  "84": {
+   "key": "TIT",
+   "name": "Tite",
+   "footprints": 3761,
+   "compounds": 1763,
+   "places": 59
+  },
+  "91": {
+   "key": "BED",
+   "name": "Bedanda",
+   "footprints": 7854,
+   "compounds": 4264,
+   "places": 78
+  },
+  "92": {
+   "key": "CCN",
+   "name": "Cacine",
+   "footprints": 4628,
+   "compounds": 2403,
+   "places": 71
+  },
+  "93": {
+   "key": "CAT",
+   "name": "Catió",
+   "footprints": 7753,
+   "compounds": 4190,
+   "places": 70
+  },
+  "94": {
+   "key": "KOM",
+   "name": "Komo",
+   "footprints": 1677,
+   "compounds": 750,
+   "places": 23
+  },
+  "95": {
+   "key": "QBO",
+   "name": "Quebo",
+   "footprints": 6975,
+   "compounds": 4494,
+   "places": 52
+  }
+ },
+ "placeWords": {
+  "country": {
+   "places": 3336,
+   "compoundsPerPlace": {
+    "mean": 72.4,
+    "p50": 31,
+    "p90": 130,
+    "p99": 965,
+    "max": 3274
+   },
+   "digitsOfHighestNumberAtFirstIssue": {
+    "1": 277,
+    "2": 1488,
+    "3": 1237,
+    "4": 309,
+    "5": 25
+   },
+   "placesFallingBackToSectorWord": 37,
+   "compoundsInSectorFallback": 5430,
+   "compoundsByDigits": {
+    "1": 731,
+    "2": 35890,
+    "3": 111322,
+    "4": 90233,
+    "5": 3497
+   },
+   "areasInSharedNames": 1039,
+   "largest": [
+    {
+     "word": "Bono",
+     "sector": 10,
+     "compounds": 3274,
+     "highestNumber": 6547
+    },
+    {
+     "word": "Jal",
+     "sector": 10,
+     "compounds": 2297,
+     "highestNumber": 4593
+    },
+    {
+     "word": "Jolô Balanta",
+     "sector": 10,
+     "compounds": 2292,
+     "highestNumber": 4583
+    },
+    {
+     "word": "Quelêle",
+     "sector": 10,
+     "compounds": 2208,
+     "highestNumber": 4415
+    },
+    {
+     "word": "Buba",
+     "sector": 81,
+     "compounds": 1912,
+     "highestNumber": 3823
+    },
+    {
+     "word": "Santa-Luzia",
+     "sector": 10,
+     "compounds": 1860,
+     "highestNumber": 3719
+    },
+    {
+     "word": "Penha",
+     "sector": 10,
+     "compounds": 1604,
+     "highestNumber": 3207
+    },
+    {
+     "word": "Militar",
+     "sector": 10,
+     "compounds": 1587,
+     "highestNumber": 3173
+    }
+   ]
+  },
+  "bissau": {
+   "places": 49,
+   "compoundsPerPlace": {
+    "mean": 894.9,
+    "p50": 710,
+    "p90": 1604,
+    "p99": 2297,
+    "max": 3274
+   },
+   "digitsOfHighestNumberAtFirstIssue": {
+    "1": 1,
+    "3": 15,
+    "4": 31,
+    "5": 2
+   },
+   "placesFallingBackToSectorWord": 1,
+   "compoundsInSectorFallback": 2,
+   "compoundsByDigits": {
+    "1": 2,
+    "3": 5087,
+    "4": 36924,
+    "5": 1837
+   },
+   "areasInSharedNames": 10,
+   "largest": [
+    {
+     "word": "Bono",
+     "sector": 10,
+     "compounds": 3274,
+     "highestNumber": 6547
+    },
+    {
+     "word": "Jal",
+     "sector": 10,
+     "compounds": 2297,
+     "highestNumber": 4593
+    },
+    {
+     "word": "Jolô Balanta",
+     "sector": 10,
+     "compounds": 2292,
+     "highestNumber": 4583
+    },
+    {
+     "word": "Quelêle",
+     "sector": 10,
+     "compounds": 2208,
+     "highestNumber": 4415
+    },
+    {
+     "word": "Santa-Luzia",
+     "sector": 10,
+     "compounds": 1860,
+     "highestNumber": 3719
+    },
+    {
+     "word": "Penha",
+     "sector": 10,
+     "compounds": 1604,
+     "highestNumber": 3207
+    },
+    {
+     "word": "Militar",
+     "sector": 10,
+     "compounds": 1587,
+     "highestNumber": 3173
+    },
+    {
+     "word": "Pefiné",
+     "sector": 10,
+     "compounds": 1514,
+     "highestNumber": 3027
+    }
+   ]
+  },
+  "outsideBissau": {
+   "places": 3287,
+   "compoundsPerPlace": {
+    "mean": 60.2,
+    "p50": 30,
+    "p90": 118,
+    "p99": 676,
+    "max": 1912
+   },
+   "digitsOfHighestNumberAtFirstIssue": {
+    "1": 276,
+    "2": 1488,
+    "3": 1222,
+    "4": 278,
+    "5": 23
+   },
+   "placesFallingBackToSectorWord": 36,
+   "compoundsInSectorFallback": 5428,
+   "compoundsByDigits": {
+    "1": 729,
+    "2": 35890,
+    "3": 106235,
+    "4": 53309,
+    "5": 1660
+   },
+   "areasInSharedNames": 1029,
+   "largest": [
+    {
+     "word": "Buba",
+     "sector": 81,
+     "compounds": 1912,
+     "highestNumber": 3823
+    },
+    {
+     "word": "Bissorã",
+     "sector": 71,
+     "compounds": 1566,
+     "highestNumber": 3131
+    },
+    {
+     "word": "Ingoré",
+     "sector": 51,
+     "compounds": 1540,
+     "highestNumber": 3079
+    },
+    {
+     "word": "Embalocunda",
+     "sector": 62,
+     "compounds": 1369,
+     "highestNumber": 2737
+    },
+    {
+     "word": "Bafatá",
+     "sector": 21,
+     "compounds": 1352,
+     "highestNumber": 2703
+    },
+    {
+     "word": "Ponta Rocha",
+     "sector": 43,
+     "compounds": 1339,
+     "highestNumber": 2677
+    },
+    {
+     "word": "Quebo",
+     "sector": 95,
+     "compounds": 1267,
+     "highestNumber": 2533
+    },
+    {
+     "word": "Girota",
+     "sector": 43,
+     "compounds": 1115,
+     "highestNumber": 2229
+    }
+   ]
+  },
+  "bissauCompoundsPerWord": {
+   "Bono": 3274,
+   "Jal": 2297,
+   "Jolô Balanta": 2292,
+   "Quelêle": 2208,
+   "Santa-Luzia": 1860,
+   "Penha": 1604,
+   "Militar": 1587,
+   "Pefiné": 1514,
+   "São Paulo": 1481,
+   "Cócò": 1465,
+   "Cuntum": 922,
+   "Pabijaro": 1095,
+   "Brá": 1089,
+   "Penha-Bor": 1068,
+   "Cajila": 1048,
+   "Bor": 965,
+   "Campo Antigo": 935,
+   "Bélem": 916,
+   "Bambadinca": 915,
+   "Conlumo": 914,
+   "Cúmura": 858,
+   "Missira": 771,
+   "Zona Sete": 756,
+   "Ajuda": 710,
+   "Tchada": 709,
+   "Luanda": 693,
+   "Dutebor": 634,
+   "Impatemane": 597,
+   "Sintra-Nema": 571,
+   "Ajuda II": 567,
+   "Reino": 556,
+   "Alto Bandim": 529,
+   "Praça": 498,
+   "Missra": 490,
+   "Bandim": 452,
+   "Carracol": 408,
+   "Mindara": 380,
+   "Luís Gomes": 374,
+   "Pessube": 364,
+   "Chão": 360,
+   "Granja": 359,
+   "Alto Crim": 329,
+   "Campo Sueco": 307,
+   "Ministros": 282,
+   "Bissau Velho": 223,
+   "Ponta Gomes": 204,
+   "Ilha do Rei": 57,
+   "Bissau": 2
+  }
+ },
+ "note_validation": "Mapped enclosures are used as compounds directly; the proximity rule is checked by re-running it with enclosures ignored (see validation).",
+ "groupingValidation": {
+  "method": "proximity rule re-run with enclosures hidden, compared with OpenStreetMap-mapped moranças and walled plots of 2+ footprints",
+  "results": {
+   "osm-farmyard": {
+    "enclosures": 159,
+    "whole": 0.58,
+    "exact": 0.46,
+    "allButOneStructure": 0.24
+   },
+   "osm-fence": {
+    "enclosures": 21,
+    "whole": 0.1,
+    "exact": 0.05,
+    "allButOneStructure": 0.14
+   },
+   "osm-hedge": {
+    "enclosures": 1,
+    "whole": 0.0,
+    "exact": 0.0,
+    "allButOneStructure": 0.0
+   },
+   "osm-wall": {
+    "enclosures": 53,
+    "whole": 0.13,
+    "exact": 0.09,
+    "allButOneStructure": 0.19
+   },
+   "all": {
+    "enclosures": 234,
+    "whole": 0.44,
+    "exact": 0.34
+   }
+  }
+ }
+}

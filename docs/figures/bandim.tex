@@ -1,0 +1,21 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{colormaps}
+\definecolor{ink}{HTML}{0B6B3A}\definecolor{red}{HTML}{CE1126}\definecolor{gold}{HTML}{E0A800}\definecolor{grey}{HTML}{8A8F8C}
+\pgfplotsset{every axis/.append style={font=\small,tick label style={font=\footnotesize},axis line style={grey},tick style={grey}}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=11cm,axis equal image,xlabel={m},ylabel={m},xmin=-20,xmax=650,ymin=-20,ymax=790,
+  colormap={gw}{rgb255=(252,209,22) rgb255=(0,158,73) rgb255=(11,60,30)},
+  colorbar,colorbar style={ylabel={$N$},width=3mm},point meta min=1,point meta max=903]
+\addplot[grey!80!black,line width=.35pt] table[x=x,y=y] {bandim.dat};
+\addplot[only marks,mark=*,mark size=1.3pt,scatter,scatter src=explicit] table[x=x,y=y,meta=n] {bandim.dat};
+\addplot[only marks,mark=o,mark size=4pt,red,thick] coordinates {(283.7,474.0)};
+\coordinate (label) at (axis cs:305,474);
+\end{axis}
+% drawn after the axis, so the plotted lanes never cover the label
+\node[red,font=\footnotesize\bfseries,anchor=west,fill=white,fill opacity=.85,text opacity=1,inner sep=1.5pt] at (label) {Bandim 537};
+\end{tikzpicture}
+\end{document}

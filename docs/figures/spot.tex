@@ -1,0 +1,99 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{colormaps}
+\definecolor{ink}{HTML}{0B6B3A}\definecolor{red}{HTML}{CE1126}\definecolor{gold}{HTML}{E0A800}\definecolor{grey}{HTML}{8A8F8C}
+\pgfplotsset{every axis/.append style={font=\small,tick label style={font=\footnotesize},axis line style={grey},tick style={grey}}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=12cm,axis equal image,xmin=0,xmax=8,ymin=0,ymax=10,xtick={0,...,8},ytick={0,...,10},
+  xlabel={$x/1000$},ylabel={$y/1000$},grid=major,grid style={grey!45,line width=.4pt}]
+\addplot[only marks,mark=*,mark size=.45pt,ink!75] table[x=x,y=y] {bissau-codes.dat};
+\addplot[grey!80!black,line width=.4pt,unbounded coords=jump] table[x=x,y=y] {bissau.dat};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,1) {00};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,2) {01};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,3) {02};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,4) {03};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,5) {04};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,6) {05};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,7) {06};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,8) {07};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,9) {08};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:0,10) {09};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,1) {10};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,2) {11};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,3) {12};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,4) {13};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,5) {14};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,6) {15};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,7) {16};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,8) {17};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,9) {18};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:1,10) {19};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,1) {20};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,2) {21};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,3) {22};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,4) {23};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,5) {24};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,6) {25};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,7) {26};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,8) {27};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,9) {28};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:2,10) {29};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,1) {30};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,2) {31};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,3) {32};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,4) {33};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,5) {34};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,6) {35};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,7) {36};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,8) {37};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,9) {38};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:3,10) {39};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,1) {40};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,2) {41};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,3) {42};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,4) {43};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,5) {44};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,6) {45};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,7) {46};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,8) {47};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,9) {48};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:4,10) {49};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,1) {50};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,2) {51};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,3) {52};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,4) {53};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,5) {54};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,6) {55};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,7) {56};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,8) {57};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,9) {58};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:5,10) {59};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,1) {60};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,2) {61};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,3) {62};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,4) {63};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,5) {64};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,6) {65};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,7) {66};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,8) {67};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,9) {68};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:6,10) {69};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,1) {70};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,2) {71};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,3) {72};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,4) {73};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,5) {74};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,6) {75};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,7) {76};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,8) {77};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,9) {78};
+\node[font=\tiny,text=grey!90!black,anchor=north west,inner sep=1.2pt] at (axis cs:7,10) {79};
+\fill[red!12,opacity=.6] (axis cs:4,3) rectangle (axis cs:5,4);
+\addplot[only marks,mark=*,mark size=1.8pt,red] coordinates {(4.2911,3.7171)};
+\node[red,font=\footnotesize\bfseries,anchor=west,fill=white,fill opacity=.85,text opacity=1,inner sep=1pt] at (axis cs:4.36,3.6) {10-4327-9117};
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,548 @@
+{
+ "results": [
+  {
+   "Lat": 11.1984462,
+   "Lng": -15.3814877,
+   "sector": 94,
+   "area": "KOM-024",
+   "number": 48,
+   "machine": "94-024-00048-3",
+   "home": "Caiar 48",
+   "spoken": "Caiar, quarenta e oito",
+   "check": 3,
+   "blocks": [
+    [
+     0,
+     499
+    ]
+   ],
+   "spot": "94-1423-0561",
+   "plusCode": "7C365JX9+9CC"
+  },
+  {
+   "Lat": 11.1527644,
+   "Lng": -15.3161732,
+   "sector": 94,
+   "area": "KOM-010",
+   "number": 102,
+   "machine": "94-010-00102-3",
+   "home": "Nabiole 102",
+   "spoken": "Nabiole, cento e dois",
+   "check": 3,
+   "blocks": [
+    [
+     0,
+     499
+    ]
+   ],
+   "spot": "94-4212-7486",
+   "plusCode": "7C365M3M+4G4"
+  },
+  {
+   "Lat": 11.1826356,
+   "Lng": -15.2379915,
+   "sector": 94,
+   "area": "KOM-008",
+   "number": 150,
+   "machine": "94-008-00150-9",
+   "home": "Cametonco 150",
+   "spoken": "Cametonco, cento e cinquenta",
+   "check": 9,
+   "blocks": [
+    [
+     0,
+     499
+    ]
+   ],
+   "spot": "94-7376-3252",
+   "plusCode": "7C365QM6+3R2"
+  },
+  {
+   "Lat": 11.2198134,
+   "Lng": -15.3983198,
+   "sector": 94,
+   "area": "KOM-024",
+   "number": 166,
+   "machine": "94-024-00166-0",
+   "home": "Caiar 166",
+   "spoken": "Caiar, cento e sessenta e seis",
+   "check": 0,
+   "blocks": [
+    [
+     0,
+     499
+    ]
+   ],
+   "spot": "94-0543-4305",
+   "plusCode": "7C366J92+WMF"
+  },
+  {
+   "Lat": 11.1845854,
+   "Lng": -15.270782,
+   "sector": 94,
+   "area": "KOM-004",
+   "number": 202,
+   "machine": "94-004-00202-2",
+   "home": "Catunco 202",
+   "spoken": "Catunco, duzentos e dois",
+   "check": 2,
+   "blocks": [
+    [
+     0,
+     499
+    ]
+   ],
+   "spot": "94-6327-4132",
+   "plusCode": "7C365PMH+RMP"
+  },
+  {
+   "Lat": 11.2191099,
+   "Lng": -15.3439482,
+   "sector": 94,
+   "area": "KOM-022",
+   "number": 20,
+   "machine": "94-022-00020-0",
+   "home": "Uncómenè 20",
+   "spoken": "Uncómenè, vinte",
+   "check": 0,
+   "blocks": [
+    [
+     0,
+     49
+    ]
+   ],
+   "spot": "94-2593-1043",
+   "plusCode": "7C366M94+JCV"
+  },
+  {
+   "Lat": 11.2230903,
+   "Lng": -15.3488725,
+   "sector": 94,
+   "area": "KOM-022",
+   "number": 21,
+   "machine": "94-022-00021-3",
+   "home": "Uncómenè 21",
+   "spoken": "Uncómenè, vinte e um",
+   "check": 3,
+   "blocks": [
+    [
+     0,
+     49
+    ]
+   ],
+   "spot": "94-2564-9806",
+   "plusCode": "7C366MF2+6FJ"
+  },
+  {
+   "Lat": 11.2396369,
+   "Lng": -15.3335996,
+   "sector": 94,
+   "area": "KOM-019",
+   "number": 8,
+   "machine": "94-019-00008-5",
+   "home": "Uediqueia 8",
+   "spoken": "Uediqueia, oito",
+   "check": 5,
+   "blocks": [
+    [
+     0,
+     19
+    ]
+   ],
+   "spot": "94-3632-8459",
+   "plusCode": "7C366MQ8+VH2"
+  },
+  {
+   "Lat": 11.1983003,
+   "Lng": -15.2430509,
+   "sector": 94,
+   "area": "KOM-000",
+   "number": 544,
+   "machine": "94-000-00544-0",
+   "home": "Komo 544",
+   "spoken": "Komo, quinhentos e quarenta e quatro",
+   "check": 0,
+   "blocks": [
+    [
+     500,
+     599
+    ]
+   ],
+   "spot": "94-7453-0454",
+   "plusCode": "7C365QX4+8QG"
+  },
+  {
+   "Lat": 11.152242,
+   "Lng": -15.2232501,
+   "sector": 94,
+   "area": "KOM-007",
+   "number": 720,
+   "machine": "94-007-00720-9",
+   "home": "Sinchã 720",
+   "spoken": "Sinchã, setecentos e vinte",
+   "check": 9,
+   "blocks": [
+    [
+     700,
+     749
+    ]
+   ],
+   "spot": "94-8242-0262",
+   "plusCode": "7C365Q2G+VMX"
+  },
+  {
+   "Lat": 11.1822284,
+   "Lng": -15.3001197,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 52,
+   "machine": "94-012-00052-7",
+   "home": "Catame 52",
+   "spoken": "Catame, cinquenta e dois",
+   "check": 7,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4396-0084",
+   "plusCode": "7C365MJX+VXR"
+  },
+  {
+   "Lat": 11.1827099,
+   "Lng": -15.3007901,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 53,
+   "machine": "94-012-00053-4",
+   "home": "Catame 53",
+   "spoken": "Catame, cinquenta e três",
+   "check": 4,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4386-7286",
+   "plusCode": "7C365MMX+3MP"
+  },
+  {
+   "Lat": 11.1842896,
+   "Lng": -15.3008015,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 54,
+   "machine": "94-012-00054-2",
+   "home": "Catame 54",
+   "spoken": "Catame, cinquenta e quatro",
+   "check": 2,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4386-7979",
+   "plusCode": "7C365MMX+PM8"
+  },
+  {
+   "Lat": 11.1840023,
+   "Lng": -15.3000694,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 55,
+   "machine": "94-012-00055-0",
+   "home": "Catame 55",
+   "spoken": "Catame, cinquenta e cinco",
+   "check": 0,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4396-1815",
+   "plusCode": "7C365MMX+JX3"
+  },
+  {
+   "Lat": 11.1843986,
+   "Lng": -15.2990743,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 56,
+   "machine": "94-012-00056-9",
+   "home": "Catame 56",
+   "spoken": "Catame, cinquenta e seis",
+   "check": 9,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4397-5064",
+   "plusCode": "7C365PM2+Q93"
+  },
+  {
+   "Lat": 11.1821692,
+   "Lng": -15.2989163,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 57,
+   "machine": "94-012-00057-5",
+   "home": "Catame 57",
+   "spoken": "Catame, cinquenta e sete",
+   "check": 5,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4396-6031",
+   "plusCode": "7C365PJ2+VC8"
+  },
+  {
+   "Lat": 11.1834716,
+   "Lng": -15.2994558,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 58,
+   "machine": "94-012-00058-8",
+   "home": "Catame 58",
+   "spoken": "Catame, cinquenta e oito",
+   "check": 8,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4396-3681",
+   "plusCode": "7C365PM2+96M"
+  },
+  {
+   "Lat": 11.1823831,
+   "Lng": -15.2994749,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 59,
+   "machine": "94-012-00059-1",
+   "home": "Catame 59",
+   "spoken": "Catame, cinquenta e nove",
+   "check": 1,
+   "blocks": [
+    [
+     50,
+     59
+    ]
+   ],
+   "spot": "94-4396-3181",
+   "plusCode": "7C365PJ2+X62"
+  },
+  {
+   "Lat": 11.1838614,
+   "Lng": -15.298884,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 61,
+   "machine": "94-012-00061-1",
+   "home": "Catame 61",
+   "spoken": "Catame, sessenta e um",
+   "check": 1,
+   "newBlock": [
+    60,
+    109
+   ],
+   "blocks": [
+    [
+     50,
+     59
+    ],
+    [
+     60,
+     109
+    ]
+   ],
+   "spot": "94-4396-6749",
+   "plusCode": "7C365PM2+GCX"
+  },
+  {
+   "Lat": 11.1835594,
+   "Lng": -15.3011045,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 62,
+   "machine": "94-012-00062-2",
+   "home": "Catame 62",
+   "spoken": "Catame, sessenta e dois",
+   "check": 2,
+   "blocks": [
+    [
+     50,
+     59
+    ],
+    [
+     60,
+     109
+    ]
+   ],
+   "spot": "94-4386-6635",
+   "plusCode": "7C365MMX+CHC"
+  },
+  {
+   "Lat": 11.1837006,
+   "Lng": -15.2996022,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 63,
+   "machine": "94-012-00063-3",
+   "home": "Catame 63",
+   "spoken": "Catame, sessenta e três",
+   "check": 3,
+   "blocks": [
+    [
+     50,
+     59
+    ],
+    [
+     60,
+     109
+    ]
+   ],
+   "spot": "94-4396-3722",
+   "plusCode": "7C365PM2+F5J"
+  },
+  {
+   "Lat": 11.182441,
+   "Lng": -15.299259,
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 64,
+   "machine": "94-012-00064-0",
+   "home": "Catame 64",
+   "spoken": "Catame, sessenta e quatro",
+   "check": 0,
+   "blocks": [
+    [
+     50,
+     59
+    ],
+    [
+     60,
+     109
+    ]
+   ],
+   "spot": "94-4396-4173",
+   "plusCode": "7C365PJ2+X7H"
+  },
+  {
+   "Lat": 11.1488872,
+   "Lng": -15.2497911,
+   "sector": 94,
+   "area": "KOM-006",
+   "number": 1,
+   "machine": "94-006-00001-3",
+   "home": "Sàmecá 1",
+   "spoken": "Sàmecá, um",
+   "check": 3,
+   "newBlock": [
+    0,
+    9
+   ],
+   "blocks": [
+    [
+     0,
+     9
+    ]
+   ],
+   "spot": "94-7210-9688",
+   "plusCode": "7C364QX2+H34"
+  },
+  {
+   "Lat": 11.150294,
+   "Lng": -15.2489293,
+   "sector": 94,
+   "area": "KOM-006",
+   "number": 2,
+   "machine": "94-006-00002-1",
+   "home": "Sàmecá 2",
+   "spoken": "Sàmecá, dois",
+   "check": 1,
+   "blocks": [
+    [
+     0,
+     9
+    ]
+   ],
+   "spot": "94-7221-3372",
+   "plusCode": "7C365Q22+4C8"
+  },
+  {
+   "Lat": 11.1492031,
+   "Lng": -15.2506745,
+   "sector": 94,
+   "area": "KOM-006",
+   "number": 3,
+   "machine": "94-006-00003-7",
+   "home": "Sàmecá 3",
+   "spoken": "Sàmecá, três",
+   "check": 7,
+   "blocks": [
+    [
+     0,
+     9
+    ]
+   ],
+   "spot": "94-7210-5882",
+   "plusCode": "7C364PXX+MPP"
+  },
+  {
+   "Lat": 11.2674019,
+   "Lng": -15.3526734,
+   "of": "94-018-00019-0",
+   "sector": 94,
+   "area": "KOM-018",
+   "number": 22,
+   "machine": "94-018-00022-2",
+   "home": "Uagna 22",
+   "spoken": "Uagna, vinte e dois",
+   "check": 2,
+   "blocks": [
+    [
+     0,
+     199
+    ]
+   ],
+   "spot": "94-2755-1278",
+   "plusCode": "7C367J8W+XW8"
+  },
+  {
+   "Lat": 11.1742829,
+   "Lng": -15.2933639,
+   "of": "94-012-00051-6",
+   "sector": 94,
+   "area": "KOM-012",
+   "number": 65,
+   "machine": "94-012-00065-4",
+   "home": "Catame 65",
+   "spoken": "Catame, sessenta e cinco",
+   "check": 4,
+   "blocks": [
+    [
+     50,
+     59
+    ],
+    [
+     60,
+     109
+    ]
+   ],
+   "spot": "94-5322-1368",
+   "plusCode": "7C365PF4+PM6"
+  }
+ ],
+ "zone": "KOM"
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "key": "BA",
+    "iso": "GW-BA",
+    "name": "Bafatá Region",
+    "nameFr": "Bafatá (région)",
+    "nameLocal": "Região de Bafatá",
+    "wikidata": "Q799791",
+    "areaKm2": 5983.0,
+    "box": [
+      -15.07257,
+      11.58999,
+      -14.31894,
+      12.67975
+    ],
+    "buildings": {
+      "openstreetmap": 13185,
+      "ml": 47796,
+      "total": 60981
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "BL",
+    "iso": "GW-BL",
+    "name": "Bolama Region",
+    "nameFr": "Bolama-Bijagos",
+    "nameLocal": "Região de Bolama",
+    "wikidata": "Q151909",
+    "areaKm2": 7067.5,
+    "box": [
+      -16.48855,
+      10.86046,
+      -15.31098,
+      11.69788
+    ],
+    "buildings": {
+      "openstreetmap": 9551,
+      "ml": 4606,
+      "total": 14157
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "BM",
+    "iso": "GW-BM",
+    "name": "Biombo Region",
+    "nameFr": "Biombo (Guinée-Bissau)",
+    "nameLocal": "Região de Biombo",
+    "wikidata": "Q872228",
+    "areaKm2": 743.5,
+    "box": [
+      -15.96789,
+      11.73434,
+      -15.5976,
+      12.02896
+    ],
+    "buildings": {
+      "openstreetmap": 3434,
+      "ml": 32799,
+      "total": 36233
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "BS",
+    "iso": "GW-BS",
+    "name": "Bissau Autonomous Sector",
+    "nameFr": "Bissau Autonomous Sector",
+    "nameLocal": "Sector autónomo de Bissau",
+    "wikidata": "Q1318549",
+    "areaKm2": 94.8,
+    "box": [
+      -15.6616,
+      11.79512,
+      -15.53845,
+      11.94506
+    ],
+    "buildings": {
+      "openstreetmap": 32101,
+      "ml": 37145,
+      "total": 69246
+    },
+    "codeLength": {
+      "spot": 6,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "CA",
+    "iso": "GW-CA",
+    "name": "Cacheu Region",
+    "nameFr": "Cacheu (région)",
+    "nameLocal": "Região de Cacheu",
+    "wikidata": "Q780838",
+    "areaKm2": 4955.3,
+    "box": [
+      -16.71726,
+      11.7491,
+      -15.47995,
+      12.51534
+    ],
+    "buildings": {
+      "openstreetmap": 15104,
+      "ml": 47673,
+      "total": 62777
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "GA",
+    "iso": "GW-GA",
+    "name": "Gabu Region",
+    "nameFr": "Gabu (région)",
+    "nameLocal": "Região de Gabu",
+    "wikidata": "Q872212",
+    "areaKm2": 9100.8,
+    "box": [
+      -14.55307,
+      11.55675,
+      -13.63488,
+      12.67731
+    ],
+    "buildings": {
+      "openstreetmap": 11108,
+      "ml": 62408,
+      "total": 73516
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "OI",
+    "iso": "GW-OI",
+    "name": "Oio Region",
+    "nameFr": "Oio",
+    "nameLocal": "Região de Oio",
+    "wikidata": "Q853991",
+    "areaKm2": 5457.3,
+    "box": [
+      -15.75712,
+      11.89012,
+      -14.84621,
+      12.68624
+    ],
+    "buildings": {
+      "openstreetmap": 9138,
+      "ml": 47647,
+      "total": 56785
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "QU",
+    "iso": "GW-QU",
+    "name": "Quinara Region",
+    "nameFr": "Quinara",
+    "nameLocal": "Região de Quinara",
+    "wikidata": "Q862617",
+    "areaKm2": 2976.5,
+    "box": [
+      -15.61404,
+      11.30682,
+      -14.82361,
+      11.95736
+    ],
+    "buildings": {
+      "openstreetmap": 2102,
+      "ml": 14909,
+      "total": 17011
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  },
+  {
+    "key": "TO",
+    "iso": "GW-TO",
+    "name": "Tombali Region",
+    "nameFr": "Tombali (région)",
+    "nameLocal": "Região de Tombali",
+    "wikidata": "Q1047255",
+    "areaKm2": 3705.1,
+    "box": [
+      -15.44627,
+      10.89176,
+      -14.4113,
+      11.70121
+    ],
+    "buildings": {
+      "openstreetmap": 3407,
+      "ml": 25480,
+      "total": 28887
+    },
+    "codeLength": {
+      "spot": 7,
+      "building": 4
+    },
+    "needsSubdivision": false
+  }
+]

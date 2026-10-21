@@ -1,0 +1,108 @@
+{
+  "country": "GW",
+  "name": "Guinea-Bissau",
+  "languages": [
+    "pt",
+    "fr"
+  ],
+  "alphabet": "23456789CFGHJMPQRVWX",
+  "cellMetres": 3.0,
+  "buildingHeadroom": 2.0,
+  "regionLevel": "first-level division (ISO 3166-2), as in the N-Ways regions table",
+  "regions": 9,
+  "buildings": 419593,
+  "spotCodeLengths": [
+    6,
+    7
+  ],
+  "buildingCodeLengths": [
+    4
+  ],
+  "regionsToSubdivide": [],
+  "spoken": {
+    "pt": {
+      "2": "dois",
+      "3": "três",
+      "4": "quatro",
+      "5": "cinco",
+      "6": "seis",
+      "7": "sete",
+      "8": "oito",
+      "9": "nove",
+      "C": "cê",
+      "F": "efe",
+      "G": "gê",
+      "H": "agá",
+      "J": "jota",
+      "M": "eme",
+      "P": "pê",
+      "Q": "quê",
+      "R": "erre",
+      "V": "vê",
+      "W": "dáblio",
+      "X": "xis"
+    },
+    "fr": {
+      "2": "deux",
+      "3": "trois",
+      "4": "quatre",
+      "5": "cinq",
+      "6": "six",
+      "7": "sept",
+      "8": "huit",
+      "9": "neuf",
+      "C": "cé",
+      "F": "effe",
+      "G": "gé",
+      "H": "ache",
+      "J": "ji",
+      "M": "emme",
+      "P": "pé",
+      "Q": "ku",
+      "R": "erre",
+      "V": "vé",
+      "W": "double vé",
+      "X": "ixe"
+    }
+  },
+  "existing": {
+    "system": "On paper Guinea-Bissau has 4-digit postcodes written before the locality (UPU sheet dated 03/2005, e.g. '1000 BISSAU'), but no postcode directory, lookup site or API exists, and street names and house numbers are rare outside central Bissau. In practice mail goes to P.O. boxes (Caixa Postal) or is collected, and places are described by bairro (district) and landmark.",
+    "status": "None in practical use (re-checked 2026-10-17): no national digital addressing project was found in 2025-2026 press; Correios da Guiné-Bissau is a state company with no online services found.",
+    "openData": "No open address register. Street names and some addr:* tags in OpenStreetMap (ODbL); a nationwide house-number count was not possible (Overpass unreachable on 2026-10-17).",
+    "openAlgorithm": "Open Location Code (Plus Codes) is open (Apache-2.0) and works offline.",
+    "terms": "No national scheme to license; Plus Codes free.",
+    "recommendation": "Give every compound an N-Ways code and show the bairro or tabanca with it; describe places by bairro and landmark ('Bairro de Ajuda, perto da Paragem') where no code exists yet. Never ask for a postcode; keep the UPU 4-digit format only as optional free text.",
+    "lastChecked": "2026-10-17",
+    "findings": [
+      {
+        "name": "UPU postcode format",
+        "state": "documented 2005, no directory or use found",
+        "format": "4 digits before locality ('1000 BISSAU')",
+        "openData": "none",
+        "inOSM": false
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.upu.int/UPU/media/upu/PostalEntitiesFiles/addressingUnit/gnbEn.pdf",
+        "kind": "official",
+        "note": "UPU addressing sheet for Guinea-Bissau dated 03/2005: '4 digits to the left of the locality name', example 'Rua Justino Lopes 12C / 1000 BISSAU'; contact Direcção Geral dos Correios, 1011 BISSAU"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Correios_da_Guin%C3%A9-Bissau",
+        "kind": "wikipedia",
+        "note": "State postal company; joined UPU 1974; no postcode information"
+      },
+      {
+        "url": "https://github.com/google/open-location-code",
+        "kind": "other",
+        "note": "Open Location Code, Apache-2.0"
+      }
+    ]
+  },
+  "sources": {
+    "regions": "N-Ways regions (OpenStreetMap administrative boundaries, ODbL)",
+    "buildings": "OpenStreetMap (ODbL); Google Open Buildings (CC BY 4.0) and Microsoft building footprints (ODbL) via Overture Maps",
+    "existing": "N-Ways country research notes (17 October 2026)"
+  }
+}

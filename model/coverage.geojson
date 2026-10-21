@@ -1,0 +1,9 @@
+{"type":"FeatureCollection","name":"gw-coverage",
+ "note":"Coverage mask: where an official (government) address exists and is shown first, with the N-Ways code beside it. Every compound has an N-Ways code. Default for every point not covered by a feature: state n-ways. Checked 2026-10-18.",
+ "features":[
+  {"type":"Feature","properties":{"id":"bissau-centro","state":"mixed","name":"Bissau Velho, Praça / Plateau and the central avenues",
+    "authority":"Câmara Municipal de Bissau","official":"street names (Avenida Amílcar Cabral, Rua Justino Lopes ...); door numbers exist on some colonial-era and public buildings but no register or numbering plan was found",
+    "rule":"show the street name and door number painted or registered on the building first when there is one, with the N-Ways code beside it; postal line 1000 BISSAU",
+    "evidence":"83 of the 157 named streets in OpenStreetMap's Bissau box fall in these cells; the UPU example address 'Rua Justino Lopes 12C, 1000 BISSAU'","since":"2026-10-18","verified":false},
+   "geometry":{"type":"Polygon","coordinates":[[[-15.600,11.852],[-15.570,11.852],[-15.570,11.876],[-15.600,11.876],[-15.600,11.852]]]}}
+ ]}

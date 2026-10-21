@@ -1,0 +1,712 @@
+{
+ "version": 1,
+ "frozen": null,
+ "source": "OpenStreetMap administrative boundaries (admin_level 6 sectors, admin_level 3 Bissau), Geofabrik extract of 2026-10-17, ODbL 1.0",
+ "note": "Sector numbers: first digit = region (1 Bissau, 2 Bafatá, 3 Bolama, 4 Biombo, 5 Cacheu, 6 Gabú, 7 Oio, 8 Quinara, 9 Tombali); 11-19 reserved for a future split of Bissau.",
+ "mPerDegLat": 110574.0,
+ "mPerDegLonAtEquator": 111320.0,
+ "sectors": [
+  {
+   "number": 10,
+   "key": "BIS",
+   "name": "Bissau",
+   "osmName": "Sector autónomo de Bissau",
+   "region": "GW-BS",
+   "wikidata": "Q1318549",
+   "grid": {
+    "lon0": -15.662,
+    "lat0": 11.795,
+    "phi0": 11.87,
+    "cellMetres": 1.7
+   },
+   "boxKm": [
+    13.5,
+    16.7
+   ]
+  },
+  {
+   "number": 21,
+   "key": "BAF",
+   "name": "Bafatá",
+   "osmName": "Sector de Bafatá",
+   "region": "GW-BA",
+   "wikidata": "Q16496075",
+   "grid": {
+    "lon0": -14.699,
+    "lat0": 12.107,
+    "phi0": 12.29,
+    "cellMetres": 4.0
+   },
+   "boxKm": [
+    28.2,
+    39.9
+   ]
+  },
+  {
+   "number": 22,
+   "key": "BAM",
+   "name": "Bambadinca",
+   "osmName": "Sector de Bambadinca",
+   "region": "GW-BA",
+   "wikidata": "Q1770386",
+   "grid": {
+    "lon0": -15.073,
+    "lat0": 11.795,
+    "phi0": 12.0,
+    "cellMetres": 4.6
+   },
+   "boxKm": [
+    38.9,
+    45.3
+   ]
+  },
+  {
+   "number": 23,
+   "key": "CTB",
+   "name": "Contuboel",
+   "osmName": "Sector de Contuboel",
+   "region": "GW-BA",
+   "wikidata": "Q524784",
+   "grid": {
+    "lon0": -14.913,
+    "lat0": 12.312,
+    "phi0": 12.5,
+    "cellMetres": 6.5
+   },
+   "boxKm": [
+    64.7,
+    40.7
+   ]
+  },
+  {
+   "number": 24,
+   "key": "GAL",
+   "name": "Galomaro",
+   "osmName": "Sector de Galomaro",
+   "region": "GW-BA",
+   "wikidata": "Q5519281",
+   "grid": {
+    "lon0": -14.836,
+    "lat0": 11.812,
+    "phi0": 11.99,
+    "cellMetres": 4.0
+   },
+   "boxKm": [
+    40.0,
+    39.0
+   ]
+  },
+  {
+   "number": 25,
+   "key": "GAM",
+   "name": "Gã-Mamudo",
+   "osmName": "Sector de Gã-Mamudo",
+   "region": "GW-BA",
+   "wikidata": "Q1770590",
+   "grid": {
+    "lon0": -14.977,
+    "lat0": 12.099,
+    "phi0": 12.31,
+    "cellMetres": 4.7
+   },
+   "boxKm": [
+    35.6,
+    46.1
+   ]
+  },
+  {
+   "number": 26,
+   "key": "XIT",
+   "name": "Xitole",
+   "osmName": "Sector de Xitole",
+   "region": "GW-BA",
+   "wikidata": "Q974199",
+   "grid": {
+    "lon0": -15.002,
+    "lat0": 11.59,
+    "phi0": 11.76,
+    "cellMetres": 6.1
+   },
+   "boxKm": [
+    60.9,
+    37.9
+   ]
+  },
+  {
+   "number": 31,
+   "key": "BOL",
+   "name": "Bolama",
+   "osmName": "Sector de Bolama",
+   "region": "GW-BL",
+   "wikidata": null,
+   "grid": {
+    "lon0": -15.808,
+    "lat0": 11.363,
+    "phi0": 11.53,
+    "cellMetres": 5.5
+   },
+   "boxKm": [
+    54.3,
+    37.0
+   ]
+  },
+  {
+   "number": 32,
+   "key": "BBQ",
+   "name": "Bubaque",
+   "osmName": "Sector de Bubaque",
+   "region": "GW-BL",
+   "wikidata": null,
+   "grid": {
+    "lon0": -16.062,
+    "lat0": 10.86,
+    "phi0": 11.17,
+    "cellMetres": 6.8
+   },
+   "boxKm": [
+    55.5,
+    67.8
+   ]
+  },
+  {
+   "number": 33,
+   "key": "CAR",
+   "name": "Caravela",
+   "osmName": "Sector de Caravela",
+   "region": "GW-BL",
+   "wikidata": null,
+   "grid": {
+    "lon0": -16.489,
+    "lat0": 11.184,
+    "phi0": 11.41,
+    "cellMetres": 7.7
+   },
+   "boxKm": [
+    76.2,
+    49.2
+   ]
+  },
+  {
+   "number": 34,
+   "key": "UNO",
+   "name": "Uno",
+   "osmName": "Sector de Uno",
+   "region": "GW-BL",
+   "wikidata": "Q30939721",
+   "grid": {
+    "lon0": -16.385,
+    "lat0": 10.982,
+    "phi0": 11.19,
+    "cellMetres": 4.8
+   },
+   "boxKm": [
+    47.4,
+    46.9
+   ]
+  },
+  {
+   "number": 41,
+   "key": "PRA",
+   "name": "Prábis",
+   "osmName": "Sector de Prabis",
+   "region": "GW-BM",
+   "wikidata": "Q2421892",
+   "grid": {
+    "lon0": -15.831,
+    "lat0": 11.743,
+    "phi0": 11.81,
+    "cellMetres": 2.0
+   },
+   "boxKm": [
+    19.6,
+    14.6
+   ]
+  },
+  {
+   "number": 42,
+   "key": "QNH",
+   "name": "Quinhamel",
+   "osmName": "Sector de Quinhamel",
+   "region": "GW-BM",
+   "wikidata": "Q616404",
+   "grid": {
+    "lon0": -15.968,
+    "lat0": 11.734,
+    "phi0": 11.88,
+    "cellMetres": 3.2
+   },
+   "boxKm": [
+    28.0,
+    31.4
+   ]
+  },
+  {
+   "number": 43,
+   "key": "SAF",
+   "name": "Safim",
+   "osmName": "Sector de Safim",
+   "region": "GW-BM",
+   "wikidata": "Q1770375",
+   "grid": {
+    "lon0": -15.729,
+    "lat0": 11.857,
+    "phi0": 11.94,
+    "cellMetres": 2.0
+   },
+   "boxKm": [
+    14.4,
+    19.0
+   ]
+  },
+  {
+   "number": 51,
+   "key": "BIG",
+   "name": "Bigene",
+   "osmName": "Sector de Bigene",
+   "region": "GW-CA",
+   "wikidata": "Q2421311",
+   "grid": {
+    "lon0": -16.085,
+    "lat0": 12.218,
+    "phi0": 12.37,
+    "cellMetres": 6.6
+   },
+   "boxKm": [
+    65.9,
+    33.0
+   ]
+  },
+  {
+   "number": 52,
+   "key": "BUL",
+   "name": "Bula",
+   "osmName": "Sector de Bula",
+   "region": "GW-CA",
+   "wikidata": "Q2319233",
+   "grid": {
+    "lon0": -15.948,
+    "lat0": 11.973,
+    "phi0": 12.14,
+    "cellMetres": 3.8
+   },
+   "boxKm": [
+    35.6,
+    37.8
+   ]
+  },
+  {
+   "number": 53,
+   "key": "CAC",
+   "name": "Cacheu",
+   "osmName": "Sector de Cacheu",
+   "region": "GW-CA",
+   "wikidata": null,
+   "grid": {
+    "lon0": -16.398,
+    "lat0": 11.996,
+    "phi0": 12.17,
+    "cellMetres": 5.3
+   },
+   "boxKm": [
+    52.1,
+    39.3
+   ]
+  },
+  {
+   "number": 54,
+   "key": "CAI",
+   "name": "Caió",
+   "osmName": "Sector de Caió",
+   "region": "GW-CA",
+   "wikidata": "Q3649970",
+   "grid": {
+    "lon0": -16.362,
+    "lat0": 11.749,
+    "phi0": 11.89,
+    "cellMetres": 4.2
+   },
+   "boxKm": [
+    41.9,
+    31.6
+   ]
+  },
+  {
+   "number": 55,
+   "key": "CAN",
+   "name": "Canchungo",
+   "osmName": "Sector de Canchungo",
+   "region": "GW-CA",
+   "wikidata": null,
+   "grid": {
+    "lon0": -16.197,
+    "lat0": 11.895,
+    "phi0": 12.06,
+    "cellMetres": 4.0
+   },
+   "boxKm": [
+    39.8,
+    36.7
+   ]
+  },
+  {
+   "number": 56,
+   "key": "SDO",
+   "name": "São Domingos",
+   "osmName": "Sector de São Domingos",
+   "region": "GW-CA",
+   "wikidata": "Q771106",
+   "grid": {
+    "lon0": -16.718,
+    "lat0": 12.143,
+    "phi0": 12.31,
+    "cellMetres": 7.6
+   },
+   "boxKm": [
+    75.7,
+    36.5
+   ]
+  },
+  {
+   "number": 61,
+   "key": "BOE",
+   "name": "Boé (Madina do Boé)",
+   "osmName": "Sector de Madina do Boé",
+   "region": "GW-GA",
+   "wikidata": "Q1024921",
+   "grid": {
+    "lon0": -14.437,
+    "lat0": 11.556,
+    "phi0": 11.85,
+    "cellMetres": 8.1
+   },
+   "boxKm": [
+    80.7,
+    65.8
+   ]
+  },
+  {
+   "number": 62,
+   "key": "GAB",
+   "name": "Gabú",
+   "osmName": "Sector de Gabu",
+   "region": "GW-GA",
+   "wikidata": null,
+   "grid": {
+    "lon0": -14.546,
+    "lat0": 11.609,
+    "phi0": 12.03,
+    "cellMetres": 9.4
+   },
+   "boxKm": [
+    62.0,
+    93.4
+   ]
+  },
+  {
+   "number": 63,
+   "key": "PIR",
+   "name": "Pirada",
+   "osmName": "Sector de Pirada",
+   "region": "GW-GA",
+   "wikidata": null,
+   "grid": {
+    "lon0": -14.351,
+    "lat0": 12.408,
+    "phi0": 12.54,
+    "cellMetres": 5.6
+   },
+   "boxKm": [
+    55.1,
+    29.9
+   ]
+  },
+  {
+   "number": 64,
+   "key": "PIT",
+   "name": "Pitche",
+   "osmName": "Sector de Pitche",
+   "region": "GW-GA",
+   "wikidata": "Q1771273",
+   "grid": {
+    "lon0": -14.175,
+    "lat0": 12.123,
+    "phi0": 12.4,
+    "cellMetres": 6.2
+   },
+   "boxKm": [
+    58.8,
+    61.4
+   ]
+  },
+  {
+   "number": 65,
+   "key": "SON",
+   "name": "Sonaco",
+   "osmName": "Sector de Sonaco",
+   "region": "GW-GA",
+   "wikidata": "Q3490047",
+   "grid": {
+    "lon0": -14.554,
+    "lat0": 12.137,
+    "phi0": 12.39,
+    "cellMetres": 5.6
+   },
+   "boxKm": [
+    34.7,
+    56.0
+   ]
+  },
+  {
+   "number": 71,
+   "key": "BSR",
+   "name": "Bissorã",
+   "osmName": "Sector de Bissorã",
+   "region": "GW-OI",
+   "wikidata": "Q16501677",
+   "grid": {
+    "lon0": -15.758,
+    "lat0": 12.135,
+    "phi0": 12.27,
+    "cellMetres": 5.2
+   },
+   "boxKm": [
+    51.7,
+    30.9
+   ]
+  },
+  {
+   "number": 72,
+   "key": "FAR",
+   "name": "Farim",
+   "osmName": "Sector de Farim",
+   "region": "GW-OI",
+   "wikidata": null,
+   "grid": {
+    "lon0": -15.487,
+    "lat0": 12.377,
+    "phi0": 12.53,
+    "cellMetres": 7.0
+   },
+   "boxKm": [
+    69.7,
+    34.3
+   ]
+  },
+  {
+   "number": 73,
+   "key": "MSB",
+   "name": "Mansabá",
+   "osmName": "Sector de Mansabá",
+   "region": "GW-OI",
+   "wikidata": null,
+   "grid": {
+    "lon0": -15.46,
+    "lat0": 12.175,
+    "phi0": 12.33,
+    "cellMetres": 5.8
+   },
+   "boxKm": [
+    57.1,
+    34.1
+   ]
+  },
+  {
+   "number": 74,
+   "key": "MSO",
+   "name": "Mansoa",
+   "osmName": "Sector de Mansoa",
+   "region": "GW-OI",
+   "wikidata": "Q1368576",
+   "grid": {
+    "lon0": -15.46,
+    "lat0": 11.908,
+    "phi0": 12.06,
+    "cellMetres": 5.7
+   },
+   "boxKm": [
+    56.6,
+    33.3
+   ]
+  },
+  {
+   "number": 75,
+   "key": "NHA",
+   "name": "Nhacra",
+   "osmName": "Sector de Nhacra",
+   "region": "GW-OI",
+   "wikidata": "Q1771572",
+   "grid": {
+    "lon0": -15.677,
+    "lat0": 11.89,
+    "phi0": 12.05,
+    "cellMetres": 3.7
+   },
+   "boxKm": [
+    30.9,
+    36.3
+   ]
+  },
+  {
+   "number": 81,
+   "key": "BUB",
+   "name": "Buba",
+   "osmName": "Sector de Buba",
+   "region": "GW-QU",
+   "wikidata": "Q997402",
+   "grid": {
+    "lon0": -15.128,
+    "lat0": 11.405,
+    "phi0": 11.6,
+    "cellMetres": 4.4
+   },
+   "boxKm": [
+    33.3,
+    43.2
+   ]
+  },
+  {
+   "number": 82,
+   "key": "EMP",
+   "name": "Empada",
+   "osmName": "Sector de Empada",
+   "region": "GW-QU",
+   "wikidata": null,
+   "grid": {
+    "lon0": -15.504,
+    "lat0": 11.306,
+    "phi0": 11.48,
+    "cellMetres": 4.8
+   },
+   "boxKm": [
+    47.7,
+    37.7
+   ]
+  },
+  {
+   "number": 83,
+   "key": "FUL",
+   "name": "Fulacunda",
+   "osmName": "Sector de Fulacunda",
+   "region": "GW-QU",
+   "wikidata": "Q2427704",
+   "grid": {
+    "lon0": -15.301,
+    "lat0": 11.626,
+    "phi0": 11.79,
+    "cellMetres": 3.7
+   },
+   "boxKm": [
+    32.7,
+    36.7
+   ]
+  },
+  {
+   "number": 84,
+   "key": "TIT",
+   "name": "Tite",
+   "osmName": "Sector de Tite",
+   "region": "GW-QU",
+   "wikidata": "Q3991840",
+   "grid": {
+    "lon0": -15.615,
+    "lat0": 11.607,
+    "phi0": 11.75,
+    "cellMetres": 3.9
+   },
+   "boxKm": [
+    38.7,
+    31.5
+   ]
+  },
+  {
+   "number": 91,
+   "key": "BED",
+   "name": "Bedanda",
+   "osmName": "Sector de Bedanda",
+   "region": "GW-TO",
+   "wikidata": "Q1771240",
+   "grid": {
+    "lon0": -15.272,
+    "lat0": 10.983,
+    "phi0": 11.21,
+    "cellMetres": 5.3
+   },
+   "boxKm": [
+    53.0,
+    50.6
+   ]
+  },
+  {
+   "number": 92,
+   "key": "CCN",
+   "name": "Cacine",
+   "osmName": "Sector de Cacine",
+   "region": "GW-TO",
+   "wikidata": null,
+   "grid": {
+    "lon0": -15.157,
+    "lat0": 10.891,
+    "phi0": 11.09,
+    "cellMetres": 4.4
+   },
+   "boxKm": [
+    37.4,
+    43.6
+   ]
+  },
+  {
+   "number": 93,
+   "key": "CAT",
+   "name": "Catió",
+   "osmName": "Sector de Catió",
+   "region": "GW-TO",
+   "wikidata": "Q1190869",
+   "grid": {
+    "lon0": -15.447,
+    "lat0": 11.206,
+    "phi0": 11.34,
+    "cellMetres": 4.0
+   },
+   "boxKm": [
+    39.4,
+    30.3
+   ]
+  },
+  {
+   "number": 94,
+   "key": "KOM",
+   "name": "Komo",
+   "osmName": "Sector de Komo",
+   "region": "GW-TO",
+   "wikidata": "Q3816307",
+   "grid": {
+    "lon0": -15.408,
+    "lat0": 11.104,
+    "phi0": 11.19,
+    "cellMetres": 2.4
+   },
+   "boxKm": [
+    23.4,
+    19.1
+   ]
+  },
+  {
+   "number": 95,
+   "key": "QBO",
+   "name": "Quebo",
+   "osmName": "Sector de Quebo",
+   "region": "GW-TO",
+   "wikidata": null,
+   "grid": {
+    "lon0": -14.956,
+    "lat0": 11.328,
+    "phi0": 11.52,
+    "cellMetres": 6.0
+   },
+   "boxKm": [
+    59.4,
+    41.4
+   ]
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\definecolor{ink}{HTML}{0B6B3A}\definecolor{grey}{HTML}{8A8F8C}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=8.4cm,axis equal image,xmin=-0.5,xmax=7.5,ymin=-0.5,ymax=7.5,xtick={0,...,7},ytick={0,...,7},
+  xlabel={$i$},ylabel={$j$},font=\small,tick label style={font=\footnotesize},axis line style={grey},tick style={draw=none},
+  extra x ticks={-0.5,0.5,...,7.5},extra y ticks={-0.5,0.5,...,7.5},extra tick style={grid=major,major grid style={grey!35},tick label style={opacity=0}},
+  extra x tick labels={},extra y tick labels={}]
+\addplot[ink,line width=1.4pt] table[x=x,y=y] {hilbert.dat};
+\addplot[only marks,mark=*,mark size=1.3pt,ink,nodes near coords,point meta=explicit symbolic,
+  nodes near coords style={font=\tiny,text=black,anchor=south west,inner sep=.8pt}] table[x=x,y=y,meta=d] {hilbert.dat};
+\end{axis}
+\end{tikzpicture}
+\end{document}

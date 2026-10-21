@@ -1,0 +1,17 @@
+# N-Ways Addressing for Guinea-Bissau: what you need to install.
+#
+# Python 3.9 or later. The reference engine and its tests
+# (engine/reference/gw_codes.py, test_gw.py), the registry server (server/) and
+# the tools in tools/ use only Python's standard library: there is no Python
+# package to install, so `pip install -r requirements.txt` installs nothing.
+#
+# Only to rebuild the data from scratch (tools/extract-buildings.py,
+# tools/building-stats.py, tools/issue_registry.py, tools/make-places.py,
+# tools/make-sectors.py), not to run the engine or use
+# the home codes:
+#   - the DuckDB command-line tool, 1.1 or later, with its spatial extension,
+#     on PATH as `duckdb` (https://duckdb.org/docs/installation; macOS:
+#     brew install duckdb); the tools set its memory limit to 3 GB;
+#   - the N-Ways map data folder (NWAYS_ROOT) with the footprint and place
+#     extracts; anyone else starts from the published data in registry/ and
+#     model/, which is everything the codes need.

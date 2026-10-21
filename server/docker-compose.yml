@@ -1,0 +1,23 @@
+# One command to run the registry server:  docker compose up -d   (from this folder)
+# The first start imports the bundled registry into the volume, then serves on port 8080.
+name: addresses-gw
+services:
+  addresses:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    image: n-ways/addresses-guinea-bissau:latest
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:8080"
+    environment:
+      # Leave ISSUE_KEYS empty for a read-only deployment. Only the designated issuer sets it
+      # (see server/README.md, "One issuer").
+      ISSUE_KEYS: "${ISSUE_KEYS:-}"
+      ISSUE_PER_DAY: "${ISSUE_PER_DAY:-5}"
+      CORS_ORIGINS: "${CORS_ORIGINS:-}"
+    volumes:
+      - addresses-data:/data
+
+volumes:
+  addresses-data:

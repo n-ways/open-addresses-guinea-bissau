@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper as below."
+title: "N-Ways Addressing for Guinea-Bissau"
+type: software
+authors:
+  - name: "The N-Ways Addressing Group"
+  - name: "N-WAYS LIMITED"
+    website: "https://nways.ng"
+    email: "hello@nways.ng"
+repository-code: "https://github.com/n-ways/open-addresses-guinea-bissau"
+url: "https://nways.ng"
+license: Apache-2.0
+date-released: "2026-10-21"
+keywords:
+  - addressing
+  - Guinea-Bissau
+  - postcodes
+  - geocoding
+  - Damm check digit
+  - Hilbert curve
+  - building footprints
+preferred-citation:
+  type: report
+  title: "A code for every morança: a national addressing model for Guinea-Bissau"
+  authors:
+    - name: "The N-Ways Addressing Group"
+  institution:
+    name: "N-WAYS LIMITED"
+  year: 2026
+  month: 10
+  url: "https://github.com/n-ways/open-addresses-guinea-bissau"
+  languages:
+    - en
+    - pt
+    - fr

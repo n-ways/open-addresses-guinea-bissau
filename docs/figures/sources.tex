@@ -1,0 +1,19 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{colormaps}
+\definecolor{ink}{HTML}{0B6B3A}\definecolor{red}{HTML}{CE1126}\definecolor{gold}{HTML}{E0A800}\definecolor{grey}{HTML}{8A8F8C}
+\pgfplotsset{every axis/.append style={font=\small,tick label style={font=\footnotesize},axis line style={grey},tick style={grey}}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=12cm,height=6.4cm,ybar stacked,bar width=15pt,ymin=0,
+  xtick=data,xticklabels from table={sources.dat}{region},xticklabel style={rotate=35,anchor=north east},
+  ylabel={$F$},legend style={draw=none,font=\footnotesize,at={(0.98,0.97)},anchor=north east},
+  ymajorgrids,grid style={grey!25},scaled y ticks=false,yticklabel style={/pgf/number format/fixed,/pgf/number format/1000 sep={\,}}]
+\addplot[fill=ink,draw=none] table[x expr=\coordindex,y=osm] {sources.dat};
+\addplot[fill=gold,draw=none] table[x expr=\coordindex,y=ml] {sources.dat};
+\legend{OpenStreetMap,Google Open Buildings + Microsoft}
+\end{axis}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,15 @@
+{
+  "bySector": {
+    "KOM": 750
+  },
+  "codes": 750,
+  "country": "GW",
+  "credit": "N-Ways Addressing for Guinea-Bissau, © N-WAYS LIMITED (nways.ng)",
+  "engine": "internal/addressing/gw (SPEC v1.0)",
+  "exported": "2026-10-20T15:53:38Z",
+  "licence": "ODbL 1.0 (LICENSE-DATA)",
+  "sha256": {
+    "KOM.csv": "2516aa43a63c49494e33bd00802f6131694fb4217db4d9aa844c4367811c67bd",
+    "areas.csv": "93e3674c8b7b6bb475db18d2429545b5fe5994e3061b528e623c6f000df977b9"
+  }
+}

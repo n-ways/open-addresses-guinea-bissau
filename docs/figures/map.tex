@@ -1,0 +1,38 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{fontspec}\setmainfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{unicode-math}\setmathfont{LibertinusMath-Regular.otf}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{colormaps}
+\definecolor{ink}{HTML}{0B6B3A}\definecolor{red}{HTML}{CE1126}\definecolor{gold}{HTML}{E0A800}\definecolor{grey}{HTML}{8A8F8C}
+\pgfplotsset{every axis/.append style={font=\small,tick label style={font=\footnotesize},axis line style={grey},tick style={grey}}}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[width=13cm,axis equal image,xmin=0,xmax=350,ymin=0,ymax=215,
+  xlabel={km},ylabel={km},
+  colormap={gw}{rgb255=(255,245,200) rgb255=(252,209,22) rgb255=(0,158,73) rgb255=(11,60,30)},
+  colorbar,colorbar style={ylabel={$\log_{10} c$},width=3mm},point meta min=0,point meta max=4.4]
+\addplot[only marks,mark=square*,mark size=1.55pt,scatter,scatter src=explicit,opacity=.95]
+  table[x=x,y=y,meta expr={log10(\thisrow{n})}] {density.dat};
+\addplot[black!75,line width=.35pt,unbounded coords=jump] table[x=x,y=y] {sectors.dat};
+\coordinate (t0) at (axis cs:130.7,117.2);
+\coordinate (t1) at (axis cs:280.9,163.6);
+\coordinate (t2) at (axis cs:233,151.5);
+\coordinate (t3) at (axis cs:68.6,162.5);
+\coordinate (t4) at (axis cs:105.6,53.1);
+\coordinate (t5) at (axis cs:168.8,53);
+\end{axis}
+% town labels drawn after the axis, so the density cells never cover them
+\fill[red] (t0) circle (1.3pt);
+\node[font=\footnotesize,anchor=south east,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t0) {Bissau};
+\fill[red] (t1) circle (1.3pt);
+\node[font=\footnotesize,anchor=north,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t1) {Gabú};
+\fill[red] (t2) circle (1.3pt);
+\node[font=\footnotesize,anchor=south,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t2) {Bafatá};
+\fill[red] (t3) circle (1.3pt);
+\node[font=\footnotesize,anchor=north,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t3) {Cacheu};
+\fill[red] (t4) circle (1.3pt);
+\node[font=\footnotesize,anchor=south,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t4) {Bubaque};
+\fill[red] (t5) circle (1.3pt);
+\node[font=\footnotesize,anchor=south,inner sep=1.2pt,outer sep=1.5pt,fill=white,fill opacity=.8,text opacity=1,rounded corners=1pt] at (t5) {Catió};
+\end{tikzpicture}
+\end{document}

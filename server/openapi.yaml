@@ -1,0 +1,717 @@
+openapi: 3.1.0
+info:
+  title: N-Ways Addressing for Guinea-Bissau, registry API
+  version: "1.0"
+  summary: Look up, verify and issue the compound codes of Guinea-Bissau.
+  description: |
+    The JSON API of the registry server in `server/`. It serves the published registry
+    (`registry/`) and, on a deployment designated as the issuer, issues new codes by the
+    same rules as the N-Ways issuer. Every example below is a real response of the server
+    on the full registry; long lists and cards are shortened. See docs/api.md.
+  contact: {name: N-WAYS LIMITED, email: hello@nways.ng, url: "https://nways.ng"}
+  license: {name: Apache-2.0 (code); ODbL-1.0 (data), identifier: Apache-2.0}
+servers:
+  - url: http://localhost:8080
+    description: a local deployment (python3 -m server serve, or docker compose up)
+security: []
+tags:
+  - {name: service, description: "Health and description of the deployment"}
+  - {name: codes, description: "Issued codes"}
+  - {name: places, description: "Zones and areas"}
+  - {name: spots, description: "Spot codes for any point"}
+  - {name: issuing, description: "Issuing and changing codes (designated issuer only)"}
+paths:
+  /v1/health:
+    get:
+      operationId: health
+      tags: [service]
+      summary: "Liveness"
+      description: "Status, country, number of codes and the export date of the imported registry."
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Health"}
+              example: {"status": "ok", "country": "GW", "codes": 241673, "registry_exported": "2026-10-21T18:35:37Z", "issuing": true}
+  /v1/info:
+    get:
+      operationId: info
+      tags: [service]
+      summary: "What this deployment serves"
+      description: "Zones, areas, counts, licences, credit line and engine specification."
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Info"}
+              example: {"country": "GW", "name": "Guinea-Bissau", "zone_kind": "sector", "zones": 39, "areas": 4260, "codes": 241673, "by_status": {"provisional": 241673}, "by_zone": {"BAF": 8416, "BAM": 6301, "BBQ": 2812, "BED": 4264}, "licences": {"code": "Apache-2.0", "data": "ODbL-1.0", "documents": "CC-BY-4.0"}, "credit": "N-Ways Addressing for Guinea-Bissau, © N-WAYS LIMITED (nways.ng)", "credit_url": "https://github.com/n-ways/open-addresses-guinea-bissau", "engine": {"spec": "SPEC v1.0", "reference": "engine/reference/gw_codes.py"}, "registry_exported": "2026-10-21T18:35:37Z", "issuing": {"enabled": true, "per_key_per_day": 5}}
+  /v1/codes/{machine}:
+    get:
+      operationId: getCode
+      tags: [codes]
+      summary: "The card of a code"
+      description: "Every registry column (record) plus the area, zone, spot code and forms. A wrong check digit is refused."
+      parameters:
+        - {name: machine, in: path, required: true, description: "Machine form, SS-PPP-NNNNN-C (optionally .S for a structure or /D for a door).", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Card"}
+              example: {"country": "GW", "machine": "10-022-00537-4", "home": "Bandim 537", "written": "Bandim 537", "spoken": "Bandim, quinhentos e trinta e sete", "number": 537, "check": 4, "status": "provisional", "issued": "bulk", "issued_at": "2026-10-20T06:32:58Z", "area": {"id": "BIS-022", "plate_name": "Bandim", "official_name": "Bandim", "kind": "neighbourhood", "needs_council_choice": false}, "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "full_line": "Bandim 537 · Bissau", "entrance": {"lat": 11.8521485, "lng": -15.5950371, "kind": "centre"}, "spot": "10-4327-9117", "plus_code": "7C36VC23+VX4", "building": {"class": "residential.compound-house", "use": "residential", "kind": "building", "structures": 1, "floor_area_m2": 272.4, "settlement": "cidade"}, "postcode": "1000", "record": {"machine": "10-022-00537-4", "home": "Bandim 537", "written": "Bandim 537", "area": "BIS-022", "official_name": "Bandim", "number": "537", "check": "4", "status": "provisional", "issued": "bulk", "issued_at": "2026-10-20T06:32:58Z", "entrance_lat": "11.8521485", "entrance_lng": "-15.5950371", "entrance_kind": "centre", "plus_code": "7C36VC23+VX4", "class": "residential.compound-house", "use": "residential", "kind": "building", "structures": "1", "floor_area_m2": "272.4", "settlement": "cidade", "postcode": "1000"}, "credit": "N-Ways Addressing for Guinea-Bissau, © N-WAYS LIMITED (nways.ng)", "credit_url": "https://github.com/n-ways/open-addresses-guinea-bissau"}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "not_issued", "message": "No compound has Bandim 1999 yet: the number is in the range of Bandim, Bissau, but unused."}}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "bad_check", "message": "The check digit does not match: a digit is wrong or two are swapped."}}
+  /v1/find:
+    get:
+      operationId: find
+      tags: [codes]
+      summary: "Decode a typed or spoken code"
+      description: "A remembered form (any case, spacing or accents), an official name with its number, a machine form or a spot code."
+      parameters:
+        - {name: q, in: query, required: true, description: "What was typed or said: \"Bandim 537\", \"bandim 537\", \"10-022-00537-4\", \"10-4327-8173\".", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Found"}
+              example: {"query": "bandim  537", "kind": "remembered", "matches": [{"machine": "10-022-00537-4", "home": "Bandim 537", "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "status": "provisional"}]}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "not_issued", "message": "Bandim 2275 has not been issued: the number is a spare number of that name."}}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "bad_check", "message": "The check digit does not match: a digit is wrong or two are swapped."}}
+  /v1/at:
+    get:
+      operationId: at
+      tags: [codes]
+      summary: "The code at a point"
+      description: "found (an outline holds the point, or an entrance within 12 m), none (with the area a new compound would take) or outside (in no sector, or more than 300 m outside the national border whatever the sector outlines say; engine/SPEC.md 3.1)."
+      parameters:
+        - {name: lat, in: query, required: true, description: "Latitude, WGS 84 degrees.", schema: {type: number, minimum: -90, maximum: 90}}
+        - {name: lng, in: query, required: true, description: "Longitude, WGS 84 degrees.", schema: {type: number, minimum: -180, maximum: 180}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/At"}
+              example: {"status": "found", "distance_m": 0, "code": {"machine": "10-022-00537-4", "home": "Bandim 537", "status": "provisional"}, "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "bad_request", "message": "The query parameter \"lng\" is required."}}
+  /v1/near:
+    get:
+      operationId: near
+      tags: [codes]
+      summary: "Codes near a point"
+      description: "Live codes with an entrance within radius metres, nearest first."
+      parameters:
+        - {name: lat, in: query, required: true, description: "Latitude, WGS 84 degrees.", schema: {type: number, minimum: -90, maximum: 90}}
+        - {name: lng, in: query, required: true, description: "Longitude, WGS 84 degrees.", schema: {type: number, minimum: -180, maximum: 180}}
+        - {name: radius, in: query, required: false, description: "Metres, default 100.", schema: {type: number, minimum: 1, maximum: 500, default: 100}}
+        - {name: limit, in: query, required: false, description: "At most this many, default 50.", schema: {type: integer, minimum: 1, maximum: 100, default: 50}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Near"}
+              example: {"lat": 11.8521, "lng": -15.5951, "radius_m": 25.0, "count": 3, "codes": [{"machine": "10-022-00537-4", "home": "Bandim 537", "area": "BIS-022", "zone": "BIS", "status": "provisional", "entrance": {"lat": 11.8521485, "lng": -15.5950371}, "distance_m": 8.7}, {"machine": "10-022-00535-8", "home": "Bandim 535", "area": "BIS-022", "zone": "BIS", "status": "provisional", "entrance": {"lat": 11.852131, "lng": -15.5952453}, "distance_m": 16.2}, {"machine": "10-022-00581-9", "home": "Bandim 581", "area": "BIS-022", "zone": "BIS", "status": "provisional", "entrance": {"lat": 11.8519477, "lng": -15.5950236}, "distance_m": 18.9}]}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "bad_request", "message": "\"radius\" must be between 1 and 500."}}
+  /v1/verify:
+    get:
+      operationId: verify
+      tags: [codes]
+      summary: "Validate a machine code"
+      description: "Syntax, check digit, issued and live. Always 200; the answer is in the fields."
+      parameters:
+        - {name: code, in: query, required: true, description: "A machine form.", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Verify"}
+              example: {"code": "10-022-00573-4", "syntax": true, "check": false, "issued": false, "valid": false, "status": null, "machine": null, "home": null, "message": "The check digit does not match: a digit is wrong or two are swapped."}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+  /v1/spot:
+    get:
+      operationId: spot
+      tags: [spots]
+      summary: "Spot code of a point"
+      description: "The spot code and its refinement to a third of a cell."
+      parameters:
+        - {name: lat, in: query, required: true, description: "Latitude, WGS 84 degrees.", schema: {type: number, minimum: -90, maximum: 90}}
+        - {name: lng, in: query, required: true, description: "Longitude, WGS 84 degrees.", schema: {type: number, minimum: -180, maximum: 180}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Spot"}
+              example: {"lat": 11.8521, "lng": -15.5951, "spot": "10-4327-8173", "refined": "10-4327-8173.1", "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "cell_m": 1.7, "refined_cell_m": 0.57}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "outside", "message": "That point is not inside a sector of Guinea-Bissau."}}
+  /v1/spot/decode:
+    get:
+      operationId: decodeSpot
+      tags: [spots]
+      summary: "Point of a spot code"
+      description: "The centre of the cell (or third of a cell)."
+      parameters:
+        - {name: code, in: query, required: true, description: "A spot code, SS-DDDD-DDDD or SS-DDDD-DDDD.K.", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/SpotPoint"}
+              example: {"code": "10-4327-8173.1", "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "lat": 11.8520977, "lng": -15.5950989, "cell_m": 0.57}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "bad_check", "message": "The check digit does not match: a digit is wrong or two are swapped."}}
+  /v1/zones:
+    get:
+      operationId: zones
+      tags: [places]
+      summary: "The zones (sectors)"
+      description: "All 39 sectors with their number of areas and codes."
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Zones"}
+              example: {"country": "GW", "zone_kind": "sector", "zones": [{"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS", "areas": 73, "codes": 43850}, {"key": "BAF", "number": 21, "name": "Bafatá", "region": "GW-BA", "areas": 120, "codes": 8416}, {"key": "BAM", "number": 22, "name": "Bambadinca", "region": "GW-BA", "areas": 139, "codes": 6301}]}
+  /v1/zones/{key}:
+    get:
+      operationId: zone
+      tags: [places]
+      summary: "One zone with its areas"
+      description: "By key (KOM) or number (94)."
+      parameters:
+        - {name: key, in: path, required: true, description: "Sector key or number.", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/ZoneDetail"}
+              example: {"key": "KOM", "number": 94, "name": "Komo", "region": "GW-TO", "codes": 750, "grid": {"lon0": -15.408, "lat0": 11.104, "phi0": 11.19, "cellMetres": 2.4}, "areas": [{"id": "KOM-000", "plate_name": "Komo", "official_name": "Komo", "kind": "sector", "needs_council_choice": false, "zone": "KOM", "name_key": "kumu", "name_id": 1812, "blocks": [[500, 599]], "aliases": [], "landmass": null, "lat": null, "lon": null, "codes": 24}, {"id": "KOM-001", "plate_name": "Tabanca Velha", "official_name": "Tabanca Velha", "kind": "locality", "needs_council_choice": true, "zone": "KOM", "name_key": "vila", "name_id": 3233, "blocks": [[0, 99]], "aliases": [], "landmass": "Ilha de Caiar", "lat": 11.18333, "lon": -15.38333, "codes": 22}]}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "not_found", "message": "There is no zone 'XYZ'. GET /v1/zones lists them."}}
+  /v1/zones/{key}/codes:
+    get:
+      operationId: zoneCodes
+      tags: [places]
+      summary: "Every code of a zone, paged"
+      description: "In machine-code order; pass next as after for the next page."
+      parameters:
+        - {name: key, in: path, required: true, description: "Sector key or number.", schema: {type: string}}
+        - {name: after, in: query, required: false, description: "The next value of the previous page.", schema: {type: string}}
+        - {name: limit, in: query, required: false, description: "Page size, default 100.", schema: {type: integer, minimum: 1, maximum: 1000, default: 100}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/CodePage"}
+              example: {"zone": "KOM", "after": null, "count": 3, "codes": [{"machine": "94-000-00501-2", "home": "Komo 501", "area": "KOM-000", "zone": "KOM", "status": "provisional", "entrance": {"lat": 11.1628014, "lng": -15.3479258}}, {"machine": "94-000-00503-6", "home": "Komo 503", "area": "KOM-000", "zone": "KOM", "status": "provisional", "entrance": {"lat": 11.1634972, "lng": -15.3479932}}, {"machine": "94-000-00505-7", "home": "Komo 505", "area": "KOM-000", "zone": "KOM", "status": "provisional", "entrance": {"lat": 11.1637876, "lng": -15.3463083}}], "next": "94-000-00505-7"}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "not_found", "message": "There is no zone 'XYZ'. GET /v1/zones lists them."}}
+  /v1/areas/{id}:
+    get:
+      operationId: area
+      tags: [places]
+      summary: "One area"
+      description: "Blocks, names, counts and the areas sharing its name."
+      parameters:
+        - {name: id, in: path, required: true, description: "Area id, e.g. BIS-022.", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/AreaDetail"}
+              example: {"id": "BIS-022", "plate_name": "Bandim", "official_name": "Bandim", "kind": "neighbourhood", "needs_council_choice": false, "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "name_key": "bandim", "name_id": 228, "blocks": [[0, 1999]], "aliases": [], "landmass": "Ilha de Bissau", "lat": 11.8521, "lon": -15.59506, "codes": {"total": 452, "by_status": {"provisional": 452}}, "same_name": ["CAT-005"], "next_free_after": 2200}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "not_found", "message": "There is no area 'BIS-999'. Area ids look like BIS-022."}}
+  /v1/areas:
+    get:
+      operationId: areasByName
+      tags: [places]
+      summary: "Areas by name"
+      description: "Plate name, official name or alias, folded as the engine folds names."
+      parameters:
+        - {name: name, in: query, required: true, description: "A place name.", schema: {type: string}}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/AreaList"}
+              example: {"name": "missira", "name_key": "misira", "count": 19, "areas": [{"id": "BAF-010", "plate_name": "Missirá", "official_name": "Missirá", "kind": "locality", "needs_council_choice": false, "zone": "BAF", "name_key": "misira", "name_id": 2098, "blocks": [], "aliases": [], "landmass": null, "lat": 12.16667, "lon": -14.66667, "codes": 0}, {"id": "BAF-092", "plate_name": "Missirá", "official_name": "Missirá", "kind": "locality", "needs_council_choice": false, "zone": "BAF", "name_key": "misira", "name_id": 2098, "blocks": [[6000, 6199]], "aliases": [], "landmass": null, "lat": 12.28333, "lon": -14.5, "codes": 49}]}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+  /v1/codes:
+    post:
+      operationId: issue
+      tags: [issuing]
+      summary: "Issue a code"
+      description: "A new compound, or another door of one (of). Designated issuer only; per-key daily limit. A point in no sector, or more than 300 m outside the national border whatever the sector outlines say (engine/SPEC.md 3.1), is refused with 422 outside."
+      security: [{issuingKey: []}]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/IssueRequest"}
+            example: {"lat": 11.8667292, "lng": -15.6004729}
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Card"}
+              example: {"country": "GW", "machine": "10-049-00240-4", "home": "Granja 240", "written": "Granja 240", "spoken": "Granja, duzentos e quarenta", "number": 240, "check": 4, "status": "provisional", "issued": "on-demand", "issued_at": "2026-10-21T19:04:23Z", "area": {"id": "BIS-049", "plate_name": "Granja", "official_name": "Granja", "kind": "neighbourhood", "needs_council_choice": false}, "zone": {"key": "BIS", "number": 10, "name": "Bissau", "region": "GW-BS"}, "full_line": "Granja 240 · Bissau", "entrance": {"lat": 11.8667292, "lng": -15.6004729, "kind": "centre"}, "spot": "10-3496-4625", "plus_code": "7C36V98X+MRR", "building": {"class": null, "use": "residential", "kind": "building", "structures": 0, "floor_area_m2": 0.0, "settlement": null}, "postcode": "1000", "record": {"machine": "10-049-00240-4", "home": "Granja 240", "written": "Granja 240", "area": "BIS-049", "official_name": "Granja", "number": "240", "check": "4", "status": "provisional", "issued": "on-demand", "issued_at": "2026-10-21T19:04:23Z", "entrance_lat": "11.8667292", "entrance_lng": "-15.6004729", "entrance_kind": "centre", "plus_code": "7C36V98X+MRR", "class": "", "use": "residential", "kind": "building", "structures": "0", "floor_area_m2": "0.0", "settlement": "", "postcode": "1000"}, "credit": "N-Ways Addressing for Guinea-Bissau, © N-WAYS LIMITED (nways.ng)", "credit_url": "https://github.com/n-ways/open-addresses-guinea-bissau"}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "401":
+          description: Missing or wrong issuing key
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "unauthorized", "message": "Send the issuing key as \"Authorization: Bearer <key>\"."}}
+        "403":
+          description: Read-only deployment
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "read_only", "message": "This deployment is read-only: it does not issue or change codes."}}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "409":
+          description: Conflict
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "exists", "message": "This building already has its code: Granja 240.", "card": {"machine": "10-049-00240-4", "home": "Granja 240"}}}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "outside", "message": "That point is outside Guinea-Bissau, so it cannot have a Guinea-Bissau code."}}
+        "429":
+          description: Daily limit reached
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+    patch:
+      operationId: change
+      tags: [issuing]
+      summary: "Change status or entrance"
+      description: "provisional, confirmed or retired (final); entrance moves at most 80 m (422 too_far), never more than 300 m outside the national border (422 outside)."
+      security: [{issuingKey: []}]
+      parameters:
+        - {name: machine, in: path, required: true, description: "Machine form of the compound.", schema: {type: string}}
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: "#/components/schemas/ChangeRequest"}
+            example: {"status": "confirmed"}
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Card"}
+        "400":
+          description: Malformed request
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "401":
+          description: Missing or wrong issuing key
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "403":
+          description: Read-only deployment
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "404":
+          description: Not found
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+        "409":
+          description: Conflict
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "retired", "message": "Granja 240 is retired; a retired code is never brought back or reused."}}
+        "422":
+          description: Cannot be served
+          content:
+            application/json:
+              schema: {$ref: "#/components/schemas/Error"}
+              example: {"error": {"code": "too_far", "message": "The new entrance is 1102 m away; an entrance moves at most 80 m."}}
+components:
+  securitySchemes:
+    issuingKey:
+      type: http
+      scheme: bearer
+      description: One of the keys in ISSUE_KEYS. A deployment without keys is read-only.
+  schemas:
+    Error:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code: {type: string, description: "bad_request, bad_code, bad_check, unauthorized, read_only, not_found, not_issued, unknown_name, unknown_sector, unknown_area, retired, exists, busy, name_full, outside, bad_outline, too_far, rate_limited, method_not_allowed, too_large, internal"}
+            message: {type: string}
+            card: {$ref: "#/components/schemas/Card", description: "with exists: the code the building already has"}
+            point: {$ref: "#/components/schemas/Point"}
+    Point:
+      type: object
+      properties: {lat: {type: number}, lng: {type: number}}
+    Zone:
+      type: object
+      required: [key, number, name, region]
+      properties:
+        key: {type: string, example: BIS}
+        number: {type: integer, example: 10}
+        name: {type: string}
+        region: {type: string, description: ISO 3166-2 code of the region}
+        areas: {type: integer}
+        codes: {type: integer}
+    AreaSummary:
+      type: object
+      properties:
+        id: {type: string, example: BIS-022}
+        plate_name: {type: string}
+        official_name: {type: string}
+        kind: {type: string}
+        needs_council_choice: {type: boolean}
+    Area:
+      allOf:
+        - $ref: "#/components/schemas/AreaSummary"
+        - type: object
+          properties:
+            zone: {type: string}
+            name_key: {type: string}
+            name_id: {type: integer}
+            blocks: {type: array, items: {type: array, items: {type: integer}, minItems: 2, maxItems: 2}}
+            aliases: {type: array, items: {type: string}}
+            landmass: {type: [string, "null"]}
+            lat: {type: [number, "null"]}
+            lon: {type: [number, "null"]}
+            codes: {type: integer}
+    Record:
+      type: object
+      description: One row of the published registry, every column as published (text).
+      properties:
+        machine: {type: string}
+        home: {type: string}
+        written: {type: string}
+        area: {type: string}
+        official_name: {type: string}
+        number: {type: string}
+        check: {type: string}
+        status: {type: string}
+        issued: {type: string}
+        issued_at: {type: string}
+        entrance_lat: {type: string}
+        entrance_lng: {type: string}
+        entrance_kind: {type: string}
+        plus_code: {type: string}
+        class: {type: string}
+        use: {type: string}
+        kind: {type: string}
+        structures: {type: string}
+        floor_area_m2: {type: string}
+        settlement: {type: string}
+        postcode: {type: string}
+    Card:
+      type: object
+      required: [country, machine, home, written, number, check, status, area, zone, entrance, record]
+      properties:
+        country: {type: string, const: GW}
+        machine: {type: string, description: "SS-PPP-NNNNN-C, for systems; the only form with the check digit"}
+        home: {type: string, description: the remembered form, place word and number}
+        written: {type: string, description: as written on plates and forms (no check digit)}
+        spoken: {type: string}
+        number: {type: integer}
+        check: {type: integer}
+        status: {type: string, enum: [provisional, confirmed, retired]}
+        issued: {type: string, enum: [bulk, on-demand]}
+        issued_at: {type: string, format: date-time}
+        area: {$ref: "#/components/schemas/AreaSummary"}
+        zone: {$ref: "#/components/schemas/Zone"}
+        full_line: {type: string}
+        entrance:
+          type: object
+          properties: {lat: {type: number}, lng: {type: number}, kind: {type: string, enum: [centre, door, gate]}}
+        spot: {type: [string, "null"]}
+        plus_code: {type: string}
+        building:
+          type: object
+          properties:
+            class: {type: [string, "null"]}
+            use: {type: [string, "null"]}
+            kind: {type: [string, "null"]}
+            structures: {type: integer}
+            floor_area_m2: {type: number}
+            settlement: {type: [string, "null"]}
+        postcode: {type: [string, "null"]}
+        structure: {type: integer}
+        door: {type: integer}
+        record: {$ref: "#/components/schemas/Record"}
+        credit: {type: string}
+        credit_url: {type: string}
+    Compact:
+      type: object
+      properties:
+        machine: {type: string}
+        home: {type: string}
+        area: {type: string}
+        zone: {type: string}
+        status: {type: string}
+        entrance: {$ref: "#/components/schemas/Point"}
+        distance_m: {type: number}
+    Health:
+      type: object
+      properties:
+        status: {type: string, const: ok}
+        country: {type: string}
+        codes: {type: integer}
+        registry_exported: {type: [string, "null"], format: date-time}
+        issuing: {type: boolean}
+    Info:
+      type: object
+      properties:
+        country: {type: string}
+        name: {type: string}
+        zone_kind: {type: string}
+        zones: {type: integer}
+        areas: {type: integer}
+        codes: {type: integer}
+        by_status: {type: object, additionalProperties: {type: integer}}
+        by_zone: {type: object, additionalProperties: {type: integer}}
+        licences: {type: object, additionalProperties: {type: string}}
+        credit: {type: string}
+        credit_url: {type: string}
+        engine: {type: object, properties: {spec: {type: string}, reference: {type: string}}}
+        registry_exported: {type: [string, "null"]}
+        issuing: {type: object, properties: {enabled: {type: boolean}, per_key_per_day: {type: integer}}}
+    Found:
+      type: object
+      properties:
+        query: {type: string}
+        kind: {type: string, enum: [remembered, official, machine, spot]}
+        matches: {type: array, items: {$ref: "#/components/schemas/Card"}}
+        structure: {type: integer}
+        door: {type: integer}
+    At:
+      type: object
+      required: [status]
+      properties:
+        status: {type: string, enum: [found, none, outside]}
+        distance_m: {type: number}
+        code: {$ref: "#/components/schemas/Card"}
+        zone: {$ref: "#/components/schemas/Zone"}
+        area: {$ref: "#/components/schemas/AreaSummary"}
+        spot: {type: [string, "null"]}
+        can_issue: {type: boolean}
+        message: {type: string}
+    Near:
+      type: object
+      properties:
+        lat: {type: number}
+        lng: {type: number}
+        radius_m: {type: number}
+        count: {type: integer}
+        codes: {type: array, items: {$ref: "#/components/schemas/Compact"}}
+    Verify:
+      type: object
+      properties:
+        code: {type: string}
+        syntax: {type: boolean}
+        check: {type: boolean}
+        issued: {type: boolean}
+        valid: {type: boolean}
+        status: {type: [string, "null"]}
+        machine: {type: [string, "null"]}
+        home: {type: [string, "null"]}
+        message: {type: string}
+    Spot:
+      type: object
+      properties:
+        lat: {type: number}
+        lng: {type: number}
+        spot: {type: string}
+        refined: {type: string}
+        zone: {$ref: "#/components/schemas/Zone"}
+        cell_m: {type: number}
+        refined_cell_m: {type: number}
+    SpotPoint:
+      type: object
+      properties:
+        code: {type: string}
+        zone: {$ref: "#/components/schemas/Zone"}
+        lat: {type: number}
+        lng: {type: number}
+        cell_m: {type: number}
+    Zones:
+      type: object
+      properties:
+        country: {type: string}
+        zone_kind: {type: string}
+        zones: {type: array, items: {$ref: "#/components/schemas/Zone"}}
+    ZoneDetail:
+      allOf:
+        - $ref: "#/components/schemas/Zone"
+        - type: object
+          properties:
+            grid: {type: object, properties: {lon0: {type: number}, lat0: {type: number}, phi0: {type: number}, cellMetres: {type: number}}}
+            areas: {type: array, items: {$ref: "#/components/schemas/Area"}}
+    CodePage:
+      type: object
+      properties:
+        zone: {type: string}
+        after: {type: [string, "null"]}
+        count: {type: integer}
+        codes: {type: array, items: {$ref: "#/components/schemas/Compact"}}
+        next: {type: [string, "null"]}
+    AreaDetail:
+      allOf:
+        - $ref: "#/components/schemas/Area"
+        - type: object
+          properties:
+            zone: {$ref: "#/components/schemas/Zone"}
+            codes: {type: object, properties: {total: {type: integer}, by_status: {type: object, additionalProperties: {type: integer}}}}
+            same_name: {type: array, items: {type: string}}
+            next_free_after: {type: integer}
+    AreaList:
+      type: object
+      properties:
+        name: {type: string}
+        name_key: {type: string}
+        count: {type: integer}
+        areas: {type: array, items: {$ref: "#/components/schemas/Area"}}
+    IssueRequest:
+      type: object
+      required: [lat, lng]
+      properties:
+        lat: {type: number}
+        lng: {type: number}
+        outline: {type: array, description: "the building's outline, [lng, lat] pairs, 6 m² to 2 ha", items: {type: array, items: {type: number}, minItems: 2, maxItems: 2}}
+        of: {type: string, description: machine form of the compound this is another door of}
+    ChangeRequest:
+      type: object
+      minProperties: 1
+      additionalProperties: false
+      properties:
+        status: {type: string, enum: [provisional, confirmed, retired]}
+        entrance: {$ref: "#/components/schemas/Point"}

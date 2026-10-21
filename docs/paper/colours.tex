@@ -1,0 +1,15 @@
+% Guinea-Bissau: red, yellow and green, the national flag's colours in order, with the
+% black star of the red hoist at the left of the band.
+\definecolor{flagA}{HTML}{CE1126}
+\definecolor{flagB}{HTML}{FCD116}
+\definecolor{flagC}{HTML}{009E49}
+\definecolor{flagstar}{HTML}{111111}
+\definecolor{paperink}{HTML}{0B6B3A}
+\newcommand{\flagband}{\begin{tikzpicture}[remember picture,overlay]
+  \fill[flagA] (0,0) rectangle (\paperwidth,-2.2mm);
+  \fill[flagB] (0,-2.2mm) rectangle (\paperwidth,-4.4mm);
+  \fill[flagC] (0,-4.4mm) rectangle (\paperwidth,-6.6mm);
+  \fill[flagA] (0,0) rectangle (14mm,-6.6mm);
+  \fill[flagstar] (7mm,-3.3mm) +(90:2.6mm) -- +(234:2.6mm) -- +(18:2.6mm) -- +(162:2.6mm) -- +(306:2.6mm) -- cycle;
+\end{tikzpicture}}
+\newcommand{\papershort}{N-Ways Addressing for Guinea-Bissau}

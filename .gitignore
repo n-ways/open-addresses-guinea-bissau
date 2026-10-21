@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Databases and server data (python3 -m server import writes data/addresses.sqlite)
+/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite.importing*
+*.db
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Paper build output (docs/paper/build.sh)
+docs/paper/build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Editors and systems
+.DS_Store
+.idea/
+.vscode/
+*.swp

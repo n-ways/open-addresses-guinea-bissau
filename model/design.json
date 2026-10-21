@@ -1,0 +1,639 @@
+{
+ "country": "GW",
+ "name": "Guinea-Bissau",
+ "namePt": "Guiné-Bissau",
+ "nameFr": "Guinée-Bissau",
+ "version": "1",
+ "date": "2026-10-20",
+ "status": "issued: 241,673 codes in all 39 sectors (registry/)",
+ "firstCriterion": "memorability: a place word people already use plus a short number, unique in the whole country on its own; getting your code takes no effort",
+ "verdict": {
+  "postcodes": "paper only: UPU 4-digit format (03/2005), only 1000 and 1011 BISSAU attested; no directory, no use",
+  "doorLevelSystem": "none, official or private; 2 house numbers in OpenStreetMap nationwide",
+  "officialAddressAreas": "none confirmed; central Bissau has official street names (mixed area, door numbers unverified)",
+  "sources": "docs/existing-systems.md, SOURCES.md"
+ },
+ "coverageMask": {
+  "file": "model/coverage.geojson",
+  "states": {
+   "official": "government address shown first, exactly as written; the N-Ways code beside it",
+   "mixed": "official street + door number shown first where the gate carries one; every gate has its N-Ways code",
+   "n-ways": "default; N-Ways codes"
+  },
+  "update": "grows towards official when the Câmara Municipal de Bissau, Correios or a national programme publishes or confirms numbering; never shrinks",
+  "atFirstIssue": {
+   "official": [],
+   "mixed": [
+    "bissau-centro: Bissau Velho, Praça/Plateau and central avenues"
+   ],
+   "n-ways": "everything else"
+  }
+ },
+ "hierarchy": {
+  "levels": [
+   "country",
+   "region (8 + Setor Autónomo de Bissau; not in the code: too large and run by appointed governors)",
+   "sector (38 + Bissau = 39; first two digits of the machine form)",
+   "place word (bairro in Bissau, town or tabanca elsewhere; what people remember)",
+   "compound (morança / quintal / walled plot / institution; the addressable unit)",
+   "structure (house, annex, shop in the wall; .k)",
+   "gate or door (/p)"
+  ],
+  "sectorNumbering": "first digit = region (1 Bissau, 2 Bafatá, 3 Bolama, 4 Biombo, 5 Cacheu, 6 Gabú, 7 Oio, 8 Quinara, 9 Tombali), second = sector alphabetically; 11-19 reserved for Bissau",
+  "files": [
+   "model/sectors.json",
+   "engine/data/sectors.geojson",
+   "model/places.json",
+   "model/name-ranges.json"
+  ]
+ },
+ "format": {
+  "remembered": {
+   "compound": "<place word> <number>",
+   "structure": "<place word> <number>.<k>",
+   "examples": [
+    "Bandim 275",
+    "Bandim 275.2",
+    "Bandim 2001 (the Bandim of Catió)",
+    "Atufa 15 (official name Morança Atufa)",
+    "Malam Baio 15 (official name Sinchã Malam Baio)"
+   ],
+   "uniqueness": "nationally unique on its own: no town, sector, island or phone position is needed; same-named places draw from one national range per name (numbering.nameRanges)",
+   "plateName": {
+    "rule": "the place word is the area's plate name: at most 12 characters (letters, spaces, hyphens, apostrophes; an accented letter counts one) and at most 2 words (de/da/do... do not count; a hyphen separates words); no digits",
+    "officialName": "kept in model/places.json (officialName), printed small on cards and plates when it differs; never needed; typed, it decodes when it points to one plate name (alias)",
+    "derivation": "tools/gw_plates.py with engine/reference/plate_names.py: documented short form (none asserted yet); clean (Bairro de/Tabanca de/Morança, leading Tabanca, brackets, after slash, generic words); as is if it fits; saint-prefix abbreviation (Sto, Sta, S.); else the most distinctive one or two whole words, preferring the end of the name",
+    "countryWords": {
+     "settlementHeads": [
+      "Sinchã/Sintchã",
+      "Sare",
+      "Madina",
+      "Gã",
+      "Ponta / P.",
+      "Ponto",
+      "Barraca",
+      "Ilha",
+      "Ilhéu",
+      "Ponte"
+     ],
+     "qualifiers": "peoples a tabanca is named after (Balanta, Mancanha, Papel, Fula, Mandinga, Beafada, Nalu, Manjaco, Felupe, Bijagó ...), number words, generic words",
+     "avoid": "38 sector seats, 8 region capitals, Bissau, big cities of the region; the area's own sector seat allowed"
+    },
+    "council": "needsCouncilChoice + plateCandidates (<= 3) + plateReason when no clear choice, a qualifier or the end of the name would be dropped, only a founder's given name would be left, the short form equals a well-known town, or the name has a number; the first candidate is provisional; codes in a flagged area are issued with the first candidate, and the choice of the Câmara Municipal (Bissau) or the sector administration with the régulos changes the word, never the number",
+    "engine": "check_plate refuses a word over the limit; allocate refuses it for an area not flagged for the council and places flagged areas after the confirmed areas of their name",
+    "counts": {
+     "places": 4221,
+     "officialNamesOverLimit": 746,
+     "over12Characters": 744,
+     "over2Words": 179,
+     "asIs": 3474,
+     "cleaned": 17,
+     "abbreviated": 1,
+     "known": 0,
+     "distinctive": 185,
+     "council": 544,
+     "councilStillOverLimit": 45,
+     "areasInUse": 3336,
+     "areasInUseFlagged": 356,
+     "areasInUseStillOverLimit": 28,
+     "aliasesDropped": 8
+    },
+    "examples": {
+     "Sinchã Malam Baio": "Malam Baio",
+     "Bairro Ajuda II Phase": "Ajuda II",
+     "Nhabijão Bulobate": "Bulobate",
+     "Ilha de Orango": "Orango",
+     "Santo António": "Sto António",
+     "Sucuta (Madina Fali)": "Sucuta",
+     "Bambadinca Balanta": "council (Bambadinca is a sector seat; Balanta a qualifier)",
+     "Bairro Militar": "council (provisional Militar)"
+    },
+    "longestRememberedWithConfirmedPlate": "São Domingos 6027 (17 characters)"
+   }
+  },
+  "machine": {
+   "compound": "SS-PPP-NNNNN-C",
+   "structure": "SS-PPP-NNNNN.k-C",
+   "door": "SS-PPP-NNNNN-C/p",
+   "examples": [
+    "10-022-00275-8",
+    "10-022-00275.2-3",
+    "10-022-00275-8/1",
+    "93-005-02001-3",
+    "75-039-00015-0"
+   ]
+  },
+  "spot": {
+   "form": "SS-DDDD-DDDD-C",
+   "refined": "SS-DDDD-DDDD.K-C",
+   "examples": [
+    "10-4327-8173 (Mercado de Bandim)",
+    "62-3779-4218 (Gabú)"
+   ]
+  },
+  "mapping": "remembered, written and machine forms map 1:1 through model/places.json and model/name-ranges.json; people remember only the place word and the number",
+  "alphabet": "digits 0-9 only; place words are plate names in their usual Portuguese/Kriol spelling, matched by name key (accents, case, articles, plate abbreviations and spelling variants folded) and aliases (official names included)",
+  "checkDigit": {
+   "algorithm": "Damm (totally anti-symmetric quasigroup of order 10)",
+   "over": "the name's national number (5 digits), then the compound number (5 digits), then the structure",
+   "bindsArea": "a code is valid only if the frozen block table gives that number of that name to that area; the area is not a Damm input, so the Damm property covers every digit of the number",
+   "catches": "with the check digit sent by a system: every single wrong digit and every adjacent swap in the number or check, including those landing in another area of the same name; machine form: the same in NNNNN and C, and every wrong SS-PPP digit landing in another same-named area or nowhere (3.0 % of wrong SS-PPP digits land on a differently named area, whose word is shown)",
+   "where": "machine form only: forms, partner systems, links, the QR code on the plate; never shown to people"
+  },
+  "written": {
+   "compound": "<place word> <number>",
+   "structure": "<place word> <number>.<k>",
+   "examples": [
+    "Bandim 275",
+    "Bandim 275.2",
+    "Bandim 2001",
+    "Atufa 15"
+   ],
+   "where": "the remembered form as printed on the plate, in every share and on paper; no check digit"
+  }
+ },
+ "numbering": {
+  "order": "Hilbert curve (order 14) over the sector's spot grid, inside each area's block; land masses kept apart",
+  "firstIssue": "block start + 1, + 3, + 5 ... (stride 2) along the curve",
+  "growth": "even numbers between neighbours; then highest + 1 inside the block; a full block gets a continuation block from the name's spare space",
+  "structures": "1..n by footprint area, largest first",
+  "arithmetic": {
+   "compoundsPerPlace": {
+    "mean": 72.5,
+    "p50": 31,
+    "p90": 129,
+    "p99": 966,
+    "max": 3271
+   },
+   "highestNumberAtFirstIssue": "block start + 2n - 1 for n compounds",
+   "digitsNeeded": {
+    "1": 276,
+    "2": 1492,
+    "3": 1234,
+    "4": 309,
+    "5": 25
+   },
+   "bissau": {
+    "placeWords": 49,
+    "largest": [
+     {
+      "word": "Bono",
+      "sector": 10,
+      "compounds": 3271,
+      "highestNumber": 6541
+     },
+     {
+      "word": "Jal",
+      "sector": 10,
+      "compounds": 2297,
+      "highestNumber": 4593
+     },
+     {
+      "word": "Jolô Balanta",
+      "sector": 10,
+      "compounds": 2287,
+      "highestNumber": 4573
+     }
+    ],
+    "maxDigits": "4 for every confirmed plate name; 5 for 2 flagged areas (Bambadinca Balanta, Cuntum Madina) whose provisional plate names belong to bigger areas",
+    "sharedNames": "10 of 49 place words share a name; every confirmed one is the largest area of its name, so Bissau's numbers are unchanged"
+   },
+   "outsideBissau": {
+    "medianCompoundsPerPlace": 30,
+    "typicalDigits": "2 (1,492 places) or 3 (1,219 places); 4 in 278; 5 in 23 (21 small places sharing a name with a big town, 2 flagged)",
+    "digitsNeeded": {
+     "1": 275,
+     "2": 1492,
+     "3": 1219,
+     "4": 278,
+     "5": 23
+    }
+   },
+   "compoundsByDigits": {
+    "1": 726,
+    "2": 36072,
+    "3": 111146,
+    "4": 90256,
+    "5": 3495
+   },
+   "digitsNeededWithoutSharedRanges": {
+    "1": 400,
+    "2": 1850,
+    "3": 1007,
+    "4": 79
+   },
+   "meanDigitsPerCompound": {
+    "withSharedRangesAndPlateNames": 3.25,
+    "withSharedRangesOfficialNames": 3.23,
+    "without": 3.14
+   }
+  },
+  "nameRanges": {
+   "rule": "every area (place word, or sector word for index 000) with the same name key draws from ONE national range for that name, 1-99,999, cut into frozen blocks; 'Name NNNNN' decodes to exactly one area and compound anywhere in the country",
+   "file": "model/name-ranges.json",
+   "nameKey": "lowercase; ç→s; accents dropped; non-letters→space; 'Bairro/Tabanca/Aldeia/Povoação/Morança (de/da/do)' prefix dropped; plate abbreviations expanded (s.→são, sto→santo, sta→santa, n. sra→nossa senhora); a trailing numeral I-X/1-10 kept as a Roman numeral; small words de da do dos das e o a os as dropped; spelling folds: final que→k, tch ch sh→x, ck qu→k, gu→g, ph→f, nh→n, lh→l, c(e,i)→s, c→k, z→s, y→i, w→u, h dropped, e→i, o→u, doubled letters single; tokens joined",
+   "nameKeyExamples": {
+    "Sintchã Dulo / Sinchã Duló / Sincha Dulu": "sinxadulu",
+    "Plack II / Plaque 2": "plak#ii",
+    "Plaque": "plak",
+    "Áfià / Hafia": "afia",
+    "Sto António / Santo António": "santuantuniu"
+   },
+   "blockSize": "smallest of 10, 20, 50, 100 ... 100000 that is >= 4 x the area's compounds at first issue",
+   "allocation": "per name, areas with a confirmed plate name first, then areas flagged for the council, each by compounds descending; each block starts at the name's high-water mark rounded up to 10^(digits(size)-1)",
+   "stability": "blocks frozen at issue, never renumbered, moved or shrunk; a new area with an existing name, or a full block, takes the next block above the name's high-water mark",
+   "sameSector": "two places of one name in one sector are two areas with two blocks; no Roman numeral is invented (that alternative would have created 297 numerals nobody says)",
+   "extraParts": "the island ('Ambeduco 23 · Orango') and the sector shown beside a code are labels only, never needed to decode",
+   "replaces": "a context rule (sector shown beside a repeated word, nearer place first), rejected because a code that depends on context fails when it is passed on",
+   "counts": {
+    "nameKeysInPlaceTable": 3295,
+    "nameKeysSharedByTwoOrMoreEntries": 577,
+    "entriesInThoseKeys": 1542,
+    "namesInUse": 2704,
+    "areasInUse": 3336,
+    "namesSharedByTwoOrMoreAreasInUse": 407,
+    "areasInSharedNames": 1039,
+    "compoundsInSharedNames": 92770,
+    "sharedNamesRepeatedInsideOneSector": 183,
+    "mostAreas": [
+     {
+      "word": "Missirá",
+      "areas": 14
+     },
+     {
+      "word": "Áfià",
+      "areas": 13
+     },
+     {
+      "word": "Madina",
+      "areas": 12
+     },
+     {
+      "word": "Amedalai",
+      "areas": 11
+     },
+     {
+      "word": "Ponta Nova",
+      "areas": 10
+     },
+     {
+      "word": "Darsalame",
+      "areas": 9
+     },
+     {
+      "word": "Bambadinca",
+      "areas": 8
+     },
+     {
+      "word": "Dando",
+      "areas": 8
+     }
+    ],
+    "largestSharedRange": {
+     "word": "Áfià (Afia, Hafia)",
+     "areas": 13,
+     "compounds": 2558,
+     "blocks": "0-15,719",
+     "digits": 5
+    },
+    "topOfRangeDigitsOfSharedNames": {
+     "2": 21,
+     "3": 260,
+     "4": 116,
+     "5": 10
+    },
+    "sharedAreasLengthChange": {
+     "same": 449,
+     "+1": 336,
+     "+2": 215,
+     "+3": 36,
+     "+4": 3
+    },
+    "withOfficialNamesAsWords": {
+     "nameKeysInPlaceTable": 3477,
+     "namesInUse": 2815,
+     "namesSharedByTwoOrMoreAreasInUse": 335,
+     "areasInSharedNames": 856,
+     "compoundsInSharedNames": 80877,
+     "digitsNeeded": {
+      "1": 305,
+      "2": 1536,
+      "3": 1192,
+      "4": 282,
+      "5": 21
+     }
+    }
+   },
+   "qualifiers": {
+    "needed": [],
+    "rule": "if a name's blocks would pass 99,999: one established qualifier people already say (e.g. the ethnic qualifier of the official names 'Bambadinca Balanta' / 'Bambadinca Mancanha'), within the plate-name limit, decided once per name, listed in name-ranges.json summary.qualifiersNeeded; the qualified word is a name of its own"
+   }
+  }
+ },
+ "spotGrid": {
+  "cellsPerSide": 10000,
+  "frame": "per sector: SW corner of the box (0.001 deg), phi0, cell = longer side / 10000 rounded up to 0.1 m",
+  "cellMetres": {
+   "Bissau": 1.7,
+   "Biombo": "2.0-3.2",
+   "most rural": "3.7-7.7",
+   "Boé": 8.1,
+   "Gabú": 9.4
+  },
+  "refinement": "9th digit on the phone-keypad layout (1 2 3 north row) divides the cell by 3",
+  "constants": {
+   "mPerDegLat": 110574,
+   "mPerDegLonAtEquator": 111320
+  }
+ },
+ "settlement": {
+  "classes": {
+   "cidade": ">= 10 buildings/ha",
+   "vila": "4-10",
+   "tabanca": "1-4",
+   "disperso": "< 1"
+  },
+  "compoundGrouping": {
+   "settlementClassesBuildingsPerHa": {
+    "cidade": ">=10",
+    "vila": "4-10",
+    "tabanca": "1-4",
+    "disperso": "<1"
+   },
+   "proximityMetres": {
+    "cidade": {
+     "annexJoin": 6,
+     "structureGap": 3
+    },
+    "vila": {
+     "annexJoin": 10,
+     "structureGap": 6
+    },
+    "tabanca": {
+     "annexJoin": 15,
+     "structureGap": 12
+    },
+    "disperso": {
+     "annexJoin": 20,
+     "structureGap": 15
+    }
+   },
+   "annexBelowM2": 40,
+   "maxStructuresBeforeSplit": 12
+  },
+  "validation": {
+   "method": "proximity rule re-run with enclosures hidden, compared with OpenStreetMap-mapped moranças and walled plots of 2+ footprints",
+   "results": {
+    "osm-farmyard": {
+     "enclosures": 159,
+     "whole": 0.58,
+     "exact": 0.46,
+     "allButOneStructure": 0.24
+    },
+    "osm-fence": {
+     "enclosures": 21,
+     "whole": 0.1,
+     "exact": 0.05,
+     "allButOneStructure": 0.14
+    },
+    "osm-hedge": {
+     "enclosures": 1,
+     "whole": 0.0,
+     "exact": 0.0,
+     "allButOneStructure": 0.0
+    },
+    "osm-wall": {
+     "enclosures": 53,
+     "whole": 0.13,
+     "exact": 0.09,
+     "allButOneStructure": 0.19
+    },
+    "all": {
+     "enclosures": 234,
+     "whole": 0.44,
+     "exact": 0.34
+    }
+   }
+  }
+ },
+ "languages": {
+  "spoken": {
+   "kriol": 0.904,
+   "portuguese": 0.272,
+   "fula": 0.257,
+   "balanta": 0.197,
+   "mandinka": 0.128,
+   "papel": 0.074,
+   "manjaco": 0.073,
+   "french": 0.051,
+   "source": "2009 census via Wikipedia, Languages of Guinea-Bissau"
+  },
+  "adultLiteracy2022": 0.639,
+  "digitsKriol_unverified": {
+   "0": "zeru",
+   "1": "un",
+   "2": "dus",
+   "3": "tris",
+   "4": "kuatru",
+   "5": "sinku",
+   "6": "sis",
+   "7": "seti",
+   "8": "oitu",
+   "9": "nobi"
+  },
+  "digitsPortuguese": {
+   "0": "zero",
+   "1": "um",
+   "2": "dois",
+   "3": "três",
+   "4": "quatro",
+   "5": "cinco",
+   "6": "seis",
+   "7": "sete",
+   "8": "oito",
+   "9": "nove"
+  },
+  "digitsFrench": {
+   "0": "zéro",
+   "1": "un",
+   "2": "deux",
+   "3": "trois",
+   "4": "quatre",
+   "5": "cinq",
+   "6": "six",
+   "7": "sept",
+   "8": "huit",
+   "9": "neuf"
+  },
+  "howNumbersAreSaid": "numbers up to 99 as one number; 4-digit numbers in two pairs ('doze, setenta e quatro') or digit by digit, as phone numbers are; the app's voice reads digit by digit"
+ },
+ "existingPostcodes": {
+  "bissau": "1000 BISSAU printed as the postal line of every address in sector 10",
+  "elsewhere": "locality name only, until Correios publishes codes; then mapped per sector/place"
+ },
+ "buildingProfile": {
+  "structureFields": [
+   "code",
+   "remembered",
+   "compound",
+   "structure",
+   "footprint.id",
+   "footprint.source",
+   "size.footprintM2",
+   "size.perimeterM",
+   "size.circularity",
+   "size.heightM (OSM height only)",
+   "size.floors",
+   "size.floorsSource",
+   "size.floorAreaM2 (only when floors known)",
+   "use.class",
+   "use.confidence",
+   "use.source",
+   "use.rule",
+   "use.lastConfirmed",
+   "name (businesses and public buildings only)",
+   "status",
+   "entrances",
+   "lastSeen"
+  ],
+  "compoundFields": [
+   "code",
+   "remembered",
+   "place",
+   "number",
+   "sector",
+   "kind",
+   "groupedBy",
+   "groupingConfidence",
+   "plotAreaM2",
+   "structures",
+   "footprintM2Total",
+   "floorAreaM2Known",
+   "gates",
+   "households (declared count only)",
+   "status",
+   "aliases",
+   "issued",
+   "confirmed",
+   "coverageState"
+  ],
+  "compoundKinds": [
+   "residential",
+   "residential-multi",
+   "mixed",
+   "commercial",
+   "institutional",
+   "unknown"
+  ],
+  "useClasses": {
+   "residential.compound-house": "casa de morança: the main rectangular house of a family compound (adobe or block, zinc or thatch roof)",
+   "residential.round-house": "palhota / casa redonda: round house, Bijagós, Balanta, Fula and Mandinka areas (only detectable on OpenStreetMap outlines)",
+   "residential.annex": "cozinha, celeiro, armazém, latrina beside a main house",
+   "residential.house": "single house (vivenda), mostly Bissau and towns",
+   "residential.apartments": "prédio de apartamentos (Bissau)",
+   "residential.hut": "hut, cabin",
+   "commercial.shop": "loja, butik",
+   "commercial.kiosk": "barraca, quiosque",
+   "commercial.market": "mercado (Bandim, Caracol) and lumo (weekly market, east)",
+   "commercial.warehouse": "armazém, incl. cashew (caju) stores",
+   "commercial.office": "office, bank, telecom",
+   "commercial.workshop": "oficina, mecânico, vulcanizador",
+   "government": "ministry, sector administration, court, police, post office",
+   "government.military": "quartel (no structure profiles published)",
+   "education": "escola, liceu, madrassa, jardim",
+   "health": "hospital, centro de saúde, posto sanitário, farmácia",
+   "religious": "mesquita, igreja",
+   "religious.shrine": "baloba / sacred house: stored, not published without the community's agreement",
+   "industrial": "cashew processing, sawmill, power station",
+   "agricultural.store": "farm store, granary",
+   "fishing": "fish-smoking shed, fishing camp (Bijagós, Cacheu)",
+   "hospitality": "hotel, pensão, restaurante, bar, Bijagós lodges",
+   "transport": "garagem (toca-toca/candonga station), fuel, port, ferry",
+   "utility": "water tower, tank",
+   "public.sport": "stadium",
+   "public.landmark": "monument, fort",
+   "mixed": "home with a shop in the wall",
+   "status.construction": "under construction",
+   "status.ruin": "ruin",
+   "unknown.large": ">= 600 m2, use unknown",
+   "unknown": "unknown"
+  },
+  "inference": "engine/SPEC.md section 8.3: OSM tags 0.85-0.90; N-Ways places 0.65; enclosure kind 0.55; round shape 0.60; annex by size 0.45; large 0.30; default compound house 0.50-0.65",
+  "height": "OpenStreetMap height/building:levels only (82 buildings have levels). The ML parquet h is a rendering filler and is never used.",
+  "privacy": {
+   "public": [
+    "codes",
+    "outlines",
+    "size",
+    "use class (except shrines)",
+    "gates",
+    "business/public names",
+    "status"
+   ],
+   "private": [
+    "occupants (never collected)",
+    "household composition (only a declared count, aggregate)",
+    "doors of a home on request",
+    "gate photos (kept for confirmation, not published)"
+   ]
+  }
+ },
+ "statistics": {
+  "file": "model/building-stats.json",
+  "headline": {
+   "footprints": 419593,
+   "fromOpenStreetMap": 99131,
+   "compounds": 241673,
+   "shareFootprintsInMultiStructureCompounds": 0.655,
+   "compoundsWithKnownGate": 12,
+   "bissau": {
+    "footprints": 69245,
+    "compounds": 43858,
+    "shareFootprintsInMultiStructureCompounds": 0.58,
+    "compoundsWithKnownGate": 3,
+    "compoundsFromEnclosures": 55
+   },
+   "census2026": "about 301,000 households and over 600,000 dwellings counted by 22 June 2026 (INE, preliminary): about 1.25 households per machine-grouped compound"
+  }
+ },
+ "addMyHome": {
+  "steps": [
+   "stand at the gate: GPS averaged 10-20 s + one gate photo",
+   "outline: tap corners on imagery, or walk the boundary with AR, or type/photograph survey beacons (state the datum: Bissau / UTM 28N EPSG:2095 or WGS 84 / UTM 28N EPSG:32628)",
+   "describe: households, structures, floors, use",
+   "provisional code at once (SPEC 7.2)",
+   "confirmed by arrivals/deliveries, no neighbour dispute, or new imagery"
+  ],
+  "checks": [
+   "closed loop 20 m2 - 2 ha",
+   "gate on the outline (3 m)",
+   "AR and GPS tracks agree (< 8 m)",
+   "overlap > 10 % flagged, not issued",
+   "inside the n-ways or mixed coverage"
+  ],
+  "notATitle": "a code is an address, not a land title, concession or proof of rights (Lei da Terra 5/98: land is State property; customary use rights)",
+  "offline": "spot code at once; compound code from the registry on next connection",
+  "cadastre": "Direcção Geral de Geografia e Cadastro holds partial paper cadastre (Bissau, towns, concessions); no public parcel data; unverified detail"
+ },
+ "gettingYourCode": {
+  "app": "Your home code card as soon as home is saved or the phone stands at the gate: 0 taps to see, 2 taps to share (Share -> WhatsApp/SMS link)",
+  "plates": "plate on the gate: big remembered form (BANDIM 275), the official name in small type when it differs, and a QR code holding the machine form",
+  "addMyHome": "new homes",
+  "partners": "couriers and partners look up a customer's code with the customer's consent",
+  "notNow": [
+   "SMS lookup service (possible later option only)"
+  ]
+ },
+ "governance": "GOVERNANCE.md: N-WAYS LIMITED issues until the State designates a body; INE, Câmara Municipal de Bissau, Correios, DGGC, ARN-TIC; hand-over whole or Bissau alone",
+ "dataProtection": {
+  "law": null,
+  "regional": "ECOWAS Supplementary Act A/SA.1/01/10 (2010), under review",
+  "bill": "Electronic Transactions Law, public consultation May 2026",
+  "unverified": true
+ },
+ "rollout": {
+  "fieldEvaluation": "Bissau (Bandim, Bairro Militar, Cuntum) + one tabanca cluster in Biombo or Oio",
+  "memorabilityTest": "recall after 1 week and 4 weeks; spoken/typed/written error rates; place-word+number vs digits-only vs alphanumeric"
+ },
+ "licence": "code Apache-2.0, data ODbL-1.0, documents CC-BY-4.0 (LICENSING.md)"
+}
